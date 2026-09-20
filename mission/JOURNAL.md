@@ -22,3 +22,7 @@ Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick n
 ## Tick 4 — 2026-09-20 20:56 — ACCEPTED
 
 Dry-run: strofe 3 neergezet (ochtend). Geen API-aanroep gedaan.
+
+## Tick 5 — 2026-09-20 20:56 — ACCEPTED
+
+Dry-run: strofe 4 neergezet (nacht). Geen API-aanroep gedaan.

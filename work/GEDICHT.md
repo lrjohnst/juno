@@ -21,3 +21,10 @@ De bocht, en dan die ander,
 die zomaar voor je schuift.
 Een hand gaat omhoog, half gebaar,
 half iets wat je thuis zou laten.
+
+## 4. Het huis dat uitdooft — nacht
+
+Het huis kraakt zijn dag uit.
+Boven slaapt iemand al,
+beneden blijft één lamp branden
+voor niemand in het bijzonder.
