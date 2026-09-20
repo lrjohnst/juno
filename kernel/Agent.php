@@ -41,10 +41,7 @@ final class DryRunAgent implements Agent
     {
         $i = $this->state['stanzas'] + 1;
         $moments = $this->cfg['moments'];
-        // bij een correcte tick loopt het moment netjes mee met de index
-        $moment = $brokenMoment
-            ? $moments[0]                                   // terug naar de ochtend: schendt eis 3
-            : $moments[min($i - 1, count($moments) - 1)];
+        $moment = $moments[min($i - 1, count($moments) - 1)];
 
         $stanzas = [
             1 => ["De straat ligt nog in laken gehuld,", "een rolluik rammelt zich wakker.", "Niemand kijkt op; de mist", "houdt alles op veilige afstand."],
@@ -55,10 +52,13 @@ final class DryRunAgent implements Agent
 
         $archetypes = [1 => 'lege ochtendstraat', 2 => 'blik van een moeder', 3 => 'afgesneden in de bocht', 4 => 'het huis dat uitdooft'];
 
+        // gate-fail: hergebruik het archetype van strofe 1 — schendt missie-eis 2
+        $archetype = $brokenMoment ? 'lege ochtendstraat' : ($archetypes[$i] ?? "stub-archetype-$i");
+
         return json_encode([
             'stanza_index' => $i,
             'moment'       => $moment,
-            'archetype'    => $archetypes[$i] ?? "stub-archetype-$i",
+            'archetype'    => $archetype,
             'stanza'       => implode("\n", $stanzas[$i] ?? ["Stub regel een.", "Stub regel twee.", "Stub regel drie."]),
             'journal'      => "Dry-run: strofe $i neergezet ($moment). Geen API-aanroep gedaan.",
             'backlog'      => $i < $this->state['target_stanzas']

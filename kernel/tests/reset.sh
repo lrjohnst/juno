@@ -3,7 +3,7 @@
 # die in productie juist nooit gewist mogen worden.
 set -e
 R=/home/juno
-git -C "$R" reset --hard "${1:-bcd336a}" -q
+git -C "$R" reset --hard "${1:-testbase}" -q
 cat > "$R/mission/STATE.json" <<'JSON'
 {
     "tick": 0,
