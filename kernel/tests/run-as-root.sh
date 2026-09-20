@@ -17,8 +17,12 @@ sudo -u juno php "$K/tick.php" --dry-run >/dev/null 2>&1 \
   && ok "na herstel draait de tick weer" || nok "tick bleef geblokkeerd"
 
 echo "rechten"
-sudo -u juno test -w "$K" && nok "juno kan in kernel/ schrijven" || ok "kernel/ is dicht voor juno"
-sudo -u juno test -w "$M/MISSION.md" && nok "juno kan de missie wijzigen" || ok "missie is dicht voor juno"
+# Let op: `test -w` is hier onbruikbaar. access(2) kijkt bij ACL's naar de mask
+# en meldt schrijfbaar terwijl de echte operatie wordt geweigerd. Dus echt proberen.
+sudo -u juno touch "$K/.indringer" 2>/dev/null \
+  && { nok "juno kan in kernel/ schrijven"; rm -f "$K/.indringer"; } || ok "kernel/ is dicht voor juno"
+sudo -u juno bash -c "echo x >> $M/MISSION.md" 2>/dev/null \
+  && nok "juno kan de missie wijzigen" || ok "missie is dicht voor juno"
 sudo -u juno rm -f "$M/MISSION.md" 2>/dev/null && nok "juno kon de missie verwijderen" || ok "missie kan niet verwijderd worden"
 
 sudo -u juno bash "$K/tests/reset.sh" >/dev/null
