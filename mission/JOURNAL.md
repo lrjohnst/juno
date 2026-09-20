@@ -8,3 +8,7 @@ Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout
 ## Tick 1 — 2026-09-20 20:58 — ACCEPTED
 
 Dry-run: strofe 1 neergezet (ochtend). Geen API-aanroep gedaan.
+
+## Tick 2 — 2026-09-20 20:58 — ACCEPTED
+
+Dry-run: strofe 2 neergezet (middag). Geen API-aanroep gedaan.
