@@ -12,3 +12,9 @@ Dry-run: strofe 1 neergezet (ochtend). Geen API-aanroep gedaan.
 ## Tick 2 — 2026-09-20 20:56 — ACCEPTED
 
 Dry-run: strofe 2 neergezet (ochtend). Geen API-aanroep gedaan.
+
+## Tick 3 — 2026-09-20 20:56 — REJECTED
+
+Afgekeurd na 3 pogingen. Reden(en): het antwoord was geen geldige JSON
+
+Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
