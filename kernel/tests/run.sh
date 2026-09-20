@@ -1,7 +1,8 @@
 #!/bin/bash
 # Kernel-testsuite. Draait de hele lus zonder één API-aanroep en dus zonder kosten.
 # Voer uit als juno:  sudo -u juno bash /home/juno/kernel/tests/run.sh
-set -uo pipefail
+set -u   # geen pipefail: de kernel gebruikt exit 2 voor 'bewust overgeslagen',
+         # en dat mag een pipe met grep niet als mislukking lezen
 K=/home/juno/kernel; M=/home/juno/mission; W=/home/juno/work; V=/home/juno/var
 pass=0; fail=0
 ok()   { echo "  ✓ $1"; pass=$((pass+1)); }
@@ -36,9 +37,8 @@ bash "$K/tests/reset.sh" >/dev/null
 tick >/dev/null & tick >/dev/null & wait
 [ "$(grep -c ACCEPTED "$M/metrics.csv")" = "1" ] && ok "lock laat één tick door" || nok "lock hield niet"
 touch "$V/STOP"; tick | grep -q "STOP" && ok "kill switch werkt" || nok "kill switch faalde"; rm -f "$V/STOP"
-printf '\n' >> "$M/MISSION.md" 2>/dev/null || sudo -n true
-if tick 2>&1 | grep -q "anker is verplaatst"; then ok "missie-hash betrapt wijziging"; else nok "missie-hash liet wijziging door"; fi
-truncate -s -1 "$M/MISSION.md" 2>/dev/null || true
+# De missie-hash-test staat in tests/run-as-root.sh: juno mag MISSION.md niet
+# wijzigen, dus hij kan zijn eigen anker-controle niet uitlokken. Dat is het punt.
 
 bash "$K/tests/reset.sh" >/dev/null
 echo
