@@ -4,8 +4,8 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 1: zet het doorlopende beeld neer.
+1. Schrijf strofe 2: kies een archetype dat later op de dag speelt.
 
 ## Afgerond
 
-_(nog niets)_
+_(zie JOURNAL.md)_
