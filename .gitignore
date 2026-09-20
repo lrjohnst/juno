@@ -1,0 +1,11 @@
+# runtime, nooit in de geschiedenis
+var/
+.env
+
+# unix-huisraad van de user, hoort niet bij het project
+.bash_logout
+.bashrc
+.profile
+.ssh/
+.cache/
+.local/
