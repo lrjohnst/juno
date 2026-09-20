@@ -1,9 +1,11 @@
 {
-  "tick": 0,
-  "status": "idle",
-  "last_outcome": null,
-  "consecutive_failures": 0,
-  "stanzas": 0,
-  "target_stanzas": 24,
-  "updated_at": null
+    "tick": 0,
+    "status": "idle",
+    "last_outcome": null,
+    "consecutive_failures": 0,
+    "stanzas": 0,
+    "target_stanzas": 4,
+    "used_archetypes": [],
+    "last_moment_index": -1,
+    "updated_at": null
 }
