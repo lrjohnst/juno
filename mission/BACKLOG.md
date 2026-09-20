@@ -4,7 +4,7 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Bundel compleet — laat de critic de samenhang beoordelen.
+1. Schrijf strofe 2: kies een archetype dat later op de dag speelt.
 
 ## Afgerond
 
