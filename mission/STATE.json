@@ -1,14 +1,15 @@
 {
-    "tick": 3,
+    "tick": 4,
     "status": "bezig",
-    "last_outcome": "rejected",
-    "consecutive_failures": 1,
-    "stanzas": 2,
+    "last_outcome": "accepted",
+    "consecutive_failures": 0,
+    "stanzas": 3,
     "target_stanzas": 4,
     "used_archetypes": [
         "lege ochtendstraat",
-        "blik van een moeder"
+        "blik van een moeder",
+        "afgesneden in de bocht"
     ],
     "last_moment_index": 0,
-    "updated_at": "2026-09-20T20:56:55+00:00"
+    "updated_at": "2026-09-20T20:56:56+00:00"
 }

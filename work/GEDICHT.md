@@ -14,3 +14,10 @@ Ze kijkt hem aan over de tafel heen,
 die blik die alles al weet
 voordat hij zijn mond opendoet.
 Hij eet door en weet het ook.
+
+## 3. Afgesneden in de bocht — ochtend
+
+De bocht, en dan die ander,
+die zomaar voor je schuift.
+Een hand gaat omhoog, half gebaar,
+half iets wat je thuis zou laten.
