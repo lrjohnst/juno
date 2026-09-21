@@ -3,44 +3,77 @@
 # Voer uit als juno:  sudo -u juno bash /home/juno/kernel/tests/run.sh
 set -u   # geen pipefail: de kernel gebruikt exit 2 voor 'bewust overgeslagen',
          # en dat mag een pipe met grep niet als mislukking lezen
-K=/home/juno/kernel; M=/home/juno/mission; W=/home/juno/work; V=/home/juno/var
-pass=0; fail=0
-ok()   { echo "  ✓ $1"; pass=$((pass+1)); }
-nok()  { echo "  ✗ $1"; fail=$((fail+1)); }
-tick() { php "$K/tick.php" --dry-run "$@" 2>&1; }
 
-bash "$K/tests/reset.sh" >/dev/null
+kernel_dir="/home/juno/kernel"
+mission_dir="/home/juno/mission"
+work_dir="/home/juno/work"
+var_dir="/home/juno/var"
+
+passed_count=0
+failed_count=0
+
+pass_test() { echo "  ✓ $1"; passed_count=$((passed_count + 1)); }
+fail_test() { echo "  ✗ $1"; failed_count=$((failed_count + 1)); }
+run_tick()  { php "$kernel_dir/tick.php" --dry-run "$@" 2>&1; }
+
+bash "$kernel_dir/tests/reset.sh" >/dev/null
 
 echo "1. volledige cyclus tot de bundel af is"
-for i in 1 2 3 4; do tick >/dev/null; done
-[ "$(grep -c ACCEPTED "$M/metrics.csv")" = "4" ] && ok "vier strofen geaccepteerd" || nok "verwachtte 4 accepted"
-tick | grep -q "compleet" && ok "vijfde tick weigert" || nok "vijfde tick had moeten weigeren"
+for stanza in 1 2 3 4; do run_tick >/dev/null; done
+accepted_count=$(grep -c ACCEPTED "$mission_dir/metrics.csv")
+[ "$accepted_count" = "4" ] \
+  && pass_test "vier strofen geaccepteerd" \
+  || fail_test "verwachtte 4 accepted, kreeg $accepted_count"
+run_tick | grep -q "compleet" \
+  && pass_test "vijfde tick weigert" \
+  || fail_test "vijfde tick had moeten weigeren"
 
 echo "2. afkeuring en rollback"
-bash "$K/tests/reset.sh" >/dev/null; tick >/dev/null
-before=$(md5sum "$W/GEDICHT.md" | cut -d' ' -f1)
-tick --mode=gate-fail >/dev/null
-[ "$before" = "$(md5sum "$W/GEDICHT.md" | cut -d' ' -f1)" ] && ok "werkstuk teruggedraaid" || nok "rollback mislukt"
-grep -q REJECTED "$M/JOURNAL.md" && ok "journal bewaart de mislukking" || nok "journal miste de mislukking"
-grep -q REJECTED "$M/metrics.csv" && ok "metrics bewaart de mislukking" || nok "metrics miste de mislukking"
+bash "$kernel_dir/tests/reset.sh" >/dev/null
+run_tick >/dev/null
+poem_hash_before=$(md5sum "$work_dir/GEDICHT.md" | cut -d' ' -f1)
+run_tick --mode=gate-fail >/dev/null
+poem_hash_after=$(md5sum "$work_dir/GEDICHT.md" | cut -d' ' -f1)
+[ "$poem_hash_before" = "$poem_hash_after" ] \
+  && pass_test "werkstuk teruggedraaid" \
+  || fail_test "rollback mislukt"
+grep -q REJECTED "$mission_dir/JOURNAL.md" \
+  && pass_test "journal bewaart de mislukking" \
+  || fail_test "journal miste de mislukking"
+grep -q REJECTED "$mission_dir/metrics.csv" \
+  && pass_test "metrics bewaart de mislukking" \
+  || fail_test "metrics miste de mislukking"
 
 echo "3. onleesbaar antwoord"
-tick --mode=invalid-json | grep -q "onleesbaar" && ok "ongeldige JSON afgevangen" || nok "ongeldige JSON niet afgevangen"
+run_tick --mode=invalid-json | grep -q "onleesbaar" \
+  && pass_test "ongeldige JSON afgevangen" \
+  || fail_test "ongeldige JSON niet afgevangen"
 
 echo "4. escalatie"
-bash "$K/tests/reset.sh" >/dev/null; tick >/dev/null
-for i in 1 2 3; do tick --mode=gate-fail >/dev/null; done
-tick | grep -q "vraagt om Lucas" && ok "loop escaleert na herhaald falen" || nok "escalatie bleef uit"
+bash "$kernel_dir/tests/reset.sh" >/dev/null
+run_tick >/dev/null
+for failure in 1 2 3; do run_tick --mode=gate-fail >/dev/null; done
+run_tick | grep -q "vraagt om Lucas" \
+  && pass_test "loop escaleert na herhaald falen" \
+  || fail_test "escalatie bleef uit"
 
 echo "5. veiligheidskleppen"
-bash "$K/tests/reset.sh" >/dev/null
-tick >/dev/null & tick >/dev/null & wait
-[ "$(grep -c ACCEPTED "$M/metrics.csv")" = "1" ] && ok "lock laat één tick door" || nok "lock hield niet"
-touch "$V/STOP"; tick | grep -q "STOP" && ok "kill switch werkt" || nok "kill switch faalde"; rm -f "$V/STOP"
+bash "$kernel_dir/tests/reset.sh" >/dev/null
+run_tick >/dev/null & run_tick >/dev/null & wait
+concurrent_accepted=$(grep -c ACCEPTED "$mission_dir/metrics.csv")
+[ "$concurrent_accepted" = "1" ] \
+  && pass_test "lock laat één tick door" \
+  || fail_test "lock hield niet: $concurrent_accepted ticks"
+touch "$var_dir/STOP"
+run_tick | grep -q "STOP" \
+  && pass_test "kill switch werkt" \
+  || fail_test "kill switch faalde"
+rm -f "$var_dir/STOP"
+
 # De missie-hash-test staat in tests/run-as-root.sh: juno mag MISSION.md niet
 # wijzigen, dus hij kan zijn eigen anker-controle niet uitlokken. Dat is het punt.
 
-bash "$K/tests/reset.sh" >/dev/null
+bash "$kernel_dir/tests/reset.sh" >/dev/null
 echo
-echo "── $pass geslaagd, $fail mislukt ──"
-exit $(( fail > 0 ? 1 : 0 ))
+echo "── $passed_count geslaagd, $failed_count mislukt ──"
+exit $(( failed_count > 0 ? 1 : 0 ))

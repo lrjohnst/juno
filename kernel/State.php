@@ -11,24 +11,24 @@ declare(strict_types=1);
  */
 final class State
 {
-    public function __construct(private array $cfg) {}
+    public function __construct(private array $config) {}
 
-    private function path(string $name): string
+    private function path(string $filename): string
     {
-        return $this->cfg['mission'] . '/' . $name;
+        return $this->config['mission'] . '/' . $filename;
     }
 
     public function read(): array
     {
-        $raw = @file_get_contents($this->path('STATE.json'));
-        if ($raw === false) {
+        $raw_json = @file_get_contents($this->path('STATE.json'));
+        if ($raw_json === false) {
             throw new RuntimeException('STATE.json niet leesbaar');
         }
-        $data = json_decode($raw, true);
-        if (!is_array($data)) {
+        $decoded_state = json_decode($raw_json, true);
+        if (!is_array($decoded_state)) {
             throw new RuntimeException('STATE.json bevat geen geldige JSON');
         }
-        return $data + [
+        return $decoded_state + [
             'tick' => 0,
             'status' => 'idle',
             'last_outcome' => null,
@@ -41,112 +41,116 @@ final class State
         ];
     }
 
-    public function write(array $state): void
+    public function write(array $new_state): void
     {
-        $state['updated_at'] = date('c');
-        $json = json_encode($state, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
-        $this->atomicWrite($this->path('STATE.json'), $json . "\n");
+        $new_state['updated_at'] = date('c');
+        $pretty_json = json_encode(
+            $new_state,
+            JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES
+        );
+        $this->atomicWrite($this->path('STATE.json'), $pretty_json . "\n");
     }
 
     /** Append-only. Overleeft elke rollback. */
-    public function journal(int $tick, string $outcome, string $text): void
+    public function journal(int $tick_number, string $outcome, string $entry_text): void
     {
-        $entry = sprintf(
+        $journal_entry = sprintf(
             "\n## Tick %d — %s — %s\n\n%s\n",
-            $tick,
+            $tick_number,
             date('Y-m-d H:i'),
             $outcome,
-            trim($text)
+            trim($entry_text)
         );
-        file_put_contents($this->path('JOURNAL.md'), $entry, FILE_APPEND | LOCK_EX);
+        file_put_contents($this->path('JOURNAL.md'), $journal_entry, FILE_APPEND | LOCK_EX);
     }
 
     /** Append-only. Dit bestand is het dashboard. */
-    public function metric(array $row): void
+    public function metric(array $metric_row): void
     {
-        $cols = ['tick','timestamp','outcome','stanzas','words','judge_score','input_tokens','output_tokens','note'];
-        $line = [];
-        foreach ($cols as $c) {
-            $v = (string)($row[$c] ?? '');
+        $columns = ['tick','timestamp','outcome','stanzas','words','judge_score','input_tokens','output_tokens','note'];
+        $escaped_values = [];
+        foreach ($columns as $column_name) {
+            $value = (string)($metric_row[$column_name] ?? '');
             // komma's en nieuwe regels mogen de csv niet breken
-            $line[] = str_contains($v, ',') || str_contains($v, '"') || str_contains($v, "\n")
-                ? '"' . str_replace('"', '""', str_replace("\n", ' ', $v)) . '"'
-                : $v;
+            $needs_quoting = str_contains($value, ',') || str_contains($value, '"') || str_contains($value, "\n");
+            $escaped_values[] = $needs_quoting
+                ? '"' . str_replace('"', '""', str_replace("\n", ' ', $value)) . '"'
+                : $value;
         }
-        file_put_contents($this->path('metrics.csv'), implode(',', $line) . "\n", FILE_APPEND | LOCK_EX);
+        file_put_contents($this->path('metrics.csv'), implode(',', $escaped_values) . "\n", FILE_APPEND | LOCK_EX);
     }
 
     /** De laatste N journal-entries, voor in de prompt. */
-    public function recentJournal(int $n): string
+    public function recentJournal(int $entry_count): string
     {
-        $raw = @file_get_contents($this->path('JOURNAL.md')) ?: '';
-        $parts = preg_split('/^## Tick /m', $raw);
-        if ($parts === false || count($parts) <= 1) {
+        $raw_journal = @file_get_contents($this->path('JOURNAL.md')) ?: '';
+        $all_entries = preg_split('/^## Tick /m', $raw_journal);
+        if ($all_entries === false || count($all_entries) <= 1) {
             return '(nog geen eerdere ticks)';
         }
-        array_shift($parts); // de kop van het bestand
-        $tail = array_slice($parts, -$n);
-        return '## Tick ' . implode('## Tick ', $tail);
+        array_shift($all_entries); // de kop van het bestand
+        $recent_entries = array_slice($all_entries, -$entry_count);
+        return '## Tick ' . implode('## Tick ', $recent_entries);
     }
 
-    public function get(string $name): string
+    public function get(string $filename): string
     {
-        return @file_get_contents($this->path($name)) ?: '';
+        return @file_get_contents($this->path($filename)) ?: '';
     }
 
-    public function put(string $name, string $content): void
+    public function put(string $filename, string $contents): void
     {
-        $this->atomicWrite($this->path($name), $content);
+        $this->atomicWrite($this->path($filename), $contents);
     }
 
     /** Aantal ticks vandaag, uit metrics.csv — voor de dagcap. */
     public function ticksToday(): int
     {
-        $raw = @file_get_contents($this->path('metrics.csv')) ?: '';
-        $today = date('Y-m-d');
-        $n = 0;
-        foreach (explode("\n", $raw) as $line) {
-            if ($line === '' || str_starts_with($line, 'tick,')) {
+        $raw_csv    = @file_get_contents($this->path('metrics.csv')) ?: '';
+        $today      = date('Y-m-d');
+        $tick_count = 0;
+        foreach (explode("\n", $raw_csv) as $csv_line) {
+            if ($csv_line === '' || str_starts_with($csv_line, 'tick,')) {
                 continue;
             }
-            $cols = str_getcsv($line, ',', '"', '\\');
-            if (isset($cols[1]) && str_starts_with($cols[1], $today)) {
-                $n++;
+            $line_values = str_getcsv($csv_line, ',', '"', '\\');
+            if (isset($line_values[1]) && str_starts_with($line_values[1], $today)) {
+                $tick_count++;
             }
         }
-        return $n;
+        return $tick_count;
     }
 
     /** De briefjes die Lucas in de inbox heeft gelegd. */
     public function inbox(): array
     {
-        $dir = $this->cfg['mission'] . '/inbox';
-        $out = [];
-        foreach (glob($dir . '/*') ?: [] as $f) {
-            if (is_file($f)) {
-                $out[basename($f)] = (string)file_get_contents($f);
+        $inbox_dir = $this->config['mission'] . '/inbox';
+        $messages  = [];
+        foreach (glob($inbox_dir . '/*') ?: [] as $message_path) {
+            if (is_file($message_path)) {
+                $messages[basename($message_path)] = (string)file_get_contents($message_path);
             }
         }
-        return $out;
+        return $messages;
     }
 
     /** Verwerkt briefje naar processed/ — anders wordt het elke tick opnieuw uitgevoerd. */
-    public function consumeInbox(string $name): void
+    public function consumeInbox(string $filename): void
     {
-        $from = $this->cfg['mission'] . '/inbox/' . $name;
-        $to   = $this->cfg['mission'] . '/inbox/processed/' . date('Ymd-His') . '-' . $name;
-        @rename($from, $to);
+        $source_path  = $this->config['mission'] . '/inbox/' . $filename;
+        $archive_path = $this->config['mission'] . '/inbox/processed/' . date('Ymd-His') . '-' . $filename;
+        @rename($source_path, $archive_path);
     }
 
-    private function atomicWrite(string $path, string $content): void
+    private function atomicWrite(string $target_path, string $contents): void
     {
-        $tmp = $path . '.tmp';
-        if (file_put_contents($tmp, $content, LOCK_EX) === false) {
-            throw new RuntimeException("kan niet schrijven naar $tmp");
+        $temp_path = $target_path . '.tmp';
+        if (file_put_contents($temp_path, $contents, LOCK_EX) === false) {
+            throw new RuntimeException("kan niet schrijven naar $temp_path");
         }
-        if (!rename($tmp, $path)) {
-            @unlink($tmp);
-            throw new RuntimeException("kan $tmp niet hernoemen naar $path");
+        if (!rename($temp_path, $target_path)) {
+            @unlink($temp_path);
+            throw new RuntimeException("kan $temp_path niet hernoemen naar $target_path");
         }
     }
 }

@@ -12,7 +12,7 @@ declare(strict_types=1);
  */
 final class Gates
 {
-    public function __construct(private array $cfg) {}
+    public function __construct(private array $config) {}
 
     /**
      * Draait vóór alles. Als hier iets misgaat is er geen tick, geen commit,
@@ -22,41 +22,42 @@ final class Gates
      */
     public function preflight(): array
     {
-        $e = [];
+        $problems = [];
 
         // Kan juno alles lezen wat hij nodig heeft? Een editor die een bestand
         // herschrijft laat het eigendom springen, en dan valt de tick halverwege om.
-        foreach (['config.php','State.php','Gates.php','Agent.php','CONSTITUTION.md','MISSION.sha256'] as $f) {
-            $p = $this->cfg['kernel'] . '/' . $f;
-            if (!is_readable($p)) {
-                $e[] = "kernel/$f is niet leesbaar (eigendom gesprongen? gebruik setfacl, geen chmod)";
+        $required_kernel_files = ['config.php','State.php','Gates.php','Agent.php','CONSTITUTION.md','MISSION.sha256'];
+        foreach ($required_kernel_files as $kernel_file) {
+            if (!is_readable($this->config['kernel'] . '/' . $kernel_file)) {
+                $problems[] = "kernel/$kernel_file is niet leesbaar "
+                            . '(eigendom gesprongen? gebruik setfacl, geen chmod)';
             }
         }
 
-        foreach (['MISSION.md','STATE.json','BACKLOG.md','JOURNAL.md','PLAYBOOK.md','metrics.csv'] as $f) {
-            $p = $this->cfg['mission'] . '/' . $f;
-            if (!is_readable($p)) {
-                $e[] = "mission/$f is niet leesbaar";
+        $required_mission_files = ['MISSION.md','STATE.json','BACKLOG.md','JOURNAL.md','PLAYBOOK.md','metrics.csv'];
+        foreach ($required_mission_files as $mission_file) {
+            if (!is_readable($this->config['mission'] . '/' . $mission_file)) {
+                $problems[] = "mission/$mission_file is niet leesbaar";
             }
         }
 
         // Het anker mag niet bewogen zijn.
-        $missionPath = $this->cfg['mission'] . '/MISSION.md';
-        $expected = trim((string)@file_get_contents($this->cfg['kernel'] . '/MISSION.sha256'));
-        $actual   = is_readable($missionPath) ? hash_file('sha256', $missionPath) : '';
-        if ($expected === '' || $actual === '') {
-            $e[] = 'missie-hash kon niet worden vastgesteld';
-        } elseif (!hash_equals($expected, $actual)) {
-            $e[] = 'MISSION.md wijkt af van kernel/MISSION.sha256 — het anker is verplaatst. '
-                 . 'Loop gestopt. Was dit bewust, werk dan de hash bij.';
+        $mission_path  = $this->config['mission'] . '/MISSION.md';
+        $expected_hash = trim((string)@file_get_contents($this->config['kernel'] . '/MISSION.sha256'));
+        $actual_hash   = is_readable($mission_path) ? hash_file('sha256', $mission_path) : '';
+        if ($expected_hash === '' || $actual_hash === '') {
+            $problems[] = 'missie-hash kon niet worden vastgesteld';
+        } elseif (!hash_equals($expected_hash, $actual_hash)) {
+            $problems[] = 'MISSION.md wijkt af van kernel/MISSION.sha256 — het anker is verplaatst. '
+                        . 'Loop gestopt. Was dit bewust, werk dan de hash bij.';
         }
 
         // De agent mag niet in de kernel kunnen schrijven.
-        if (is_writable($this->cfg['kernel'])) {
-            $e[] = 'kernel/ is schrijfbaar voor de draaiende gebruiker — dat hoort niet';
+        if (is_writable($this->config['kernel'])) {
+            $problems[] = 'kernel/ is schrijfbaar voor de draaiende gebruiker — dat hoort niet';
         }
 
-        return $e;
+        return $problems;
     }
 
     /**
@@ -64,71 +65,77 @@ final class Gates
      *
      * @return string[] fouten; leeg betekent: accepteren
      */
-    public function check(array $p, array $state): array
+    public function check(array $answer, array $state): array
     {
-        $e = [];
+        $errors = [];
 
         // 1. Vorm van het antwoord
-        foreach (['stanza_index','moment','archetype','stanza','journal'] as $key) {
-            if (!isset($p[$key]) || (is_string($p[$key]) && trim($p[$key]) === '')) {
-                $e[] = "veld '$key' ontbreekt of is leeg";
+        $required_fields = ['stanza_index','moment','archetype','stanza','journal'];
+        foreach ($required_fields as $field_name) {
+            $is_missing = !isset($answer[$field_name])
+                       || (is_string($answer[$field_name]) && trim($answer[$field_name]) === '');
+            if ($is_missing) {
+                $errors[] = "veld '$field_name' ontbreekt of is leeg";
             }
         }
-        if ($e !== []) {
-            return $e; // zonder deze velden heeft de rest geen zin
+        if ($errors !== []) {
+            return $errors; // zonder deze velden heeft de rest geen zin
         }
 
         // 2. Eén stap per tick: precies de volgende strofe
-        $expected = $state['stanzas'] + 1;
-        if ((int)$p['stanza_index'] !== $expected) {
-            $e[] = "stanza_index is {$p['stanza_index']}, verwacht $expected — één strofe per tick";
+        $expected_index = $state['stanzas'] + 1;
+        if ((int)$answer['stanza_index'] !== $expected_index) {
+            $errors[] = "stanza_index is {$answer['stanza_index']}, verwacht $expected_index — één strofe per tick";
         }
-        if ($expected > $state['target_stanzas']) {
-            $e[] = "de bundel is al compleet ({$state['target_stanzas']} strofen)";
+        if ($expected_index > $state['target_stanzas']) {
+            $errors[] = "de bundel is al compleet ({$state['target_stanzas']} strofen)";
         }
 
         // 3. Missie-eis 2: vier verschillende archetypen
-        $archetype = mb_strtolower(trim((string)$p['archetype']));
-        $used = array_map('mb_strtolower', $state['used_archetypes'] ?? []);
-        if (in_array($archetype, $used, true)) {
-            $e[] = "archetype '{$p['archetype']}' is al gebruikt; elke strofe vraagt een ander archetype";
+        $declared_archetype     = mb_strtolower(trim((string)$answer['archetype']));
+        $used_archetypes_lower  = array_map('mb_strtolower', $state['used_archetypes'] ?? []);
+        if (in_array($declared_archetype, $used_archetypes_lower, true)) {
+            $errors[] = "archetype '{$answer['archetype']}' is al gebruikt; elke strofe vraagt een ander archetype";
         }
 
         // 4. Missie-eis 3: geordend van ochtend naar nacht
-        $moments = $this->cfg['moments'];
-        $idx = array_search(mb_strtolower(trim((string)$p['moment'])), $moments, true);
-        if ($idx === false) {
-            $e[] = "moment '{$p['moment']}' is onbekend; kies uit: " . implode(', ', $moments);
-        } elseif ($idx < ($state['last_moment_index'] ?? -1)) {
-            $e[] = "moment '{$p['moment']}' ligt vóór het vorige moment; de bundel loopt van ochtend naar nacht";
+        $known_moments          = $this->config['moments'];
+        $declared_moment_index  = array_search(mb_strtolower(trim((string)$answer['moment'])), $known_moments, true);
+        $previous_moment_index  = $state['last_moment_index'] ?? -1;
+        if ($declared_moment_index === false) {
+            $errors[] = "moment '{$answer['moment']}' is onbekend; kies uit: " . implode(', ', $known_moments);
+        } elseif ($declared_moment_index < $previous_moment_index) {
+            $errors[] = "moment '{$answer['moment']}' ligt vóór het vorige moment; "
+                      . 'de bundel loopt van ochtend naar nacht';
         }
 
         // 5. Vorm van de strofe
-        $lines = array_values(array_filter(
-            array_map('rtrim', explode("\n", (string)$p['stanza'])),
-            fn($l) => trim($l) !== ''
+        $stanza_lines = array_values(array_filter(
+            array_map('rtrim', explode("\n", (string)$answer['stanza'])),
+            fn(string $line): bool => trim($line) !== ''
         ));
-        $n = count($lines);
-        if ($n < $this->cfg['stanza_min_lines'] || $n > $this->cfg['stanza_max_lines']) {
-            $e[] = "strofe heeft $n regels; toegestaan is {$this->cfg['stanza_min_lines']}–{$this->cfg['stanza_max_lines']}";
+        $line_count = count($stanza_lines);
+        if ($line_count < $this->config['stanza_min_lines'] || $line_count > $this->config['stanza_max_lines']) {
+            $errors[] = "strofe heeft $line_count regels; toegestaan is "
+                      . "{$this->config['stanza_min_lines']}–{$this->config['stanza_max_lines']}";
         }
 
         // 6. Geen dubbele regels binnen de strofe
-        $normalized = array_map(fn($l) => mb_strtolower(trim($l)), $lines);
-        if (count($normalized) !== count(array_unique($normalized))) {
-            $e[] = 'de strofe bevat een herhaalde regel';
+        $normalized_lines = array_map(fn(string $line): string => mb_strtolower(trim($line)), $stanza_lines);
+        if (count($normalized_lines) !== count(array_unique($normalized_lines))) {
+            $errors[] = 'de strofe bevat een herhaalde regel';
         }
 
         // 7. Geen regel die al ergens in het gedicht staat
-        $existing = mb_strtolower((string)@file_get_contents($this->cfg['artifact']));
-        foreach ($lines as $line) {
-            $t = mb_strtolower(trim($line));
-            if (mb_strlen($t) > 15 && str_contains($existing, $t)) {
-                $e[] = "regel komt al elders in het gedicht voor: \"" . trim($line) . '"';
+        $poem_so_far = mb_strtolower((string)@file_get_contents($this->config['artifact']));
+        foreach ($stanza_lines as $stanza_line) {
+            $normalized_line = mb_strtolower(trim($stanza_line));
+            if (mb_strlen($normalized_line) > 15 && str_contains($poem_so_far, $normalized_line)) {
+                $errors[] = 'regel komt al elders in het gedicht voor: "' . trim($stanza_line) . '"';
                 break;
             }
         }
 
-        return $e;
+        return $errors;
     }
 }

@@ -2,9 +2,13 @@
 # Zet juno terug op tick 0. Alleen voor tests — wist journal en metrics,
 # die in productie juist nooit gewist mogen worden.
 set -e
-R=/home/juno
-git -C "$R" reset --hard "${1:-testbase}" -q
-cat > "$R/mission/STATE.json" <<'JSON'
+
+juno_root="/home/juno"
+reset_target="${1:-testbase}"
+
+git -C "$juno_root" reset --hard "$reset_target" -q
+
+cat > "$juno_root/mission/STATE.json" <<'JSON'
 {
     "tick": 0,
     "status": "idle",
@@ -17,10 +21,14 @@ cat > "$R/mission/STATE.json" <<'JSON'
     "updated_at": null
 }
 JSON
-printf '# (nog naamloos)\n\n' > "$R/work/GEDICHT.md"
-printf '# Journal\n\nAppend-only. Eén entry per tick, ook — juist — bij mislukking.\nEen teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout zich herhaalt.\n\n---\n' > "$R/mission/JOURNAL.md"
-printf 'tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note\n' > "$R/mission/metrics.csv"
-rm -f "$R/var/STOP"
-git -C "$R" add -A >/dev/null 2>&1 || true
-git -C "$R" commit -q -m "test: reset naar tick 0" >/dev/null 2>&1 || true
+
+printf '# (nog naamloos)\n\n' > "$juno_root/work/GEDICHT.md"
+printf '# Journal\n\nAppend-only. Eén entry per tick, ook — juist — bij mislukking.\nEen teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout zich herhaalt.\n\n---\n' \
+  > "$juno_root/mission/JOURNAL.md"
+printf 'tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note\n' \
+  > "$juno_root/mission/metrics.csv"
+rm -f "$juno_root/var/STOP"
+
+git -C "$juno_root" add -A >/dev/null 2>&1 || true
+git -C "$juno_root" commit -q -m "test: reset naar tick 0" >/dev/null 2>&1 || true
 echo "reset naar tick 0"

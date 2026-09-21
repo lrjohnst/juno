@@ -18,112 +18,123 @@ declare(strict_types=1);
  * Exit codes: 0 = tick gedaan, 1 = fout, 2 = bewust overgeslagen.
  */
 
-$cfg = require __DIR__ . '/config.php';
+$config = require __DIR__ . '/config.php';
 require __DIR__ . '/State.php';
 require __DIR__ . '/Gates.php';
 require __DIR__ . '/Agent.php';
 
-$opts    = getopt('', ['dry-run', 'mode::', 'verbose']);
-$dryRun  = isset($opts['dry-run']);
-$mode    = (string)($opts['mode'] ?? 'ok');
-$verbose = isset($opts['verbose']);
+$command_options = getopt('', ['dry-run', 'mode::', 'verbose']);
+$is_dry_run      = isset($command_options['dry-run']);
+$agent_mode      = (string)($command_options['mode'] ?? 'ok');
+$show_prompt     = isset($command_options['verbose']);
 
-function say(string $msg): void { echo $msg . "\n"; }
-function fail(string $msg): never { fwrite(STDERR, "FOUT: $msg\n"); exit(1); }
+function say(string $message): void { echo $message . "\n"; }
+function fail(string $message): never { fwrite(STDERR, "FOUT: $message\n"); exit(1); }
 
 // ─── 1. Lock ─────────────────────────────────────────────────────────────────
 // Cron vuurt op een vast ritme, maar een tick kan langer duren dan dat ritme.
 // Zonder lock schrijven twee agents tegelijk in dezelfde map.
-@mkdir($cfg['var'], 0700, true);
-$lock = fopen($cfg['var'] . '/tick.lock', 'c');
-if ($lock === false || !flock($lock, LOCK_EX | LOCK_NB)) {
+@mkdir($config['var'], 0700, true);
+$lock_handle = fopen($config['var'] . '/tick.lock', 'c');
+if ($lock_handle === false || !flock($lock_handle, LOCK_EX | LOCK_NB)) {
     say('Er draait al een tick. Niets gedaan.');
     exit(2);
 }
 
 // ─── 2. Kill switch ──────────────────────────────────────────────────────────
-if (file_exists($cfg['var'] . '/STOP')) {
+if (file_exists($config['var'] . '/STOP')) {
     say('STOP-bestand aanwezig. Niets gedaan.');
     exit(2);
 }
 
 // ─── 3. Preflight ────────────────────────────────────────────────────────────
 // Liever hier stoppen met een leesbare melding dan halverwege omvallen.
-$gates = new Gates($cfg);
-if ($problems = $gates->preflight()) {
-    foreach ($problems as $p) { fwrite(STDERR, "preflight: $p\n"); }
+$gate_checker = new Gates($config);
+$preflight_problems = $gate_checker->preflight();
+if ($preflight_problems !== []) {
+    foreach ($preflight_problems as $preflight_problem) {
+        fwrite(STDERR, "preflight: $preflight_problem\n");
+    }
     exit(1);
 }
 
-$state = new State($cfg);
-$s     = $state->read();
+$state_store = new State($config);
+$state       = $state_store->read();
 
 // ─── 4. Dagcap ───────────────────────────────────────────────────────────────
-$today = $state->ticksToday();
-if ($today >= $cfg['max_ticks_per_day']) {
-    say("Dagcap bereikt ($today ticks vandaag). Niets gedaan.");
+$ticks_today = $state_store->ticksToday();
+if ($ticks_today >= $config['max_ticks_per_day']) {
+    say("Dagcap bereikt ($ticks_today ticks vandaag). Niets gedaan.");
     exit(2);
 }
 
 // ─── 5. Zijn we klaar? ───────────────────────────────────────────────────────
-if ($s['stanzas'] >= $s['target_stanzas']) {
-    say("Bundel is compleet ({$s['stanzas']}/{$s['target_stanzas']} strofen). Niets te doen.");
+if ($state['stanzas'] >= $state['target_stanzas']) {
+    say("Bundel is compleet ({$state['stanzas']}/{$state['target_stanzas']} strofen). Niets te doen.");
     exit(2);
 }
 
 // ─── 6. Escalatie ────────────────────────────────────────────────────────────
 // Een autonoom systeem dat niet weet wanneer het moet ophouden, is een lek.
-if ($s['consecutive_failures'] >= $cfg['max_failures']) {
-    say("{$s['consecutive_failures']} mislukkingen op rij. Gestopt — dit vraagt om Lucas.");
-    $state->journal((int)$s['tick'], 'ESCALATIE', 'Loop gepauzeerd na herhaald falen. Verwijder de teller in STATE.json om door te gaan.');
+if ($state['consecutive_failures'] >= $config['max_failures']) {
+    say("{$state['consecutive_failures']} mislukkingen op rij. Gestopt — dit vraagt om Lucas.");
+    $state_store->journal(
+        (int)$state['tick'],
+        'ESCALATIE',
+        'Loop gepauzeerd na herhaald falen. Verwijder de teller in STATE.json om door te gaan.'
+    );
     exit(1);
 }
 
-$tick = (int)$s['tick'] + 1;
-say("── tick $tick " . str_repeat('─', 50));
+$tick_number = (int)$state['tick'] + 1;
+say("── tick $tick_number " . str_repeat('─', 50));
 
 // ─── 7. Prompt samenstellen ──────────────────────────────────────────────────
 // Dit is het enige interessante wat de kernel doet: bepalen wat de agent te zien krijgt.
 // Niet alles kan mee — het geheugen zit in bestanden, niet in een gespreksgeschiedenis.
-$inbox = $state->inbox();
-$constitution = (string)file_get_contents($cfg['kernel'] . '/CONSTITUTION.md');
+$inbox_messages    = $state_store->inbox();
+$constitution_text = (string)file_get_contents($config['kernel'] . '/CONSTITUTION.md');
 
-$inboxText = $inbox === []
+$inbox_text = $inbox_messages === []
     ? '(geen berichten)'
-    : implode("\n\n", array_map(fn($k, $v) => "### $k\n$v", array_keys($inbox), $inbox));
+    : implode("\n\n", array_map(
+        fn(string $filename, string $contents): string => "### $filename\n$contents",
+        array_keys($inbox_messages),
+        $inbox_messages
+    ));
 
-$prompt = <<<TXT
-{$state->get('MISSION.md')}
+$base_prompt = <<<TXT
+{$state_store->get('MISSION.md')}
 
 ---
 
 # Werkregels (constitutie)
 
-{$constitution}
+{$constitution_text}
 
 ---
 
 # Waar we staan
 
 ```json
-{$state->get('STATE.json')}
+{$state_store->get('STATE.json')}
 ```
 
 # Backlog
 
-{$state->get('BACKLOG.md')}
+{$state_store->get('BACKLOG.md')}
 
 # Playbook
 
-{$state->get('PLAYBOOK.md')}
+{$state_store->get('PLAYBOOK.md')}
 
 # Laatste ticks
 
-{$state->recentJournal($cfg['journal_window'])}
+{$state_store->recentJournal($config['journal_window'])}
 
 # Berichten van Lucas
 
-{$inboxText}
+{$inbox_text}
 
 ---
 
@@ -146,119 +157,140 @@ Je declareert `moment` en `archetype` zelf. Daarop wordt getoetst: twee strofen 
 hetzelfde archetype worden afgekeurd, en de bundel moet van ochtend naar nacht lopen.
 TXT;
 
-if ($verbose) {
-    say("\n── prompt " . str_repeat('─', 48) . "\n$prompt\n" . str_repeat('─', 58) . "\n");
+if ($show_prompt) {
+    say("\n── prompt " . str_repeat('─', 48) . "\n$base_prompt\n" . str_repeat('─', 58) . "\n");
 }
 
 // ─── 8. De agent, met beperkt aantal pogingen ────────────────────────────────
-if (!$dryRun) {
+if (!$is_dry_run) {
     fail('alleen --dry-run is nu ondersteund; AiStudioAgent volgt in fase 2');
 }
 
-$agent    = new DryRunAgent($cfg, $s, $mode);
-$attempts = $cfg['max_retries'] + 1;
-$payload  = null;
-$errors   = [];
-$usage    = ['input_tokens' => 0, 'output_tokens' => 0];
+$agent            = new DryRunAgent($config, $state, $agent_mode);
+$max_attempts     = $config['max_retries'] + 1;
+$accepted_payload = null;
+$gate_errors      = [];
+$token_usage      = ['input_tokens' => 0, 'output_tokens' => 0];
 
-for ($try = 1; $try <= $attempts; $try++) {
-    $attemptPrompt = $errors === []
-        ? $prompt
-        : $prompt . "\n\n# Je vorige poging is afgekeurd\n\n- " . implode("\n- ", $errors)
-                  . "\n\nLos dit op en lever opnieuw.";
+for ($attempt = 1; $attempt <= $max_attempts; $attempt++) {
+    $attempt_prompt = $gate_errors === []
+        ? $base_prompt
+        : $base_prompt . "\n\n# Je vorige poging is afgekeurd\n\n- " . implode("\n- ", $gate_errors)
+                       . "\n\nLos dit op en lever opnieuw.";
 
-    $result = $agent->run($attemptPrompt);
-    $usage  = $result['usage'];
+    $agent_result = $agent->run($attempt_prompt);
+    $token_usage  = $agent_result['usage'];
 
     // markdown-fences eromheen zijn een klassieker
-    $raw = trim($result['raw']);
-    $raw = (string)preg_replace('/^```(?:json)?\s*|\s*```$/', '', $raw);
+    $raw_answer = trim($agent_result['raw']);
+    $raw_answer = (string)preg_replace('/^```(?:json)?\s*|\s*```$/', '', $raw_answer);
 
-    $decoded = json_decode($raw, true);
-    if (!is_array($decoded)) {
-        $errors = ['het antwoord was geen geldige JSON'];
-        say("  poging $try: onleesbaar antwoord");
+    $decoded_answer = json_decode($raw_answer, true);
+    if (!is_array($decoded_answer)) {
+        $gate_errors = ['het antwoord was geen geldige JSON'];
+        say("  poging $attempt: onleesbaar antwoord");
         continue;
     }
 
-    $errors = $gates->check($decoded, $s);
-    if ($errors === []) {
-        $payload = $decoded;
-        say("  poging $try: gates groen");
+    $gate_errors = $gate_checker->check($decoded_answer, $state);
+    if ($gate_errors === []) {
+        $accepted_payload = $decoded_answer;
+        say("  poging $attempt: gates groen");
         break;
     }
-    say("  poging $try: afgekeurd — " . implode('; ', $errors));
+    say("  poging $attempt: afgekeurd — " . implode('; ', $gate_errors));
 }
 
 // ─── 9. Uitkomst verwerken ───────────────────────────────────────────────────
-$artifactBefore = (string)@file_get_contents($cfg['artifact']);
+$poem_before_tick = (string)@file_get_contents($config['artifact']);
 
-if ($payload !== null) {
+if ($accepted_payload !== null) {
     // Accepteren: strofe aan het gedicht toevoegen
-    $block = sprintf(
+    $stanza_block = sprintf(
         "\n## %d. %s — %s\n\n%s\n",
-        $payload['stanza_index'],
-        ucfirst((string)$payload['archetype']),
-        $payload['moment'],
-        trim((string)$payload['stanza'])
+        $accepted_payload['stanza_index'],
+        ucfirst((string)$accepted_payload['archetype']),
+        $accepted_payload['moment'],
+        trim((string)$accepted_payload['stanza'])
     );
-    file_put_contents($cfg['artifact'], $block, FILE_APPEND | LOCK_EX);
+    file_put_contents($config['artifact'], $stanza_block, FILE_APPEND | LOCK_EX);
 
-    $s['stanzas']              = (int)$payload['stanza_index'];
-    $s['used_archetypes'][]    = (string)$payload['archetype'];
-    $s['last_moment_index']    = (int)array_search(mb_strtolower((string)$payload['moment']), $cfg['moments'], true);
-    $s['consecutive_failures'] = 0;
-    $s['last_outcome']         = 'accepted';
-    $s['status']               = $s['stanzas'] >= $s['target_stanzas'] ? 'compleet' : 'bezig';
+    $state['stanzas']              = (int)$accepted_payload['stanza_index'];
+    $state['used_archetypes'][]    = (string)$accepted_payload['archetype'];
+    $state['last_moment_index']    = (int)array_search(
+        mb_strtolower((string)$accepted_payload['moment']),
+        $config['moments'],
+        true
+    );
+    $state['consecutive_failures'] = 0;
+    $state['last_outcome']         = 'accepted';
+    $state['status']               = $state['stanzas'] >= $state['target_stanzas'] ? 'compleet' : 'bezig';
 
-    if (!empty($payload['backlog']) && is_array($payload['backlog'])) {
-        $items = implode("\n", array_map(fn($b) => "1. $b", $payload['backlog']));
-        $state->put('BACKLOG.md', "# Backlog\n\nBovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.\n\n## Open\n\n$items\n\n## Afgerond\n\n_(zie JOURNAL.md)_\n");
+    if (!empty($accepted_payload['backlog']) && is_array($accepted_payload['backlog'])) {
+        $backlog_items = implode("\n", array_map(
+            fn(string $backlog_item): string => "1. $backlog_item",
+            $accepted_payload['backlog']
+        ));
+        $state_store->put(
+            'BACKLOG.md',
+            "# Backlog\n\nBovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.\n\n"
+            . "## Open\n\n$backlog_items\n\n## Afgerond\n\n_(zie JOURNAL.md)_\n"
+        );
     }
 
-    $outcome = 'ACCEPTED';
-    $note    = (string)$payload['archetype'];
-    $journal = (string)$payload['journal'];
+    $outcome       = 'ACCEPTED';
+    $metric_note   = (string)$accepted_payload['archetype'];
+    $journal_entry = (string)$accepted_payload['journal'];
 } else {
     // Verwerpen: het werkstuk terug in de tijd, de leergeschiedenis niet.
-    exec('git -C ' . escapeshellarg($cfg['root']) . ' checkout -- work/ 2>&1', $out, $rc);
-    $rolledBack = ((string)@file_get_contents($cfg['artifact']) === $artifactBefore);
+    exec('git -C ' . escapeshellarg($config['root']) . ' checkout -- work/ 2>&1', $rollback_output, $rollback_exit_code);
+    $rollback_confirmed = ((string)@file_get_contents($config['artifact']) === $poem_before_tick);
 
-    $s['consecutive_failures'] = (int)$s['consecutive_failures'] + 1;
-    $s['last_outcome']         = 'rejected';
-    $s['status']               = 'bezig';
+    $state['consecutive_failures'] = (int)$state['consecutive_failures'] + 1;
+    $state['last_outcome']         = 'rejected';
+    $state['status']               = 'bezig';
 
-    $outcome = 'REJECTED';
-    $note    = implode('; ', $errors);
-    $journal = "Afgekeurd na $attempts pogingen. Reden(en): " . implode('; ', $errors)
-             . "\n\nHet werkstuk is teruggedraaid" . ($rolledBack ? '' : ' (LET OP: rollback onbevestigd)')
-             . '. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.';
+    $outcome       = 'REJECTED';
+    $metric_note   = implode('; ', $gate_errors);
+    $journal_entry = "Afgekeurd na $max_attempts pogingen. Reden(en): " . implode('; ', $gate_errors)
+                   . "\n\nHet werkstuk is teruggedraaid"
+                   . ($rollback_confirmed ? '' : ' (LET OP: rollback onbevestigd)')
+                   . '. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.';
 }
 
 // ─── 10. Vastleggen — altijd, ongeacht de uitkomst ───────────────────────────
-$s['tick'] = $tick;
-$state->write($s);
-$state->journal($tick, $outcome, $journal);
-$state->metric([
-    'tick'          => $tick,
+$state['tick'] = $tick_number;
+$state_store->write($state);
+$state_store->journal($tick_number, $outcome, $journal_entry);
+$state_store->metric([
+    'tick'          => $tick_number,
     'timestamp'     => date('c'),
     'outcome'       => $outcome,
-    'stanzas'       => $s['stanzas'],
-    'words'         => str_word_count(strip_tags((string)@file_get_contents($cfg['artifact']))),
+    'stanzas'       => $state['stanzas'],
+    'words'         => str_word_count(strip_tags((string)@file_get_contents($config['artifact']))),
     'judge_score'   => '',
-    'input_tokens'  => $usage['input_tokens'] ?? 0,
-    'output_tokens' => $usage['output_tokens'] ?? 0,
-    'note'          => $note,
+    'input_tokens'  => $token_usage['input_tokens'] ?? 0,
+    'output_tokens' => $token_usage['output_tokens'] ?? 0,
+    'note'          => $metric_note,
 ]);
 
 // ─── 11. Commit ──────────────────────────────────────────────────────────────
 // Padspecifiek: de agent commit nooit de kernel.
-exec('git -C ' . escapeshellarg($cfg['root']) . ' add mission/ work/ 2>&1');
-$msg = sprintf('tick %d: %s — %s', $tick, strtolower($outcome), $note === '' ? 'geen bijzonderheden' : $note);
-exec('git -C ' . escapeshellarg($cfg['root']) . ' commit -q -m ' . escapeshellarg($msg) . ' 2>&1', $o, $rc);
+exec('git -C ' . escapeshellarg($config['root']) . ' add mission/ work/ 2>&1');
+$commit_message = sprintf(
+    'tick %d: %s — %s',
+    $tick_number,
+    strtolower($outcome),
+    $metric_note === '' ? 'geen bijzonderheden' : $metric_note
+);
+exec(
+    'git -C ' . escapeshellarg($config['root']) . ' commit -q -m ' . escapeshellarg($commit_message) . ' 2>&1',
+    $commit_output,
+    $commit_exit_code
+);
 
-say(sprintf('  %s — %d/%d strofen', $outcome, $s['stanzas'], $s['target_stanzas']));
-say('  ' . ($rc === 0 ? 'gecommit' : 'niets te committen'));
+say(sprintf('  %s — %d/%d strofen', $outcome, $state['stanzas'], $state['target_stanzas']));
+say('  ' . ($commit_exit_code === 0 ? 'gecommit' : 'niets te committen'));
 
-flock($lock, LOCK_UN);
+flock($lock_handle, LOCK_UN);
 exit(0);
