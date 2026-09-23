@@ -26,7 +26,7 @@ final class Gates
 
         // Kan juno alles lezen wat hij nodig heeft? Een editor die een bestand
         // herschrijft laat het eigendom springen, en dan valt de tick halverwege om.
-        $required_kernel_files = ['config.php','State.php','Gates.php','Agent.php','CONSTITUTION.md','MISSION.sha256'];
+        $required_kernel_files = ['config.php','State.php','Gates.php','Agent.php','AiStudioAgent.php','CONSTITUTION.md','MISSION.sha256'];
         foreach ($required_kernel_files as $kernel_file) {
             if (!is_readable($this->config['kernel'] . '/' . $kernel_file)) {
                 $problems[] = "kernel/$kernel_file is niet leesbaar "

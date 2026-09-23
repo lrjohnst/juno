@@ -14,6 +14,7 @@ declare(strict_types=1);
  *   php tick.php --dry-run --mode=gate-fail      forceert een afkeuring
  *   php tick.php --dry-run --mode=invalid-json   forceert onleesbaar antwoord
  *   php tick.php --verbose             toont de samengestelde prompt
+ *   php tick.php --model=mistral-small-latest   ander model dan de default
  *
  * Exit codes: 0 = tick gedaan, 1 = fout, 2 = bewust overgeslagen.
  */
@@ -22,11 +23,13 @@ $config = require __DIR__ . '/config.php';
 require __DIR__ . '/State.php';
 require __DIR__ . '/Gates.php';
 require __DIR__ . '/Agent.php';
+require __DIR__ . '/AiStudioAgent.php';
 
-$command_options = getopt('', ['dry-run', 'mode::', 'verbose']);
+$command_options = getopt('', ['dry-run', 'mode::', 'verbose', 'model::']);
 $is_dry_run      = isset($command_options['dry-run']);
 $agent_mode      = (string)($command_options['mode'] ?? 'ok');
 $show_prompt     = isset($command_options['verbose']);
+$model_override  = isset($command_options['model']) ? (string)$command_options['model'] : null;
 
 function say(string $message): void { echo $message . "\n"; }
 function fail(string $message): never { fwrite(STDERR, "FOUT: $message\n"); exit(1); }
@@ -162,12 +165,26 @@ if ($show_prompt) {
 }
 
 // ─── 8. De agent, met beperkt aantal pogingen ────────────────────────────────
-if (!$is_dry_run) {
-    fail('alleen --dry-run is nu ondersteund; AiStudioAgent volgt in fase 2');
+if ($is_dry_run) {
+    $agent = new DryRunAgent($config, $state, $agent_mode);
+} else {
+    $env_values = read_env_file($config['root'] . '/.env');
+    if (empty($env_values['AISTUDIO_KEY'])) {
+        fail('AISTUDIO_KEY ontbreekt in ' . $config['root'] . '/.env');
+    }
+    if ($model_override !== null) {
+        $config['aistudio']['model'] = $model_override;
+    }
+    $agent = new AiStudioAgent(
+        $config,
+        $env_values['AISTUDIO_URL'] ?? $config['aistudio']['url'],
+        $env_values['AISTUDIO_KEY'],
+    );
+    say('  agent: ai-studio (' . $config['aistudio']['model'] . ')');
 }
 
-$agent            = new DryRunAgent($config, $state, $agent_mode);
 $max_attempts     = $config['max_retries'] + 1;
+$unavailable_reason = null;
 $accepted_payload = null;
 $gate_errors      = [];
 $token_usage      = ['input_tokens' => 0, 'output_tokens' => 0];
@@ -178,8 +195,16 @@ for ($attempt = 1; $attempt <= $max_attempts; $attempt++) {
         : $base_prompt . "\n\n# Je vorige poging is afgekeurd\n\n- " . implode("\n- ", $gate_errors)
                        . "\n\nLos dit op en lever opnieuw.";
 
-    $agent_result = $agent->run($attempt_prompt);
-    $token_usage  = $agent_result['usage'];
+    try {
+        $agent_result = $agent->run($attempt_prompt);
+    } catch (AgentUnavailable $unavailable) {
+        // Niet nogmaals proberen: bij een lege provider of een netwerkstoring
+        // levert een tweede poging alleen een tweede timeout op.
+        $unavailable_reason = $unavailable->getMessage();
+        say("  agent onbereikbaar: $unavailable_reason");
+        break;
+    }
+    $token_usage = $agent_result['usage'];
 
     // markdown-fences eromheen zijn een klassieker
     $raw_answer = trim($agent_result['raw']);
@@ -203,6 +228,27 @@ for ($attempt = 1; $attempt <= $max_attempts; $attempt++) {
 
 // ─── 9. Uitkomst verwerken ───────────────────────────────────────────────────
 $poem_before_tick = (string)@file_get_contents($config['artifact']);
+
+if ($unavailable_reason !== null) {
+    // Geen tick gedaan: het tick-nummer loopt niet op en de faalteller blijft
+    // staan. Wel vastleggen, zodat je in metrics.csv ziet hoe vaak dit gebeurde.
+    $state_store->journal(
+        $tick_number,
+        'UNAVAILABLE',
+        "Tick niet uitgevoerd: $unavailable_reason\n\n"
+        . 'De stand is ongewijzigd; de volgende tick probeert dezelfde stap opnieuw.'
+    );
+    $state_store->metric([
+        'tick'      => $tick_number,
+        'timestamp' => date('c'),
+        'outcome'   => 'UNAVAILABLE',
+        'stanzas'   => $state['stanzas'],
+        'note'      => $unavailable_reason,
+    ]);
+    say('  UNAVAILABLE — stand ongewijzigd, niets gecommit');
+    flock($lock_handle, LOCK_UN);
+    exit(2);
+}
 
 if ($accepted_payload !== null) {
     // Accepteren: strofe aan het gedicht toevoegen
