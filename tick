@@ -1,0 +1,12 @@
+#!/bin/bash
+# Shortcut: draai één tick.
+# Gebruik vanuit /home/juno:
+#   ./tick --dry-run                 stub-agent, geen API-aanroep
+#   ./tick --dry-run --mode=gate-fail      forceert een afkeuring
+#   ./tick --dry-run --mode=invalid-json   forceert onleesbaar antwoord
+#   ./tick --dry-run --verbose       toont de samengestelde prompt
+if [ "$(id -un)" = "juno" ]; then
+    exec php /home/juno/kernel/tick.php "$@"
+else
+    exec sudo -u juno php /home/juno/kernel/tick.php "$@"
+fi

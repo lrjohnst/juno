@@ -1,12 +1,12 @@
 #!/bin/bash
-# Zet juno terug op tick 0. Alleen voor tests — wist journal en metrics,
-# die in productie juist nooit gewist mogen worden.
+# Zet juno terug op tick 0.
+#
+# Raakt uitsluitend de state-bestanden aan. Géén `git reset --hard`: dat gooit
+# ook code weg die na de laatste tag is toegevoegd — zo is de ./tick-shortcut
+# een keer verdwenen. Een state-reset hoort geen code te kunnen slopen.
 set -e
 
 juno_root="/home/juno"
-reset_target="${1:-testbase}"
-
-git -C "$juno_root" reset --hard "$reset_target" -q
 
 cat > "$juno_root/mission/STATE.json" <<'JSON'
 {
@@ -27,8 +27,23 @@ printf '# Journal\n\nAppend-only. Eén entry per tick, ook — juist — bij mis
   > "$juno_root/mission/JOURNAL.md"
 printf 'tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note\n' \
   > "$juno_root/mission/metrics.csv"
+
+cat > "$juno_root/mission/BACKLOG.md" <<'MD'
+# Backlog
+
+Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
+
+## Open
+
+1. Schrijf strofe 1: zet het eerste archetype neer, vroeg op de dag.
+
+## Afgerond
+
+_(nog niets)_
+MD
+
 rm -f "$juno_root/var/STOP"
 
-git -C "$juno_root" add -A >/dev/null 2>&1 || true
+git -C "$juno_root" add mission/ work/ >/dev/null 2>&1 || true
 git -C "$juno_root" commit -q -m "test: reset naar tick 0" >/dev/null 2>&1 || true
 echo "reset naar tick 0"
