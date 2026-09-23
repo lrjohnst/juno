@@ -24,3 +24,13 @@ Je ziet hem liggen tussen de andere spullen,
 inert, alsof hij niet van jou is,
 terwijl je weet dat jij hem hier neerlegde,
 met opgetrokken schouders en een zucht.
+
+## 3. Koud bier in de hand terwijl de zon ondergaat — avond
+
+Het glas glimt nog van de koelkast,
+zijn rand vochtig als een ademhaling.
+Je houdt het tegen het licht:
+door het amber zie je de dingen,
+niet helder, wel scherp genoeg
+om de wereld te herinneren
+zonder dat je haar hoeft te noemen.
