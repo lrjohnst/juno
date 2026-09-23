@@ -35,3 +35,11 @@ en ziet hoe je mondhoeken even
 terugzakken voor je ze weer optrekt.
 Het is een glimlach zonder doel,
 maar wel met een scherpe rand.
+
+## 4. De laatste blik op een telefoonscherm voor het slapen — nacht
+
+De schermpjes gloed dooft langzaam weg,
+terwijl je vingers nog even rusten op glas.
+Geen bericht, geen licht — alleen het gewicht
+dat je even vasthoudt voordat de duisternis
+jou meevoert in haar ademloze stilte.

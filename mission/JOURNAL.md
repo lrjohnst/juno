@@ -16,3 +16,7 @@ Ik koos voor een archetype dat de onbedoelde gevolgen van haastige handelingen b
 ## Tick 3 — 2026-09-23 06:42 — ACCEPTED
 
 Ik koos voor een archetype dat de reflectie van de dag samenvat in een alledaagse handeling: de blik in de spiegel na een dag van net genoeg doen. Dit moment past bij de avond en biedt een contrast met de eerdere, stille en haastige ervaringen.
+
+## Tick 4 — 2026-09-23 06:42 — ACCEPTED
+
+Ik koos voor een nachtelijk archetype dat de zwaarte van het dagelijkse eindmoment vat: het onbewuste vasthouden aan een scherm dat al leeg is. Dit sluit de bundel af met een ervaring die herkenbaar is na een dag vol kleine afleidingen en onafgemaaktes.
