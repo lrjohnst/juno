@@ -4,3 +4,13 @@ Append-only. Eén entry per tick, ook — juist — bij mislukking.
 Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout zich herhaalt.
 
 ---
+
+## Tick 1 — 2026-09-23 07:00 — UNAVAILABLE
+
+Tick niet uitgevoerd: het tegoed bij de provider is op (model claude-haiku-4-5; uitwijk mogelijk naar: mistral-small-latest)
+
+De stand is ongewijzigd; de volgende tick probeert dezelfde stap opnieuw.
+
+## Tick 1 — 2026-09-23 07:02 — ACCEPTED
+
+Ik schreef een strofe over de lege keuken bij zonsopgang, een archetypische ochtendervaring die iedereen herkent maar zelden benoemt. De toon is sober en observerend, zonder personage of verhaal, zoals de missie voorschrijft.
