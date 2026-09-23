@@ -4,12 +4,10 @@ App-specifiek. Server-werk staat in `/home/claude/BACKLOG.md`.
 
 ## Open
 
-### Fase 2 — echte aanroep
-1. ai-studio: client `juno` aanmaken, prompt `juno-tick` met model Haiku 4.5.
-   **Geblokkeerd:** ai-studio geeft `provider_quota`, het Anthropic-krediet is op.
-2. `kernel/AiStudioAgent.php` — HTTP-client, `conversation_id: null`, timeout, nette
-   foutafhandeling bij quota/5xx.
-3. systemd service + timer (geen cron: geeft sandboxing en journalctl).
+### Fase 2 — restant
+1. **Anthropic-tegoed bijvullen** (provider #1 in ai-studio). Tot die tijd draait juno op
+   `--model=mistral-small-latest`. Actie voor Lucas: dit kost geld.
+2. systemd service + timer (geen cron: geeft sandboxing en journalctl).
 
 ### Fase 3 — gates en metrieken
 4. Zachte gate: tweede ai-studio-prompt als judge, drempel in `config.php`.
@@ -31,3 +29,4 @@ App-specifiek. Server-werk staat in `/home/claude/BACKLOG.md`.
 ## Afgerond
 
 - Fase 1: skelet, bevroren missie, kernel, testsuite (2026-09-20).
+- Fase 2: AiStudioAgent, client + prompt in ai-studio, eerste echte bundel (2026-09-23).

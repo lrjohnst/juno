@@ -4,6 +4,36 @@ Autonome agent-loop. Elke tick is één stap richting de missie.
 
 ---
 
+## 2026-09-23
+
+### Fase 2 — koppeling met ai-studio (af)
+
+- `kernel/AiStudioAgent.php`: `POST /api/chat` met Bearer-auth, timeout, en géén
+  `conversation_id` — elke tick is een nieuw gesprek, want het geheugen zit in bestanden.
+- ai-studio: client `juno` (id 8) en prompt `juno-tick` (id 25) met `response_schema`.
+  Dat schema dwingt de JSON-vorm af via native structured output, dus die gate hoeft
+  niet meer in onze eigen code. Systeemprompt en schema staan in ai-studio's database
+  en liggen daarmee buiten het bereik van de agent.
+- `--model=` vlag om per tick van model te wisselen.
+- Leesbare 422-melding: Laravel-validatiefouten hebben `{message, errors}` in plaats van
+  de `error`-envelop, en kwamen daardoor binnen als een nietszeggend "http_422".
+
+**Ontwerppunt dat de moeite van het onthouden waard is:** een onbereikbare provider is
+iets anders dan een afgekeurde strofe. `AgentUnavailable` slaat de tick over zonder het
+tick-nummer of `consecutive_failures` te verhogen. Zonder dat onderscheid escaleert de
+loop na drie mislukte pogingen op een leeg tegoed — en staat juno stil om een reden die
+niets met zijn werk te maken heeft.
+
+**Eerste echte bundel** (4 strofen, via `mistral-small-latest`): alle vier de gates groen,
+vier verschillende archetypen, netjes van ochtend naar nacht. Circa 7.700 input- en
+990 output-tokens voor de hele bundel.
+
+**Anthropic-tegoed is nog steeds leeg** — de API meldt letterlijk "Your credit balance is
+too low". Er is één Anthropic-provider (#1) in ai-studio; die key heeft geen saldo.
+`mistral-small-latest` is als uitwijk aan de juno-client gekoppeld.
+
+---
+
 ## 2026-09-20
 
 ### Fase 1 — skelet en lus (af)
