@@ -1,0 +1,10 @@
+#!/bin/bash
+# Shortcut: zet juno terug op tick 0.
+# Gebruik vanuit /home/juno:   ./reset
+# Werkt als juno én als lrjohnst (die schakelt automatisch om naar juno,
+# zodat nieuwe bestanden het juiste eigendom krijgen).
+if [ "$(id -un)" = "juno" ]; then
+    exec bash /home/juno/kernel/tests/reset.sh "$@"
+else
+    exec sudo -u juno bash /home/juno/kernel/tests/reset.sh "$@"
+fi
