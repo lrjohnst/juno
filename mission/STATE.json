@@ -1,13 +1,11 @@
 {
-    "tick": 4,
-    "status": "bezig",
-    "last_outcome": "rejected",
-    "consecutive_failures": 3,
-    "stanzas": 1,
+    "tick": 0,
+    "status": "idle",
+    "last_outcome": null,
+    "consecutive_failures": 0,
+    "stanzas": 0,
     "target_stanzas": 4,
-    "used_archetypes": [
-        "lege ochtendstraat"
-    ],
-    "last_moment_index": 0,
-    "updated_at": "2026-09-23T19:49:25+00:00"
+    "used_archetypes": [],
+    "last_moment_index": -1,
+    "updated_at": null
 }
