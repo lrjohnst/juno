@@ -12,3 +12,15 @@ geen briefje in je hand,
 alleen de geur van vergeten ui 
 en de kilte van de ochtend die langzaam 
 in de kamer kruipt.
+
+## 2. Vergeten boodschappentas op de stoel — middag
+
+Hij gilt als je hem aanraakt, 
+de tas met die ene onbetaalde rekening erin,
+de boodschappen al lang verteerd 
+en het schaamrood nog vers op de wang.
+
+Je ziet hem liggen tussen de andere spullen,
+inert, alsof hij niet van jou is,
+terwijl je weet dat jij hem hier neerlegde,
+met opgetrokken schouders en een zucht.
