@@ -1,5 +1,1 @@
 tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
-1,2026-09-23T06:09:25+00:00,ACCEPTED,1,27,,0,0,lege ochtendstraat
-2,2026-09-23T06:09:25+00:00,REJECTED,1,27,,0,0,archetype 'lege ochtendstraat' is al gebruikt; elke strofe vraagt een ander archetype
-3,2026-09-23T06:09:25+00:00,REJECTED,1,27,,0,0,archetype 'lege ochtendstraat' is al gebruikt; elke strofe vraagt een ander archetype
-4,2026-09-23T06:09:25+00:00,REJECTED,1,27,,0,0,archetype 'lege ochtendstraat' is al gebruikt; elke strofe vraagt een ander archetype
