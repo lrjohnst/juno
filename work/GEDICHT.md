@@ -34,3 +34,13 @@ door het amber zie je de dingen,
 niet helder, wel scherp genoeg
 om de wereld te herinneren
 zonder dat je haar hoeft te noemen.
+
+## 4. Leger beddegoed dat nog warm is van de net vertrokken ander — nacht
+
+De kuil in het matras blijft als een ademhaling,
+niet meer dan een centimeter die zich vult met de geur
+van een lichaam dat net nog hier was.
+Handen die de lakens gladstrijken voelen
+hoe het katoen zich voegt naar de warmte die verdwijnt —
+alsof de nacht een stof is die langzaam neerdaalt
+en elk spoor uitwist zonder haast, zonder woord.
