@@ -1,0 +1,89 @@
+#!/bin/bash
+# Verzegelt de missie opnieuw: berekent de SHA-256 van mission/MISSION.md
+# en schrijft die naar kernel/MISSION.sha256.
+#
+# Dit hoort een bewuste handeling te zijn. De hash bestaat juist om te
+# voorkomen dat het anker ongemerkt meebeweegt met het werk — een script dat
+# zonder nadenken opnieuw verzegelt, haalt die hele waarborg onderuit.
+# Vandaar de diff vooraf en de bevestiging.
+#
+# Gebruik:  ./reseal        toont het verschil en vraagt bevestiging
+#           ./reseal -y     zonder vragen (voor scripts)
+set -u
+
+mission_file="/home/juno/mission/MISSION.md"
+hash_file="/home/juno/kernel/MISSION.sha256"
+skip_confirm="${1:-}"
+
+# juno mag zijn eigen anker niet verplaatsen. De bestandsrechten houden dat al
+# tegen, maar een duidelijke melding is beter dan een permission denied.
+if [ "$(id -un)" = "juno" ]; then
+    echo "Dit script is niet voor juno." >&2
+    echo "Het anker verplaatsen is een beslissing van Lucas, niet van de agent." >&2
+    exit 1
+fi
+
+if [ ! -r "$mission_file" ]; then
+    echo "Kan $mission_file niet lezen." >&2
+    exit 1
+fi
+
+current_hash=$(cut -d' ' -f1 < "$hash_file" 2>/dev/null | tr -d '[:space:]')
+new_hash=$(sha256sum "$mission_file" | cut -d' ' -f1)
+
+if [ "$current_hash" = "$new_hash" ]; then
+    echo "De missie is ongewijzigd — niets te verzegelen."
+    echo "  $new_hash"
+    exit 0
+fi
+
+echo "De missie is gewijzigd."
+echo "  was: ${current_hash:-(geen hash gevonden)}"
+echo "  nu:  $new_hash"
+echo
+
+# Laat zien wát er verandert. Git heeft de vorige versie, dus dit is gratis.
+#
+# safe.directory is nodig omdat .git van juno is en dit script als lrjohnst
+# draait; zonder die vlag weigert git met "dubious ownership" en lijkt het
+# alsof /home/juno geen repo is.
+git_diff=$(git -C /home/juno -c safe.directory=/home/juno --no-pager diff \
+             -- mission/MISSION.md 2>/dev/null)
+if [ -n "$git_diff" ]; then
+    echo "Wijziging ten opzichte van de laatste commit:"
+    printf '%s\n' "$git_diff" | sed 's/^/  /'
+else
+    echo "(niets ongecommit in git — de tekst wijkt af van een eerdere verzegeling)"
+fi
+echo
+
+if [ "$skip_confirm" != "-y" ]; then
+    printf "Deze tekst verzegelen als het nieuwe anker? [j/N] "
+    read -r answer
+    case "$answer" in
+        j|J|ja|Ja) ;;
+        *) echo "Afgebroken. De hash is niet gewijzigd."; exit 2 ;;
+    esac
+fi
+
+printf '%s\n' "$new_hash" > "$hash_file"
+
+# Rechten terugzetten: schrijven met > maakt geen nieuwe inode, maar een editor
+# of een herschrijving elders kan dat wel. Expliciet is hier beter dan hopen.
+if [ "$(id -u)" = "0" ]; then
+    chown root:juno "$hash_file"
+fi
+setfacl -m u::rw,g::r,o::-,u:lrjohnst:rw "$hash_file" 2>/dev/null || true
+
+echo "Verzegeld: $new_hash"
+
+# Controleren dat de verzegeling ook echt klopt. Geen tick draaien: dat kost
+# tokens en schrijft state, terwijl we alleen de hash willen bevestigen.
+written_hash=$(cut -d' ' -f1 < "$hash_file" | tr -d '[:space:]')
+check_hash=$(sha256sum "$mission_file" | cut -d' ' -f1)
+if [ "$written_hash" = "$check_hash" ]; then
+    echo "Gecontroleerd — de preflight laat de loop weer door."
+else
+    echo "LET OP: de weggeschreven hash klopt niet met het bestand." >&2
+    exit 1
+fi

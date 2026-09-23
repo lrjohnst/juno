@@ -34,6 +34,6 @@ return [
     'aistudio' => [
         'url'    => 'https://ai-studio.phitech.cloud/api/chat',
         'prompt' => 'juno-tick',
-        'model'  => 'claude-haiku-4-5',
+        'model'  => 'mistral-small-latest',
     ],
 ];
