@@ -12,3 +12,7 @@ Ik koos voor een lege keuken na het koffiezetten als eerste archetype: een momen
 ## Tick 2 — 2026-09-23 06:42 — ACCEPTED
 
 Ik koos voor een archetype dat de onbedoelde gevolgen van haastige handelingen benadrukt. Het moment van de middag past bij de bundelstructuur en biedt een contrast met de stille ochtend van de eerste strofe.
+
+## Tick 3 — 2026-09-23 06:42 — ACCEPTED
+
+Ik koos voor een archetype dat de reflectie van de dag samenvat in een alledaagse handeling: de blik in de spiegel na een dag van net genoeg doen. Dit moment past bij de avond en biedt een contrast met de eerdere, stille en haastige ervaringen.

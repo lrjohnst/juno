@@ -22,3 +22,16 @@ voordat ik besef: het was de camera-app, niet de chat.
 Nu kijkt iemand naar een screenshot van mijn leegstaande desktop,
 terwijl mijn buurman net zijn deur dichtslaat met een blik
 alsof ik hem bespioneer met een blik die ik niet ken.
+
+## 3. De blik in de spiegel na een dag van net genoeg doen — avond
+
+De kraan druipt nog na het wassen,
+maar je droogt je handen niet af.
+De spiegel toont alleen het hoekje
+waar het licht nog niet is opgedroogd.
+
+Je ademt uit, diep en onhoorbaar,
+en ziet hoe je mondhoeken even
+terugzakken voor je ze weer optrekt.
+Het is een glimlach zonder doel,
+maar wel met een scherpe rand.
