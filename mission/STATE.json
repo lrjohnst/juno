@@ -1,8 +1,8 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "last_outcome": "rejected",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "stanzas": 1,
     "target_stanzas": 4,
     "used_archetypes": [
