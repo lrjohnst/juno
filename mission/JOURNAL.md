@@ -14,3 +14,9 @@ Dry-run: strofe 1 neergezet (ochtend). Geen API-aanroep gedaan.
 Afgekeurd na 3 pogingen. Reden(en): archetype 'lege ochtendstraat' is al gebruikt; elke strofe vraagt een ander archetype
 
 Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
+
+## Tick 3 — 2026-09-23 19:49 — REJECTED
+
+Afgekeurd na 3 pogingen. Reden(en): archetype 'lege ochtendstraat' is al gebruikt; elke strofe vraagt een ander archetype
+
+Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
