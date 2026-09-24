@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "lege winkelstraat",
         "schaduw op de muur",
-        "licht dat door de gordijnen snijdt"
+        "licht dat door de gordijnen snijdt",
+        "laatste blik op de dag"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-24T12:35:45+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-24T12:35:47+00:00"
 }

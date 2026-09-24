@@ -39,3 +39,10 @@ De schaduwen rekken zich,
 worden lang en traag,
 als een laatste groet
 voordat de nacht begint.
+
+## 4. Laatste blik op de dag — nacht
+
+de lantaarns knipperen één voor één uit
+alsof de stad haar adem inhoudt
+de laatste auto rijdt weg zonder geluid
+de straat is nu alleen van de maan en mij
