@@ -19,3 +19,10 @@ Tussen de regels door, een vinger glijdt —
 de telefoon trilt al voordat je ‘ja’ zegt.
 Het scherm licht op, een naam die niet de jouwe is,
 de stem aan de andere kant begint te spreken alsof het al zo hoorde te zijn.
+
+## 3. De lantaarn die net niet aangaat — avond
+
+Hij tikt met zijn vinger tegen het glas — 
+de kou van de herfst blijft aan de rand hangen. 
+De straat is al half donker, maar deze lamp 
+wacht nog op een vonk die nooit komt.

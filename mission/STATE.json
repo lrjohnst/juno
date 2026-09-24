@@ -1,14 +1,15 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 2,
+    "stanzas": 3,
     "target_stanzas": 4,
     "used_archetypes": [
         "eerste koffie van de dag",
-        "de hand die per ongeluk de verkeerde knop indrukt"
+        "de hand die per ongeluk de verkeerde knop indrukt",
+        "de lantaarn die net niet aangaat"
     ],
-    "last_moment_index": 1,
-    "updated_at": "2026-09-24T12:36:03+00:00"
+    "last_moment_index": 2,
+    "updated_at": "2026-09-24T12:36:06+00:00"
 }
