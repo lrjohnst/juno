@@ -31,3 +31,17 @@ en luistert naar het metaal dat stilvalt,
 terug naar stilte alsof er nooit
 een huis was, nooit een avond,
 en nooit een hand die de deur opent.
+
+## 4. Het laatste licht dat door de lamellen valt — nacht
+
+Het laatste licht dat door de lamellen valt
+is geen daglicht meer, maar een herinnering aan warmte.
+Het glijdt over het kussen, streelt de rand van het kledingstuk
+dat je nooit helemaal uittrekt, ook niet als je slaapt.
+Daar waar je oogleden zwaar worden,
+daar waar de wereld nog even draait
+zonder jouw gewicht,
+daar blijft het hangen —
+als een hand die nog altijd op je schouder rust.
+Het licht wordt minder, maar het licht blijft,
+alsof het wacht tot je het voor de laatste keer zult zien.

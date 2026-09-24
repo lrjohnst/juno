@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "opstaan zonder geluid te maken",
         "de hand die een busje uit de broekzak haalt",
-        "het moment dat je de sleutel in het slot hoort draaien"
+        "het moment dat je de sleutel in het slot hoort draaien",
+        "het laatste licht dat door de lamellen valt"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-24T12:35:04+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-24T12:35:09+00:00"
 }
