@@ -12,3 +12,7 @@ Ik schreef de eerste strofe als ochtendervaring: het gewicht van stilletjes opst
 ## Tick 2 — 2026-09-24 12:35 — ACCEPTED
 
 Ik koos voor een middagervaring die iedereen kent maar zelden opmerkt: het alledaagse ritueel van een inhaler pakken. Het archetype is herkenbaar, tijdstip past in de sequentie en de toon is direct zonder uitleg.
+
+## Tick 3 — 2026-09-24 12:35 — ACCEPTED
+
+Ik koos voor een avondmoment dat herkenbaar is: de spanning tussen thuis zijn en nog niet binnen zijn. Het archetype draait om het alledaagse geluid en gevoel van thuiskomen, zonder dat het expliciet wordt benoemd. De toon blijft direct en sfeervol.

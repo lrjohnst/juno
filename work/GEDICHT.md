@@ -17,3 +17,17 @@ het gewicht van een seconde — te licht om te vallen,
 te zwaar om weg te denken.
 Dan klikt het dopje los, ergens tussen koffie en schaamte,
 en ademt de geur van asfalt en zonnebrand ineen.
+
+## 3. Het moment dat je de sleutel in het slot hoort draaien — avond
+
+De deur geeft mee, alsof hij al weet
+dat jij hier staat met handen vol,
+et gewicht op de drempel drukt —
+niet binnen, nog niet, alleen de sleutel
+in het slot, de laatste draai die klikt.
+De wereld daarachter wacht, maar jij
+blijft even staan, voeten op het matje,
+en luistert naar het metaal dat stilvalt,
+terug naar stilte alsof er nooit
+een huis was, nooit een avond,
+en nooit een hand die de deur opent.
