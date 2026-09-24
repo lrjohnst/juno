@@ -36,3 +36,15 @@ zijn licht streelt de kasseien zonder haast,
 zoekend naar iets wat niet meer komt.
 De wereld trekt zich terug in schaduwen,
 en jij blijft staan, half in het donker, half in de tijd.
+
+## 4. Fluistering in een eenzame gang — nacht
+
+Het donker ademt door de kier.
+De muren fluisteren wat je vergeten bent:
+niet de stem, niet het woord,
+maar de stilte erna die je niet meer durft te vullen.
+
+Je hand glijdt langs de koude muur,
+voelt het stof van jaren, zacht als een verontschuldiging.
+De gang strekt zich eindeloos,
+maar jij staat stil — wachtend op iets dat al voorbij is.

@@ -16,3 +16,7 @@ Ik koos voor de middaghitte als contrast met de ochtendstilte: een moment van fy
 ## Tick 3 — 2026-09-24 12:13 — ACCEPTED
 
 Ik koos voor de avond omdat dit een natuurlijk contrast biedt met de ochtend en middag: de koelte van de schemering, de stilte van een verlaten plein en de eerste tekenen van nacht. Het archetype benadrukt het vervagen van daglicht en de overgang naar rust, wat past bij de bundelopbouw.
+
+## Tick 4 — 2026-09-24 12:13 — ACCEPTED
+
+Ik koos voor een nachtarchetype dat de bundel afsluit met een intiem en universeel moment: de eenzame gang waar geluiden vervagen in stilte. De strofe benadrukt het onuitgesproken en het onthouden door tastbare details (kier, muur, stof) zonder expliciete verhalen.
