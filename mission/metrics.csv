@@ -1,5 +1,1 @@
 tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
-1,2026-09-24T12:24:12+00:00,ACCEPTED,1,33,,1557,230,lege sneeuwvrije straat
-2,2026-09-24T12:24:15+00:00,ACCEPTED,2,97,,1734,253,vergeten paraplu in de regen
-3,2026-09-24T12:24:18+00:00,ACCEPTED,3,148,,1828,214,licht dat uit een raam valt
-4,2026-09-24T12:24:21+00:00,ACCEPTED,4,231,,1925,271,eerste sterren die door het raam verschijnen
