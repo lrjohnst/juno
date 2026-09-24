@@ -8,3 +8,15 @@ Geen voetstap in het stof,
 geen blad dat valt van een tak.
 Alleen de geur van asfalt,
 koel als een adem die wacht.
+
+## 2. Vergeten paraplu in de regen — middag
+
+De paraplu ligt nog op de stoel,
+zijn kleur een vlek tussen de koffiekringen.
+De regen tikt erop alsof het een drum is,
+maar niemand merkt het op.
+
+Ik loop voorbij zonder te kijken,
+want wie neemt er nu nog een paraplu mee?
+Alleen de wind weet dat hij er is,
+en wiegt hem zachtjes heen en weer.
