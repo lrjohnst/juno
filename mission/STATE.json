@@ -1,14 +1,15 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 2,
+    "stanzas": 3,
     "target_stanzas": 4,
     "used_archetypes": [
         "leegte tussen de dingen",
-        "de schaduw die zich uitstrekt onder een scherpe zon"
+        "de schaduw die zich uitstrekt onder een scherpe zon",
+        "de eerste sigaret na een lange dag"
     ],
-    "last_moment_index": 1,
-    "updated_at": "2026-09-24T12:34:17+00:00"
+    "last_moment_index": 2,
+    "updated_at": "2026-09-24T12:34:28+00:00"
 }

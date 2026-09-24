@@ -24,3 +24,18 @@ Wie zou er ooit die donkere lijn volgen,
 terwijl de zon alles aan mij onttrekt —
 behalve dan de schaduw die mij herinnert
 aan hoe klein ik ben in dit felle licht?
+
+## 3. De eerste sigaret na een lange dag — avond
+
+De asbak is nog warm van gisteren.
+Je vingers zoeken naar de doos, blind,
+in de zak waar sigaretten altijd zitten.
+De lucifer krast, een klein geluid
+als een zucht die uit de muur komt.
+De rook krult rond je gezicht, dik en traag,
+en voor het eerst voel je de dag
+niet als een last, maar als iets wat
+je hebt gedragen en nu neerlegt.
+De as valt zachtjes op het schoteltje,
+terwijl de straatlantaarns aangaan buiten —
+alsof ze wachten tot jij klaar bent met inhalen.
