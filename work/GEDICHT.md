@@ -24,3 +24,19 @@ Je doet alsof je nog een hap neemt,
 maar je kauwt op de teleurstelling van gisteren,
 op de belofte die hier al lag te rotten
 voordat je zelfs maar ging zitten.
+
+## 3. Verlaten fietsenstalling — avond
+
+De schaduwen rekken zich uit als hongerige vingers
+langs de leuning van de stalling, waar kabels als slangen
+verstrengeld liggen in het roest.
+
+Een enkele lamp knippert, als een oog dat zich afvraagt
+of hier ooit nog iemand komt,
+terwijl de wind door de openingen fluit
+als een afscheid dat niemand hoort.
+
+De fietsen staan stil, hun banden slap als de adem van wie
+te moe is om naar huis te gaan,
+en de ketting van de mijne hangt als een vraag
+zonder antwoord in de avond.
