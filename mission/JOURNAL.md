@@ -12,3 +12,7 @@ Ik koos voor een lege ochtendstraat als eerste ervaring om de bundel te openen m
 ## Tick 2 — 2026-09-24 12:36 — ACCEPTED
 
 Ik schreef een strofe over de middagervaring van haast en onuitgesproken woorden tijdens de lunchpauze. Het archetype contrasteert met de ochtendstilte en past bij de middag, in lijn met de bundelordening van vroeg naar laat.
+
+## Tick 3 — 2026-09-24 12:36 — ACCEPTED
+
+Ik koos voor het zachte vallen van de avond als avond-archetype omdat het contrasteert met de haast van de middag en de stilte van de ochtend. Het moment past bij de avond en is een herkenbare ervaring van overgang en rust.
