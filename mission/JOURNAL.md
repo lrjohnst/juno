@@ -16,3 +16,7 @@ Gekozen voor een herkenbaar middagmoment in een kantooromgeving: per ongeluk de 
 ## Tick 3 — 2026-09-24 13:07 — ACCEPTED
 
 Gekozen voor een avondervaring die iedereen kent: de frustratie van een sleutel die niet past. Het archetype is uniek en past bij het tijdstip (thuiskomst na werk). De strofe beschrijft alleen de ervaring zelf, zonder extra context.
+
+## Tick 4 — 2026-09-24 13:07 — ACCEPTED
+
+Gekozen voor een nachtelijk archetype: het onvermogen om in slaap te vallen, een universele ervaring van onrust. De strofe beschrijft lichamelijk en mentaal woelen, zonder verhaal of context.

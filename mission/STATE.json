@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "eerste slok koffie te heet",
         "verkeerde knop indrukken in de lift",
-        "sleutel die niet past in het slot"
+        "sleutel die niet past in het slot",
+        "woelen in bed zonder slaap te vinden"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-24T13:07:39+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-24T13:07:41+00:00"
 }

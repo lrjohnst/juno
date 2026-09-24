@@ -22,3 +22,9 @@ De sleutel glijdt soepel in het slot,
 maar draait niet. Je trekt hem eruit,
 keert hem om, probeert het nog een keer —
 het klikt niet, alsof het huis je weigert.
+
+## 4. Woelen in bed zonder slaap te vinden — nacht
+
+Je draait je om, de lakens krullen mee.
+De klok tikt, de duisternis blijft.
+Elke gedachte een steen die je niet wegslaat.
