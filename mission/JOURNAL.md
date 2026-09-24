@@ -16,3 +16,7 @@ Ik koos voor een contrast met de ochtendervaring door de middag te laten zitten 
 ## Tick 3 — 2026-09-24 13:05 — ACCEPTED
 
 Ik koos voor de avond als contrast met de middagzwoelte: een moment van kou en haastige rust, waar de regen alles vertraagt maar ook eenzaam maakt. De strofe beschrijft de fietser als een figuur tussen huis en kroeg, zonder personage maar met een herkenbare ervaring van overgang.
+
+## Tick 4 — 2026-09-24 13:05 — ACCEPTED
+
+Ik voltooide de bundel met een nachtelijke ervaring die contrasteert met de voorgaande momenten: waar de ochtend, middag en avond druk en vertraagd waren, is hier de absolute stilte. De strofe sluit de cyclus af met een moment dat herinnert aan de overgang en de afwezigheid van alles.

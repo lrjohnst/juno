@@ -34,3 +34,10 @@ De weg is kort, maar lang genoeg om te weten:
 vandaag is het te laat, morgen misschien weer.
 De fiets wiegt mee in zijn eigen gewicht,
 terwijl ik voorbij het licht van de laatste kroeg glij.
+
+## 4. Stilte tussen nacht en dageraad — nacht
+
+De straatlantaarns knipperen elkaar toe,
+het asfalt ademt koude lucht uit.
+Geen voetstappen, geen stemmen — alleen het tikken
+van een klok die te lang wacht op morgen.
