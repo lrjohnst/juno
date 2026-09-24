@@ -22,3 +22,17 @@ van een passerende boom.
 De tijd staat stil tussen jou en het heetste punt,
 want schaduw is niet afwezig, alleen verborgen,
 wachtend tot je een stap zet verkeerd.
+
+## 3. Verloren sleutel in het donker — avond
+
+De sleutel ligt daar waar het licht verdwijnt,
+niet op tafel, niet in de zak.
+Je tast met vingers die de kou voelen,
+terug naar het moment dat je hem neerlegde —
+maar het donker houdt zijn eigen geheugen vast.
+
+Je knielt, de vloer is koud en oneffen,
+de wereld krimpt tot deze zoektocht,
+een spel van toeval en vergeetachtigheid.
+Dan plots: metaal, net buiten bereik,
+als een geheim dat je zelf bent vergeten.

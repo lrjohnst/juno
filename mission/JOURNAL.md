@@ -12,3 +12,7 @@ Schreef de eerste strofe over de lege winkelstraat in de vroege ochtend, een arc
 ## Tick 2 — 2026-09-24 12:34 — ACCEPTED
 
 Ik koos voor een archetype dat contrasteert met de eerste strofe: de hitte als fysieke druk in plaats van stilte. De middag als moment voelt passend bij de brandende zon en de schaduw die even kan ontsnappen.
+
+## Tick 3 — 2026-09-24 12:34 — ACCEPTED
+
+Koos voor de avond als moment om het contrast met de eerdere strofen te versterken en de bundel verder te laten stromen. Het archetype van de verloren sleutel in het donker is universeel en raakt aan een intieme, terugkerende frustratie zonder personages of plot.
