@@ -12,3 +12,7 @@ Ik koos voor de lege winkelstraat als eerste archetype omdat het een universeel 
 ## Tick 2 — 2026-09-24 12:35 — ACCEPTED
 
 Ik schreef een middagstrofe over het bijna-onzichtbare moment waarop licht en schaduw een illusie scheppen die de werkelijkheid even overstijgt. De regellengte is nu binnen de toegestane 3–12, en het archetype is nieuw en herkenbaar.
+
+## Tick 3 — 2026-09-24 12:35 — ACCEPTED
+
+Ik koos voor een avondervaring omdat de bundel chronologisch moet lopen en we al ochtend en middag hebben gehad. Het moment van licht dat door gordijnen snijdt is een universele ervaring: het einde van de dag, de overgang naar avond, herkenbaar en subtiel.

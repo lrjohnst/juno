@@ -22,3 +22,20 @@ een ademtocht die niet genoeg is voor vlucht of val.
 En dan — de klap van een deur, een stem die roept,
 en de schaduw valt uiteen in honderd kleine stukjes,
 versplintert tot stof dat niet meer terug kan worden gemaakt.
+
+## 3. Licht dat door de gordijnen snijdt — avond
+
+Licht dat door de gordijnen snijdt,
+valt schuin over de vloer,
+en tekent een scherpe rand
+waar de dag zich terugtrekt.
+
+Het is alsof de wereld even
+zijn adem inhoudt,
+inademend maar niet uit,
+wachtend op de duisternis.
+
+De schaduwen rekken zich,
+worden lang en traag,
+als een laatste groet
+voordat de nacht begint.
