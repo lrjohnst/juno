@@ -16,3 +16,7 @@ Ik koos voor 'stille telefoon' als middag-archetype: een moment van onzekerheid 
 ## Tick 3 — 2026-09-24 12:35 — ACCEPTED
 
 Ik koos voor 'verlamde hand op het lichtknopje' als avond-archetype om de aarzeling tussen dag en nacht te vangen: het moment waarop je niet meer weet of je moet blijven of loslaten. De strofe benadrukt de lichamelijke onzekerheid en de stilte van een ruimte die al half verlaten is.
+
+## Tick 4 — 2026-09-24 12:35 — ACCEPTED
+
+Ik schreef een nacht-archetype over het moment waarop de adem even hapert in de slaap, een ervaring die zowel lichamelijk als mentaal voelbaar is. De strofe benadrukt de isolatie en de afwezigheid van externe geluiden, wat past bij de nachtelijke sfeer.

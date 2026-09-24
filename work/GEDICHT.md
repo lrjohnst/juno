@@ -26,3 +26,15 @@ De kamer wacht, donker en onveranderd,
 terwijl de tijd zichzelf herhaalt in rimpels van stof op het dressoir.
 De hand weet niet meer hoe het moet: aan of uit —
 de dag is al voorbij, maar de nacht nog niet begonnen.
+
+## 4. Adem die stokt in slaap — nacht
+
+De adem die te diep gaat
+stuit op een stilte die niet van de kamer is.
+Je hand zoekt het laken, vindt niets,
+alsof het bed al leeg was voordat je viel.
+
+De wereld buiten ademt wel,
+maar jij hoort alleen je eigen hartslag,
+als een echo in een holle ruimte
+waar geen geluid meer door kan dringen.
