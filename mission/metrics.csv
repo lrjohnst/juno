@@ -1,5 +1,1 @@
 tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
-1,2026-09-24T13:05:09+00:00,ACCEPTED,1,30,,1593,152,eerste slok koffie
-2,2026-09-24T13:05:11+00:00,ACCEPTED,2,59,,1703,149,warme zon op de rug
-3,2026-09-24T13:05:13+00:00,ACCEPTED,3,87,,1792,175,straatverlichting die aangaat
-4,2026-09-24T13:05:15+00:00,ACCEPTED,4,128,,1892,175,laatste blik op de telefoon voor het slapen

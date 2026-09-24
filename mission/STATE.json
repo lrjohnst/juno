@@ -1,16 +1,11 @@
 {
-    "tick": 4,
-    "status": "compleet",
-    "last_outcome": "accepted",
+    "tick": 0,
+    "status": "idle",
+    "last_outcome": null,
     "consecutive_failures": 0,
-    "stanzas": 4,
+    "stanzas": 0,
     "target_stanzas": 4,
-    "used_archetypes": [
-        "eerste slok koffie",
-        "warme zon op de rug",
-        "straatverlichting die aangaat",
-        "laatste blik op de telefoon voor het slapen"
-    ],
-    "last_moment_index": 3,
-    "updated_at": "2026-09-24T13:05:15+00:00"
+    "used_archetypes": [],
+    "last_moment_index": -1,
+    "updated_at": null
 }
