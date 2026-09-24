@@ -16,3 +16,10 @@ Je stapt uit de auto, voelt de sleutel in je hand
 en een seconde lang weegt de wereld niet. 
 Alleen de schaduw van je eigen lichaam 
 breekt het licht, zo scherp als een mes.
+
+## 3. Wachtende bus onder straatlantaarns — avond
+
+De bus komt niet. Je voeten zijn moe van een dag die nog steeds 
+niet af is, je ogen zoeken in het gele licht naar gezichten 
+van bekenden die nooit verschijnen. De adem blijft even steken 
+toen de rook van een sigaret zich mengt met de kou van de avond.

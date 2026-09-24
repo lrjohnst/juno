@@ -12,3 +12,7 @@ Ik koos voor een lege straat bij zonsopgang als archetypisch ochtendbeeld: een m
 ## Tick 2 — 2026-09-24 12:33 — ACCEPTED
 
 Ik koos voor een verlaten parkeerplaats onder de middagzon als archetype van een moment van tijdelijke leegte en helderheid. Het contrast met de ochtendstraat versterkt de opbouw van ochtend naar nacht en vermijdt herhaling van archetypes.
+
+## Tick 3 — 2026-09-24 12:33 — ACCEPTED
+
+Ik koos voor een wachtende bus onder straatlantaarns als archetypisch avondmoment: een ervaring van vertraging en stilstaande tijd, waarin de dag nog niet echt voorbij is maar de nacht al voelbaar. Het past bij de opbouw van middag naar avond en vermijdt herhaling van archetypes.
