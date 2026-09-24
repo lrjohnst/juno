@@ -1,3 +1,4 @@
 tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
 1,2026-09-24T13:05:29+00:00,ACCEPTED,1,43,,1582,207,eerste slok koffie
 2,2026-09-24T13:05:32+00:00,ACCEPTED,2,87,,1720,195,wachten op de lift die niet komt
+3,2026-09-24T13:05:34+00:00,ACCEPTED,3,118,,1831,195,sleutels zoeken in een volle tas
