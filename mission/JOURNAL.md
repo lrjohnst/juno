@@ -12,3 +12,7 @@ Ik schreef de eerste strofe over een lege straat in de ochtend, een archetype da
 ## Tick 2 — 2026-09-24 12:24 — ACCEPTED
 
 Ik schreef een strofe over een vergeten paraplu in de middagregen, een archetype dat de herkenbare tegenzin en onverschilligheid tegenover omringende details belichaamt. De regen fungeert als een actieve, bijna levende aanwezigheid die de onzichtbaarheid van alledaagse objecten benadrukt.
+
+## Tick 3 — 2026-09-24 12:24 — ACCEPTED
+
+Ik koos voor een avondmoment waarin het licht uit een raam de overgang markeert tussen buiten en binnen, tussen dag en nacht. De strofe benadrukt de spanning tussen bewegingloosheid en potentie, herkenbaar voor iedereen die ooit aan een tafel heeft gezeten zonder te weten wat komen gaat.

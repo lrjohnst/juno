@@ -20,3 +20,14 @@ Ik loop voorbij zonder te kijken,
 want wie neemt er nu nog een paraplu mee?
 Alleen de wind weet dat hij er is,
 en wiegt hem zachtjes heen en weer.
+
+## 3. Licht dat uit een raam valt — avond
+
+Licht dat uit een raam valt
+snijdt de schemer in tweeën —
+helder als een zwaard,
+donker als een doek.
+Daarbuiten de wereld die zich samenbalkt,
+hierbinnen de tafel die wacht,
+de borden die zwijgen,
+de vorken die glanzen alsof ze nooit zullen bewegen.
