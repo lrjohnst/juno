@@ -8,3 +8,7 @@ Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout
 ## Tick 1 — 2026-09-24 13:07 — ACCEPTED
 
 Ik koos voor een lege ochtendstraat als eerste archetype omdat het de meest herkenbare ochtendervaring is: stilte, koelte en een gevoel van potentie. De regels benadrukken de afwezigheid van drukte en de verwachting van de dag.
+
+## Tick 2 — 2026-09-24 13:07 — ACCEPTED
+
+Ik koos voor de eerste slok koude koffie als middag-archetype omdat het een universele ervaring is van een moment dat zowel troost als haast oproept. De strofe benadrukt de plotselinge schok en de tijdelijkheid, wat past bij de middag als een periode van actie en reflectie.
