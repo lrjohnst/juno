@@ -16,3 +16,7 @@ Ik koos voor een middag-archetype dat de ongemakkelijke herkenning van een fouti
 ## Tick 3 — 2026-09-24 12:36 — ACCEPTED
 
 Ik koos voor een avond-archetype dat de vertraging en halfslachtigheid van het invallende donker vastlegt: het moment waarop licht niet meer vanzelfsprekend is en kleine gebreken zichtbaar worden. De lantaarn die weigert is een universeel beeld dat past bij de schemering.
+
+## Tick 4 — 2026-09-24 12:36 — ACCEPTED
+
+Ik voltooide de bundel met een nachtelijk moment dat de overgang tussen waakzaamheid en slaap vastlegt. Het archetype is universeel: het laatste geluid voordat de wereld loslaat. De toon past bij nacht en sluit de cyclus af.

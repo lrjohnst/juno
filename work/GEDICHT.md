@@ -26,3 +26,10 @@ Hij tikt met zijn vinger tegen het glas —
 de kou van de herfst blijft aan de rand hangen. 
 De straat is al half donker, maar deze lamp 
 wacht nog op een vonk die nooit komt.
+
+## 4. Het laatste geluid voor het inslapen — nacht
+
+De radio staat nog zacht op een zender die alleen ruis uitzendt.
+Je ademhaling wordt dieper, trager, alsof de longen zelf vertraagd.
+Dan — een klop op de deur, kort en gedempt als een hartslag in een kussen.
+Je ogen vallen dicht voordat je weet wat je hoorde.
