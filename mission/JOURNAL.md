@@ -12,3 +12,7 @@ Ik koos voor de lege trap als eerste archetype omdat het een universele, bijna o
 ## Tick 2 — 2026-09-24 12:35 — ACCEPTED
 
 Ik koos voor dit archetype omdat het een universele middagervaring is: het moment waarop een blik je raakt zonder woorden, tussen nieuwsgierigheid en gêne. De strofe moest de spanning vangen zonder te veel expliciet te maken.
+
+## Tick 3 — 2026-09-24 12:35 — ACCEPTED
+
+Ik koos voor dit archetype omdat het een subtiele avondervaring is: het moment van terughoudendheid voor het afsluiten van de dag. De strofe moest de tastbare spanning tussen actie en stilstand vangen, zonder expliciet te zijn.
