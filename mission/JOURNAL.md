@@ -12,3 +12,7 @@ Ik koos voor het archetype van de lege koffiekan om de ochtendstilte en de afwez
 ## Tick 2 — 2026-09-24 12:25 — ACCEPTED
 
 Ik koos voor een archetype van middaglicht dat bijna ongemerkt overgaat in schaduw. De ervaring van een moment dat zichzelf al bijna heeft geannuleerd, herkenbaar in hoe we soms in de middag stilvallen tussen activiteit en vermoeidheid.
+
+## Tick 3 — 2026-09-24 12:25 — ACCEPTED
+
+Ik koos voor een avondlijke ervaring die de lichamelijkheid benadrukt: schuifelende voeten die de routine van de dag afwerken zonder dat het hoofd nog meedoet. Het archetype is herkenbaar in de overgang van activiteit naar rust, wanneer beweging nog wel plaatsvindt maar betekenisloos is geworden.

@@ -20,3 +20,12 @@ Je hand glijdt er langs, voelt de warmte die al aan het vervagen is.
 Geen schaduw meer dan een vage vlek, alsof de wereld even zijn adem inhoudt.
 Je blijft staan, wachtend op iets dat niet komt —
 de dag die zich uitrekt zonder spanning, zonder haast.
+
+## 3. Schuifelende voeten op tapijt — avond
+
+De schuifelende voeten horen het tapijt al niet meer.
+Ze kennen de weg blind, alsof de kamer niet groter is dan hun gedachten.
+Elke stap een ademhaling die zichzelf verliest in de stof.
+De avond heeft zich genesteld in de hoeken van de planken vloer —
+niet luid, alleen maar zwaar, alsof de dag hier nog even blijft hangen
+als de geur van thee die te lang in het kopje stond.
