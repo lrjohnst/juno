@@ -34,3 +34,14 @@ De straatlantaarns knipperen als ze niet willen,
 de schaduwen rekken zich uit tot ze de kamer vullen.
 Je ademt in, je ademt uit, maar de lucht blijft koud,
 alsof de dag nog steeds niet weet dat ze voorbij is.
+
+## 4. Laatste trein die rammelt voorbij — nacht
+
+De rails zuchten onder het gewicht,
+wit licht snijdt door de donkere ramen —
+geen gezicht om naar te kijken,
+alleen de trilling in mijn botten.
+Alsof de nacht zelf me meet,
+alsof ik al half ben vertrokken,
+voordat de deur dichtgaat en ik blijf.
+De stad houdt haar adem in, net als ik.

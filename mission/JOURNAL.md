@@ -16,3 +16,7 @@ Ik koos voor de versleten bank in het park als archetypische middagervaring: een
 ## Tick 3 — 2026-09-24 12:35 — ACCEPTED
 
 Ik koos voor de avond als moment om de onvermijdelijke overgang naar nacht te vangen via een alledaagse handeling: gordijnen die niet helemaal sluiten. De strofe moest de spanning tussen controle en overgave laten voelen, zonder personages of uitleg.
+
+## Tick 4 — 2026-09-24 12:35 — ACCEPTED
+
+Ik koos voor de laatste trein als nachtelijke ervaring: het moment waarop de dag definitief achterblijft, met alleen de trilling en het licht als getuigen. De strofe moest de spanning tussen aankomen en vertrekken vangen, zonder personages of uitleg.
