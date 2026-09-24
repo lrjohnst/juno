@@ -2,3 +2,4 @@ tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
 1,2026-09-24T12:23:55+00:00,ACCEPTED,1,36,,1557,234,lege ochtendstraat
 2,2026-09-24T12:23:58+00:00,ACCEPTED,2,72,,1736,198,lunchpauze volgeluiden
 3,2026-09-24T12:24:01+00:00,ACCEPTED,3,175,,1810,308,thuiskeer door stille buurt
+4,2026-09-24T12:24:04+00:00,ACCEPTED,4,229,,1899,204,wachten op de slaap

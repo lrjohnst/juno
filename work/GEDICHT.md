@@ -27,3 +27,10 @@ maar de borden staan nog in de gootsteen,
 wachtend op een morgen die nooit komt zoals hij was.
 Je handen zoeken het aanrecht, vinden niets dan koude steen,
 en de tijd die je achterliet voelt zwaarder dan je eigen vermoeidheid.
+
+## 4. Wachten op de slaap — nacht
+
+De nacht ademt traag, een vinger op de lippen van het donker.
+Je telt ademhalingen alsof je een kaars uitblaast, maar de vlam blijft branden.
+De muren houden hun adem in, de dag is eindelijk stil, eindelijk leeg.
+En dan — opeens — weet je niet meer wat je wilde vergeten.
