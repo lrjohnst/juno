@@ -13,3 +13,10 @@ De zon bakent schaduwen af op het trottoir,
 je voeten schuiven over het warme asfalt.
 De bus is laat, de lucht trilt.
 Je kijkt naar je telefoon, maar ziet niets.
+
+## 3. Straatverlichting die aangaat — avond
+
+De lantaarns springen aan met een zacht geklik,
+alsof de avond zelf de schakelaar omdraait.
+De schaduwen worden langer, scherper,
+en de wereld kleurt geel onder hun licht.
