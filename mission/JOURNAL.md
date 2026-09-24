@@ -16,3 +16,7 @@ Ik koos voor een archetype dat de gespannen stilte in een herkenbare rij bij de 
 ## Tick 3 — 2026-09-24 12:36 — ACCEPTED
 
 Ik koos voor een archetype dat de subtiele frustratie en afwezigheid van iets alledaags als sleutels vastlegt. De avond past bij dit moment van terugblikken en ongemak, na de middagse spanning van de supermarktrij.
+
+## Tick 4 — 2026-09-24 12:36 — ACCEPTED
+
+Ik koos het archetype van de straatlantaarn als symbool voor de eenzame, maar herkenbare afwezigheid die de nacht met zich meebrengt. Het past bij de laatste strofe die de bundel afsluit met een moment van stilte en reflectie.
