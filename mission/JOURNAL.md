@@ -16,3 +16,7 @@ Ik koos voor het archetype 'verloren sleutelbos' als tweede ervaring, een typisc
 ## Tick 3 — 2026-09-24 12:25 — ACCEPTED
 
 Kies voor een avondmoment dat iedereen kent: de nasmaak van een maaltijd die langzaam verandert in een rommelige ruimte. De strofe benadrukt de geluiden en geuren die samen een herkenbare avondervaring vormen, met details die de overgang van dag naar nacht markeren.
+
+## Tick 4 — 2026-09-24 12:25 — ACCEPTED
+
+Ik schreef een nachtelijke ervaring over de ongemakkelijke intimiteit van een telefoongesprek in het donker, met synesthetische details (blauw licht als adem, warme koeling tegen huid) om de spanning te verdiepen. De archetype vult de laatste plek van de bundel en sluit de cyclus af van ochtend naar nacht.

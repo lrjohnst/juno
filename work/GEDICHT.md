@@ -36,3 +36,20 @@ een stem schreeuwt door de stoom,
 maar niemand hoort het echt —
 alleen de honger van morgen,
 die al in de vloertegels zit.
+
+## 4. Fluisterende telefoon in bed — nacht
+
+De schermpjes gloeien blauw in het donker,
+je vingertoppen glijden over het glas,
+net alsof de wereld nog even ademt,
+net alsof jij niet alleen bent hier.
+
+De stem aan de andere kant is maar een flard,
+net genoeg om te horen dat het regent,
+net genoeg om te weten dat je niet hoeft te luisteren,
+net genoeg om toch te blijven luisteren.
+
+De warme telefoon koelt al tegen je huid,
+de baterij meldt vijf procent,
+de nacht wordt langer dan het gesprek,
+maar je legt niet neer. Niet nog niet.
