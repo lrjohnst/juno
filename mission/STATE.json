@@ -1,14 +1,15 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 2,
+    "stanzas": 3,
     "target_stanzas": 4,
     "used_archetypes": [
         "lege koffiepot",
-        "vergeten paraplu in de regen"
+        "vergeten paraplu in de regen",
+        "licht dat uitgaat in de kamer"
     ],
-    "last_moment_index": 1,
-    "updated_at": "2026-09-24T13:05:42+00:00"
+    "last_moment_index": 2,
+    "updated_at": "2026-09-24T13:05:45+00:00"
 }

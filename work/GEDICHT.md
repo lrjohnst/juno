@@ -26,3 +26,14 @@ jouw schouders krimpen onder de last
 van een regen die niemand opmerkt,
 van een dag die al half voorbij is
 voordat je hem hebt gezien.
+
+## 3. Licht dat uitgaat in de kamer — avond
+
+De lamp knipt mee met de adem,
+terug naar donker waar de avond spreekt.
+Niet het geluid dat je verwacht,
+maar het plotseling zwijgen van het licht.
+
+Je hand blijft hangen boven de schakelaar,
+alsof het uitstellen van de duisternis
+iets goedmaakt voor morgen.
