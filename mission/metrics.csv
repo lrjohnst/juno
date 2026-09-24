@@ -1,5 +1,1 @@
 tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
-1,2026-09-24T12:34:33+00:00,ACCEPTED,1,51,,1744,178,eerste koffie in de hand
-2,2026-09-24T12:34:36+00:00,ACCEPTED,2,115,,1857,230,kauwgom op de stoep
-3,2026-09-24T12:34:41+00:00,ACCEPTED,3,178,,1997,251,lantaarns die aanknippen zonder reden
-4,2026-09-24T12:34:44+00:00,ACCEPTED,4,264,,2095,259,de eerste hoest in de stilte
