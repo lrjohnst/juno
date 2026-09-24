@@ -1,16 +1,11 @@
 {
-    "tick": 4,
-    "status": "compleet",
-    "last_outcome": "accepted",
+    "tick": 0,
+    "status": "idle",
+    "last_outcome": null,
     "consecutive_failures": 0,
-    "stanzas": 4,
+    "stanzas": 0,
     "target_stanzas": 4,
-    "used_archetypes": [
-        "lege ochtendstraat",
-        "versleten bank in het park",
-        "gordijnen die niet sluiten",
-        "laatste trein die rammelt voorbij"
-    ],
-    "last_moment_index": 3,
-    "updated_at": "2026-09-24T12:35:32+00:00"
+    "used_archetypes": [],
+    "last_moment_index": -1,
+    "updated_at": null
 }
