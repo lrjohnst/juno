@@ -12,3 +12,7 @@ Ik koos voor de stilte van een lege keuken na het ontbijt: een moment van afwezi
 ## Tick 2 — 2026-09-24 12:26 — ACCEPTED
 
 Ik koos voor de onuitgesproken communicatie tussen vreemden in een drukke ruimte. Het moment past bij de middag omdat het een pauze is in de dagelijkse routine, een stilte tussen de haast. Het archetype is herkenbaar en voelt universeel aan.
+
+## Tick 3 — 2026-09-24 12:26 — ACCEPTED
+
+Ik koos voor het moment waarop gasten vertrekken en de stilte terugkeert — een archetype van afscheid en onzekerheid. Het past bij de avond omdat het een overgang is tussen dag en nacht, en de herkenbare spanning tussen opluchting en spijt voelt universeel.

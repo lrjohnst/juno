@@ -4,8 +4,7 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 3: kies een nieuw archetype voor de avond.
-1. Vermijd herhaling van archetypes en momenten.
+1. Schrijf strofe 4: kies een nieuw archetype voor de nacht, vermijd herhaling van momenten en archetypes.
 
 ## Afgerond
 
