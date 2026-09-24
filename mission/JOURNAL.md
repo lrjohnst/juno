@@ -16,3 +16,7 @@ Ik koos voor een archetype van middaglicht dat bijna ongemerkt overgaat in schad
 ## Tick 3 — 2026-09-24 12:25 — ACCEPTED
 
 Ik koos voor een avondlijke ervaring die de lichamelijkheid benadrukt: schuifelende voeten die de routine van de dag afwerken zonder dat het hoofd nog meedoet. Het archetype is herkenbaar in de overgang van activiteit naar rust, wanneer beweging nog wel plaatsvindt maar betekenisloos is geworden.
+
+## Tick 4 — 2026-09-24 12:25 — ACCEPTED
+
+Ik koos voor het archetype van de nachtelijke radiator om de stilte en de lichamelijke herinnering aan warmte en kou te vangen. Het moment is universeel: wie heeft niet ooit in bed liggen luisteren naar de radiator die de nacht mee definieert?

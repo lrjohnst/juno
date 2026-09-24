@@ -29,3 +29,10 @@ Elke stap een ademhaling die zichzelf verliest in de stof.
 De avond heeft zich genesteld in de hoeken van de planken vloer —
 niet luid, alleen maar zwaar, alsof de dag hier nog even blijft hangen
 als de geur van thee die te lang in het kopje stond.
+
+## 4. Fluisterende radiator — nacht
+
+De radiator sist zacht, een ademhaling die de kamer in vloeit.
+Je luistert naar het metaal dat krimpt, een trage pijn in het donker.
+De warmte blijft hangen, maar de kilte kruipt al langs je schouders omhoog —
+niet koud genoeg om te bevriezen, alleen om te herinneren dat de wereld nog draait.
