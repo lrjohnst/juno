@@ -18,3 +18,10 @@ Je schaduw deinst mee, langer dan jezelf,
 alsof iets je draagt terwijl jij stilstaat.
 Geen beweging, alleen het warme licht
 dat je voeten kust en dan weer loslaat.
+
+## 3. Stemmen in de supermarkt — avond
+
+Tussen de schappen fluistert iemand je naam,
+net hard genoeg om te horen,
+net zacht genoeg om te ontkennen.
+Je draait je om — niemand kijkt je aan.

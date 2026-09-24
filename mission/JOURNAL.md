@@ -12,3 +12,7 @@ Deze eerste strofe moest een alledaagse, herkenbare ochtendervaring vangen: het 
 ## Tick 2 — 2026-09-24 12:33 — ACCEPTED
 
 Deze strofe moest een middagmoment vangen waar licht en schaduw samenkomen in een herkenbare, bijna fysieke ervaring. Het archetype 'schaduw op de muur' is gekozen omdat het een alledaagse, maar vaak over het hoofd geziene ervaring is die past bij het middaguur.
+
+## Tick 3 — 2026-09-24 12:33 — ACCEPTED
+
+Ik koos voor het avondmoment waarin stemmen op de achtergrond samensmelten tot een half herkenbaar geluid. Het archetype 'stemmen in de supermarkt' is universeel en past bij het late uur waarin geluiden vervagen en herkenbaarheid afneemt.
