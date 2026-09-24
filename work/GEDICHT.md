@@ -20,3 +20,10 @@ De hand graait blind door propperige katoen,
 warm nog van de droger, naar die éne sok
 met het gat bij de teen —
 maar alles voelt hetzelfde.
+
+## 4. Laatste blik op de telefoon voor het slapen — nacht
+
+Het scherm brandt fel in je ogen,
+je duim scrollt oneindig;
+geen bericht, geen geluid,
+alleen het wachten dat niet stopt.
