@@ -19,3 +19,10 @@ Het moment dat de lantaarns knipperen
 en de straat ineens warm wordt.
 De schaduwen groeien onder je voeten,
 alsof de avond je voorzichtig meeneemt.
+
+## 4. Laatste blik op de telefoon voor het slapen — nacht
+
+Het scherm verlicht je gezicht in het donker,
+een laatste bericht, een leeg scherm,
+de vinger aarzelt boven het icoon van de lamp.
+Dan: het zwart, de stilte, de dag die wegzakt.

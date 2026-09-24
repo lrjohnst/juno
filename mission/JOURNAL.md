@@ -16,3 +16,7 @@ Gekozen voor een typisch middagmoment: de zon die op de rug brandt tijdens een w
 ## Tick 3 — 2026-09-24 13:05 — ACCEPTED
 
 Gekozen voor een herkenbaar avondarchetype: het aangaan van straatverlichting. Dit past logisch na de middag en voelt als een overgangsmoment. De strofe focust op de subtiele verandering in sfeer en licht.
+
+## Tick 4 — 2026-09-24 13:05 — ACCEPTED
+
+Gekozen voor een nachtarchetype dat past bij het einde van de dag: het moment waarop je voor het laatst naar je telefoon kijkt voordat je gaat slapen. Dit sluit de bundel af met een herkenbare, intieme ervaring die iedereen kent.
