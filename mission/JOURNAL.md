@@ -16,3 +16,7 @@ Ik koos voor een archetype dat contrasteert met de eerste strofe: de hitte als f
 ## Tick 3 — 2026-09-24 12:34 — ACCEPTED
 
 Koos voor de avond als moment om het contrast met de eerdere strofen te versterken en de bundel verder te laten stromen. Het archetype van de verloren sleutel in het donker is universeel en raakt aan een intieme, terugkerende frustratie zonder personages of plot.
+
+## Tick 4 — 2026-09-24 12:34 — ACCEPTED
+
+Ik koos voor het archetype van het ontbijt als stiltepunt voordat de dag echt begint. De nacht als moment past bij de overgang naar een nieuwe cyclus, zonder personages of plot, alleen de ervaring zelf die herkenbaar is in haar alledaagsheid.

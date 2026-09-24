@@ -36,3 +36,15 @@ de wereld krimpt tot deze zoektocht,
 een spel van toeval en vergeetachtigheid.
 Dan plots: metaal, net buiten bereik,
 als een geheim dat je zelf bent vergeten.
+
+## 4. Eerste blik op het ontbijt — nacht
+
+De dag is nog niet begonnen,
+maar de tafel staat al klaar —
+gepoetst glas, een leeg bord,
+het mes dat nooit snijdt vandaag.
+
+Je handen trillen licht,
+de koffie rookt nog niet,
+en de stilte weegt zwaarder
+dan al het lawaai van gisteren.
