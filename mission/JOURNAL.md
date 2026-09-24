@@ -12,3 +12,7 @@ Ik koos voor een lege winkelstraat in de vroege ochtend, een moment dat de werel
 ## Tick 2 — 2026-09-24 12:25 — ACCEPTED
 
 Ik koos voor het archetype van de middagelijke supermarktervaring: een moment van tijdloze routine waarin de felle tl-verlichting en de lege schappen een gevoel van vervreemding en stilstand oproepen. Dit contrasteert met de ochtendervaring en vult de bundel verder in.
+
+## Tick 3 — 2026-09-24 12:25 — ACCEPTED
+
+Ik koos voor een avondmoment waarin de spanning tussen aankomen en weggaan centraal staat. De ervaring van de laatste bus die net wegrijdt is herkenbaar en roept een gevoel van tijdelijkheid en gemis op, passend bij de avondfase van de bundel.

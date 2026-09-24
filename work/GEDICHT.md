@@ -23,3 +23,15 @@ De tijd loopt gewoon door, maar jij niet meer vandaag.
 De kassière fluistert een bedrag, je stem antwoordt voordat je brein in actie komt.
 Haar ogen zijn even leeg als de schappen die straks weer vol moeten.
 Je betaalt, pakt je tas, en loopt de hitte in alsof je gewichtloos bent geworden.
+
+## 3. De laatste bus die net wegrijdt — avond
+
+De deur slaat dicht terwijl mijn hand al uitsteekt,
+het licht in je ogen dooft voordat ik iets kan zeggen.
+De motor brult, de banden sissen over nat asfalt —
+toch blijf ik staan, alsof ik wacht tot de wereld me terugneemt.
+
+De straat is leeg, maar ik voel tientallen ogen
+in de ramen van het flatgebouw, of misschien alleen mijn eigen schaduw.
+De tijd is hier een vloeibaar iets, traag en onverbiddelijk,
+terwijl de bus in de verte verdwijnt met mijn plannen aan boord.
