@@ -16,3 +16,14 @@ op handen die nerveus briefjes tellen.
 Een baby huilt, de moeder wiegt maar kijkt weg.
 De rij groeit, koude lucht van de deur trekt door mijn nek
 — niemand kijkt op, iedereen telt seconden.
+
+## 3. Verloren sleutels op de bank — avond
+
+De sleutels liggen daar waar je ze niet verwacht,
+als een grap van de dag die zichzelf herhaalt.
+Je hand tast over het kussen, dan de rand,
+de bank die je al uren niet verliet.
+De telefoon licht op — een berichtje zonder antwoord,
+de avond die langzaam zijn kleur verliest.
+Je weet nog hoe ze in je zak gleden,
+maar nu zijn ze gewoon een lege ruimte tussen je vingers.

@@ -12,3 +12,7 @@ Ik koos een archetype dat de stilte van een vroege ochtend in een huis zonder ge
 ## Tick 2 — 2026-09-24 12:36 — ACCEPTED
 
 Ik koos voor een archetype dat de gespannen stilte in een herkenbare rij bij de kassa vastlegt. Het past bij de middag als een moment van opgekropte tijd en ongemakkelijke nabijheid.
+
+## Tick 3 — 2026-09-24 12:36 — ACCEPTED
+
+Ik koos voor een archetype dat de subtiele frustratie en afwezigheid van iets alledaags als sleutels vastlegt. De avond past bij dit moment van terugblikken en ongemak, na de middagse spanning van de supermarktrij.
