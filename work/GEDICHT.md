@@ -23,3 +23,16 @@ voel alleen kou en het papier van een reclame
 die niemand ooit leest, en de geur van paprika's 
 van de buren, gebakken op middaguren 
 toen de wereld nog gaf in plaats van nam.
+
+## 3. Lawaaierige keuken na het eten — avond
+
+de borden staan nog te weken
+in een berg vettig water,
+kranen druipen een traag lied
+waar niemand naar luistert.
+
+de radio speelt te hard,
+een stem schreeuwt door de stoom,
+maar niemand hoort het echt —
+alleen de honger van morgen,
+die al in de vloertegels zit.
