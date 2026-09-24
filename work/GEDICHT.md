@@ -32,3 +32,13 @@ Wat resteert is het stof op de vensterbank,
 de plek waar hun stemmen nog nagalmden,
 en de vraag of je alweer te veel hebt gezegd,
 of juist net genoeg.
+
+## 4. De eerste adem na een nachtmerrie — nacht
+
+De lakens glimmen nog van het zweet,
+maar mijn borst haalt al dieper adem.
+Nergens een schreeuw te horen,
+alleen het tikken van de wekker die loopt.
+De nacht is donker,
+maar ik weet waar het licht is:
+in de spiegel, als ik durf te kijken.
