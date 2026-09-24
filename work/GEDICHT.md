@@ -34,3 +34,16 @@ het bier loopt traag langs mijn tong,
 en even is alles stil —
 geen gedachten, geen woorden,
 alleen de zure nasmaak van tijd die wegtikt.
+
+## 4. Het moment dat je lamp uitdoet en nog even in het donker staat — nacht
+
+de hand tast naar de schakelaar, maar blijft zweven
+— het licht dat nog brandt is al te fel geworden,
+als een vreemde die te lang blijft zitten in je huis.
+Je ademt diep in, de kamer ademt mee,
+en dan: de duisternis die zich uitspreidt
+als een deken die eindelijk past,
+niet te strak, niet te los, maar precies goed.
+Je ogen wennen langzaam,
+en zien dan pas hoe alles eruitzag
+toen jij nog niet klaar was om te gaan slapen.
