@@ -16,3 +16,7 @@ Ik koos een middag-archetype dat verschilt van de eerste strofe en past bij de t
 ## Tick 3 — 2026-09-24 13:08 — ACCEPTED
 
 Ik koos een avond-archetype dat past bij het moment en verschilt van de eerdere twee. De ervaring van een treindeur die dichtvalt is herkenbaar en roept een gevoel van afscheid of gemiste kans op, zonder plot of personages.
+
+## Tick 4 — 2026-09-24 13:08 — ACCEPTED
+
+Ik koos een nacht-archetype dat past bij het laatste moment van de dag en verschilt van de eerdere drie. De ervaring van een scherm dat uitgaat en de overgang naar slaap is herkenbaar en subtiel, zonder plot of personages.

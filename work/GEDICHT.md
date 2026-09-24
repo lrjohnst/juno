@@ -21,3 +21,10 @@ Het geluid van metaal op metaal,
  een zucht die niet van jou is.
  Je ziet de ruggen wegdrijven
  achter het beslagen glas.
+
+## 4. Leeg scherm voor het slapengaan — nacht
+
+Het blauwe licht van het scherm dooft
+met een zucht die ook de jouwe had kunnen zijn.
+De duisternis is zacht, als een deken
+die je al kende voordat je hem nodig had.
