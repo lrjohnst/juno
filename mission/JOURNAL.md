@@ -8,3 +8,7 @@ Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout
 ## Tick 1 — 2026-09-24 12:25 — ACCEPTED
 
 Ik koos voor een lege winkelstraat in de vroege ochtend, een moment dat de wereld vasthoudt tussen nacht en dag. De stilte, de geur van brood en het kraken van rolluiken schetsen een herkenbaar maar zeldzaam gevoel van potentie en afwachting.
+
+## Tick 2 — 2026-09-24 12:25 — ACCEPTED
+
+Ik koos voor het archetype van de middagelijke supermarktervaring: een moment van tijdloze routine waarin de felle tl-verlichting en de lege schappen een gevoel van vervreemding en stilstand oproepen. Dit contrasteert met de ochtendervaring en vult de bundel verder in.
