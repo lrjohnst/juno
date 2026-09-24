@@ -31,3 +31,10 @@ De schaduw glijdt langs de muur,
 niet als een dreiging, maar als een herinnering —
 alsof je zelf langzaam vervaagt,
 en alleen dat restant overblijft.
+
+## 4. Verloren sleutels — nacht
+
+De sleutelbos lag niet op de plank.
+Ik tastte in het donker, ving alleen kou.
+Geen gerinkel, geen glans, alleen mijn adem
+die langzaam stolt in de lege gang.

@@ -16,3 +16,7 @@ Ik koos voor een middenmoment dat iedereen herkent: het verbrande brood. Dat pas
 ## Tick 3 — 2026-09-24 12:18 — ACCEPTED
 
 Ik koos voor een ervaring die de avond en de overgang naar nacht vastlegt: de schaduw die langzaam de ruimte inneemt terwijl buiten nog leven is. Dit is een nieuw archetype dat past bij de avond en nog niet gebruikt is. De toon is intiem en tijdloos, zoals gevraagd.
+
+## Tick 4 — 2026-09-24 12:18 — ACCEPTED
+
+Ik koos voor het archetype van verloren sleutels als laatste strofe, omdat dit een universele nachtelijke ervaring is die de spanning van het onbekende en het zoeken in het donker versterkt. Het past bij de bundelstructuur als slotstuk en is een nieuw archetype voor de nacht.
