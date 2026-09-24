@@ -14,9 +14,9 @@ en even opnieuw voelt.
 
 ## Onderwerp
 
-Alledaagse ervaringen die iedereen kent maar zelden benoemt. Bijvoorbeeld: de blik waarmee een
-moeder haar kind aankijkt; een lege, mistige winkelstraat in de vroege ochtend, wanneer er nog
-bijna niemand loopt; de ergernis als iemand je afsnijdt in een bocht. Dat zijn voorbeelden, geen
+Alledaagse ervaringen die iedereen kent maar zelden benoemt. Bijvoorbeeld: wachten in een volle
+wachtkamer terwijl je naam nog niet is genoemd; staan te balanceren in een bus die te hard optrekt;
+iets uit een te hoge kast willen pakken en er net niet bij kunnen. Dat zijn voorbeelden, geen
 opdracht — andere ervaringen zijn even goed, mits ze even herkenbaar zijn.
 
 Het gaat om de ervaring zelf, niet om een verhaal eromheen. Geen personages met een geschiedenis,
