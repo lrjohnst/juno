@@ -12,3 +12,7 @@ Ik koos voor een lege, vroege ochtendruimte als eerste archetype om de bundel ee
 ## Tick 2 — 2026-09-24 13:06 — ACCEPTED
 
 Ik koos voor de verstilde lunchpauze als contrast met de vroege ochtendstilte in het theehuis. Een moment van lichamelijke rust (eten, bestek, gewicht) tegenover de ruimtelijke stilte van de voorgaande strofe, om zo de bundel dynamischer te maken.
+
+## Tick 3 — 2026-09-24 13:06 — ACCEPTED
+
+Ik koos voor een avondervaring die contrasteert met de middagse verstilling door te focussen op geluiden die wegvloeien in het donker. De markt is een plek van drukte en prikkels, maar hier wordt hij zacht en bijna onhoorbaar, als een herinnering die vervaagt.

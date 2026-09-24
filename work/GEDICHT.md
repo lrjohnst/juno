@@ -22,3 +22,15 @@ De eerste hap glijdt weg
 voordat je denkt aan honger,
 voordat je bedenkt
 wat je straks moet zeggen.
+
+## 3. Vervagende marktgeluiden — avond
+
+De stemmen lossen op in het donker,
+verloren als munt in een lege zak.
+Een kraam roept nog, maar de klank is zacht,
+alsof hij spreekt tegen een vergeten straat.
+
+De lichtjes die schommelen, trekken zich terug,
+als kaarsen die niet meer willen branden.
+Ik hoor alleen nog mijn eigen adem,
+en het grind dat onder schoenen vergaat.
