@@ -8,3 +8,7 @@ Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout
 ## Tick 1 — 2026-09-24 12:36 — ACCEPTED
 
 Ik koos voor een lege ochtendstraat als eerste ervaring om de bundel te openen met een moment van stilte en anticipatie, typisch voor de vroege ochtend. Het archetype is herkenbaar en past bij de starttijd van de bundel.
+
+## Tick 2 — 2026-09-24 12:36 — ACCEPTED
+
+Ik schreef een strofe over de middagervaring van haast en onuitgesproken woorden tijdens de lunchpauze. Het archetype contrasteert met de ochtendstilte en past bij de middag, in lijn met de bundelordening van vroeg naar laat.
