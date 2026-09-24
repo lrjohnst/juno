@@ -12,3 +12,17 @@ die straks zal falen —
 want de machine is uit,
 de handen zijn lui,
 en de ochtend blijft ongedronken.
+
+## 2. Vergeten paraplu in de regen — middag
+
+De paraplu ligt nog op de mat,
+zwaar van water, een kwast van grijs.
+Je duwt hem met een vinger weg,
+maar hij glijdt terug, alsof hij weet
+dat jij hem straks weer nodig hebt.
+
+De deur valt dicht, de straat splatst,
+jouw schouders krimpen onder de last
+van een regen die niemand opmerkt,
+van een dag die al half voorbij is
+voordat je hem hebt gezien.
