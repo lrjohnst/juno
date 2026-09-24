@@ -12,3 +12,7 @@ Ik koos voor een archetype dat iedereen kent maar zelden precies benoemt: de eer
 ## Tick 2 — 2026-09-24 13:07 — ACCEPTED
 
 Ik koos voor een archetype uit het middaguur: de frustrerende strijd met een te volle tas die weigert dicht te gaan. Dit voelt als een metafoor voor de dag die zich tegen de werkelijkheid verzet, passend bij de middag als moment van piekbelasting.
+
+## Tick 3 — 2026-09-24 13:07 — ACCEPTED
+
+Ik koos voor een avondervaring: de schaduw die langer wordt dan wijzelf, een moment waarop tijd en ruimte diep voelbaar worden. Het archetype past bij de schemering als overgang naar de nacht en is nog ongebruikt.

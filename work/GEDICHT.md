@@ -23,3 +23,15 @@ Plots voel ik het gewicht van alles wat ik draag:
 niet alleen boeken, maar ook de dag die al half voorbij is,
 en de avond die zich in mijn rug drukt,
 zwaar als een onuitgesproken verplichting.
+
+## 3. Schaduw die langer wordt dan jij — avond
+
+De zon zakt achter de huizen alsof hij wacht,
+trekt je voeten mee in een trage dans van licht.
+Je schaduw groeit niet mee, maar loopt voor je uit,
+stapt over drempels waar jij nog niet bent.
+
+Het asfalt voelt warm onder je hand,
+maar de schaduwstreep op de muur is koud en breed.
+Je wilt hem pakken, maar hij glijdt weg,
+als een herinnering die net niet te grijpen is.

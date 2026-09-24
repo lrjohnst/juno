@@ -1,14 +1,15 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 2,
+    "stanzas": 3,
     "target_stanzas": 4,
     "used_archetypes": [
         "eerste slok koffie",
-        "te volle tas dichtknopen"
+        "te volle tas dichtknopen",
+        "schaduw die langer wordt dan jij"
     ],
-    "last_moment_index": 1,
-    "updated_at": "2026-09-24T13:07:26+00:00"
+    "last_moment_index": 2,
+    "updated_at": "2026-09-24T13:07:29+00:00"
 }
