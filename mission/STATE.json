@@ -1,11 +1,13 @@
 {
-    "tick": 0,
-    "status": "idle",
-    "last_outcome": null,
+    "tick": 1,
+    "status": "bezig",
+    "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 0,
+    "stanzas": 1,
     "target_stanzas": 4,
-    "used_archetypes": [],
-    "last_moment_index": -1,
-    "updated_at": null
+    "used_archetypes": [
+        "lege koffiepot"
+    ],
+    "last_moment_index": 0,
+    "updated_at": "2026-09-24T13:05:39+00:00"
 }
