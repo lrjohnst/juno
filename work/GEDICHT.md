@@ -31,3 +31,18 @@ Daarbuiten de wereld die zich samenbalkt,
 hierbinnen de tafel die wacht,
 de borden die zwijgen,
 de vorken die glanzen alsof ze nooit zullen bewegen.
+
+## 4. Eerste sterren die door het raam verschijnen — nacht
+
+De hemel kleurt nog donkerblauw,
+maar daar, waar mijn hand net langs gleed,
+brandt plots een lichtje zo wankel,
+als een adem die stilletjes meegeeft.
+Het vensterglas houdt het vast,
+voordat het weer vervaagt
+in de diepte die alles slokt—
+dat ene puntje, zo mijn blik ontsteekt.
+Nu weet ik: de nacht is niet leeg,
+maar vol van wat ik niet meer zie
+tot morgen, als de zon opstaat
+en het verdwijnt in haar schijnsel.

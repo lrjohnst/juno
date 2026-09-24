@@ -16,3 +16,7 @@ Ik schreef een strofe over een vergeten paraplu in de middagregen, een archetype
 ## Tick 3 — 2026-09-24 12:24 — ACCEPTED
 
 Ik koos voor een avondmoment waarin het licht uit een raam de overgang markeert tussen buiten en binnen, tussen dag en nacht. De strofe benadrukt de spanning tussen bewegingloosheid en potentie, herkenbaar voor iedereen die ooit aan een tafel heeft gezeten zonder te weten wat komen gaat.
+
+## Tick 4 — 2026-09-24 12:24 — ACCEPTED
+
+Ik koos voor het nachtarchetype 'eerste sterren die door het raam verschijnen' omdat dit een universele ervaring is die de overgang van avond naar nacht markant samenvat. De strofe benadrukt de kwetsbaarheid van het moment tussen zichtbaar en onzichtbaar, wat past bij de bundelstructuur van ochtend naar nacht.
