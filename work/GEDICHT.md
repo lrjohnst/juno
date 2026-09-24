@@ -28,3 +28,14 @@ De dag is uitgedoofd maar niet het licht,
 het glas staat stil, een kleine woestijn.
 Je tikt ertegen — een helder, kort geluid,
 alsof iets in je wacht tot het wordt bewogen.
+
+## 4. Eerste diepe ademhaling in bed — nacht
+
+Nu de wereld stilvalt, de deur achter je dicht
+en het licht een streep wordt die langzaam wegebt,
+ademt het lichaam eindelijk uit wat het niet kon dragen:
+de spanning van de dag, nu opgelost in de matras.
+De ogen vallen dicht, maar de wereld blijft nog even
+horen — het laatste geluid van de dag, een fluistering
+van de wind, of misschien je eigen stem die zegt:
+dit is het, dit is het tijdstip waarop alles loslaat.
