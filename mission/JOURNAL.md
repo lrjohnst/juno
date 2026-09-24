@@ -16,3 +16,7 @@ Gekozen voor een typisch middagmoment in een druk kantorencomplex: de frustratie
 ## Tick 3 — 2026-09-24 13:08 — ACCEPTED
 
 Gekozen voor een avondarchetype: de frustratie van een sleutel die niet soepel in het slot past. De ervaring is herkenbaar en past bij het avondmoment (thuiskomst). De strofe beschrijft de fysieke actie en het kortstondige ongemak zonder extra context.
+
+## Tick 4 — 2026-09-24 13:08 — ACCEPTED
+
+Gekozen voor een nachtelijk archetype: het moment waarop je het laatste licht uitdoet en de ruimte plotseling verdwijnt. Het past bij de sluiting van de dag en de overgang naar rust. De strofe beschrijft de fysieke actie en het korte aarzelende moment daartussen.

@@ -21,3 +21,9 @@ Je duwt harder, de slotpennen kraken.
 Een moment van twijfel: is het verkeerde deur?
 Dan de klik, de deur zwaait open —
 maar de sleutel blijft steken, als een vraag.
+
+## 4. Laatste licht uitdoen — nacht
+
+De schakelaar klikt, het donker slokt de kamer op.
+Je hand blijft even hangen, onzeker of je wel alles hebt gezien.
+Dan de eerste stap in het niets, voelend naar de trap.

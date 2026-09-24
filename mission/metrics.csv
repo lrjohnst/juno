@@ -2,3 +2,4 @@ tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
 1,2026-09-24T13:08:18+00:00,ACCEPTED,1,42,,1582,201,eerste slok koffie
 2,2026-09-24T13:08:21+00:00,ACCEPTED,2,81,,1718,210,wachten op de lift die vol zit
 3,2026-09-24T13:08:24+00:00,ACCEPTED,3,121,,1834,245,sleutel die niet past
+4,2026-09-24T13:08:26+00:00,ACCEPTED,4,157,,1959,173,laatste licht uitdoen
