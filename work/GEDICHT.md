@@ -21,3 +21,16 @@ De bank is hard, de zon te warm,
 en je weet niet meer waarom je hier zat —
 alleen dat je wachtte, dat je nog wacht,
 en dat elk moment nu het verkeerde zou kunnen zijn.
+
+## 3. De eerste slok bier na een lange dag — avond
+
+De glazen kou trekt in mijn handpalm,
+niet koud genoeg om te schrikken,
+maar koud genoeg om te voelen
+hoe de dag nog in mijn botten zit.
+
+De schuimkraag breekt zacht uiteen,
+het bier loopt traag langs mijn tong,
+en even is alles stil —
+geen gedachten, geen woorden,
+alleen de zure nasmaak van tijd die wegtikt.
