@@ -4,7 +4,7 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 2: kies een archetype voor de middag, een ervaring die contrasteert met de ochtendstilte.
+1. Schrijf strofe 3: kies een archetype voor de avond, een ervaring die contrasteert met de middagse klontering van tijd.
 
 ## Afgerond
 
