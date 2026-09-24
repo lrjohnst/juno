@@ -4,7 +4,7 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 4: nacht, met een ander archetype.
+1. Bundel afgerond: 4 strofen geschreven.
 
 ## Afgerond
 

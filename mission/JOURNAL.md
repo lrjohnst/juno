@@ -16,3 +16,7 @@ Gekozen voor een typische middagervaring: het gefrustreerde wachten op een lift 
 ## Tick 3 — 2026-09-24 13:05 — ACCEPTED
 
 Gekozen voor een avondmoment met een herkenbare, licht gefrustreerde ervaring: het zoeken naar sleutels in een volle tas. Het archetype is uniek en past bij de overgang van dag naar avond, waar thuis aankomen centraal staat. De strofe focust op het tastbare en het opluchtingmoment.
+
+## Tick 4 — 2026-09-24 13:05 — ACCEPTED
+
+Gekozen voor een nachtelijk archetype dat de overgang naar slapen raakt: de gewoonte om nog één keer je telefoon te checken. De strofe vangt de fysieke actie en het emotionele gewicht van die handeling, zonder verhaal of context.

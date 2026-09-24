@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "eerste slok koffie",
         "wachten op de lift die niet komt",
-        "sleutels zoeken in een volle tas"
+        "sleutels zoeken in een volle tas",
+        "laatste blik op de telefoon voor het slapen"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-24T13:05:34+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-24T13:05:36+00:00"
 }

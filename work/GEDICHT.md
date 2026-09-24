@@ -21,3 +21,10 @@ De hand glijdt diep in de tas,
 vingers strelen langs ruwe stof, koude munten,
 en dan — klik — de kou van metaal.
 De sleutel, eindelijk.
+
+## 4. Laatste blik op de telefoon voor het slapen — nacht
+
+Het scherm brandt blauw in je hand,
+de duim glijdt over het koude glas,
+terwijl de last van de dag
+zich nestelt in je borstkas.
