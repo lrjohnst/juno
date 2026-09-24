@@ -16,3 +16,7 @@ Koos voor een herkenbaar middagmoment: wachten op de bus in de hitte. Het archet
 ## Tick 3 — 2026-09-24 13:05 — ACCEPTED
 
 Koos voor het moment waarop de straatverlichting aangaat in de avond, een universele en herkenbare ervaring. Het archetype benadrukt de overgang van dag naar nacht en de subtiele verandering in sfeer die daarmee gepaard gaat.
+
+## Tick 4 — 2026-09-24 13:05 — ACCEPTED
+
+Koos voor een nachtelijk archetype dat de transitione van waak naar slaap vangt, met de herkenbare aarzeling voor het uitschakelen van een apparaat. Past als afsluiter van de dagcyclus.
