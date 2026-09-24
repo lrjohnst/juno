@@ -16,3 +16,7 @@ Deze strofe moest een middagmoment vangen waar licht en schaduw samenkomen in ee
 ## Tick 3 — 2026-09-24 12:33 — ACCEPTED
 
 Ik koos voor het avondmoment waarin stemmen op de achtergrond samensmelten tot een half herkenbaar geluid. Het archetype 'stemmen in de supermarkt' is universeel en past bij het late uur waarin geluiden vervagen en herkenbaarheid afneemt.
+
+## Tick 4 — 2026-09-24 12:33 — ACCEPTED
+
+De laatste strofe moest een nachtelijk moment vangen waarin ongemak en ontheemding samenkomen. Gekozen voor een archetype dat past bij het eind van de dag en uniek is: het laf bed in een vreemd huis. De toon is sober en direct, zonder versiering, om de lichamelijke en emotionele spanning van het moment te benadrukken.
