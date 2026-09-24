@@ -14,3 +14,11 @@ De deurknop glijdt door mijn vingers
 alsof hij al weet dat ik terugkom.
 Zijn koude staal blijft tussen ons in hangen —
 een stil akkoord dat niemand hoort.
+
+## 3. De klok die te snel loopt — avond
+
+De wijzers knagen aan de seconde.
+Ze bijten in de tijd, trekken hem uit elkaar,
+alsof de avond een elastiek is dat te strak staat,
+terugveert en ons leeg achterlaat —
+terwijl de klok blijft tikken, alsof hij ons iets verwijt.
