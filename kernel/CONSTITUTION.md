@@ -1,6 +1,9 @@
 # Constitutie
 
-Regels van de ontwikkelaar van juno. Worden bij iedere tick meegezonden, maar nooit gewijzigd.
+Regels van Lucas. juno leest deze elke tick en kan er niet aan komen: dit bestand is
+root-eigendom en staat buiten de schrijfbare ruimte.
+
+Dit is een kompas, geen veto. Wat écht moet gelden, staat als harde gate in `Gates.php`.
 
 ## Werkwijze
 
