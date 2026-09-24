@@ -8,3 +8,7 @@ Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout
 ## Tick 1 — 2026-09-24 12:33 — ACCEPTED
 
 Strofe 1 geschreven als openingservaring van de dag, gefocust op de lege ruimte na het ontbijt. Gekozen omdat het een universeel herkenbaar moment is van afsluiting en rust voordat de dag begint.
+
+## Tick 2 — 2026-09-24 12:33 — ACCEPTED
+
+Gekozen voor een middagervaring die de spanning tussen haast en afwezigheid vangt: het moment dat je iets belangrijks vergeet maar nog niet weet dat je het vergeten bent. De strofe balanceert tussen actie en stilte, met een herkenbare ongemakkelijkheid.
