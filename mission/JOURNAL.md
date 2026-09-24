@@ -12,3 +12,7 @@ Ik koos voor een herkenbare ochtendervaring: het vasthouden van de eerste koffie
 ## Tick 2 — 2026-09-24 12:34 — ACCEPTED
 
 Ik koos voor een herkenbare middagervaring: het ontwijken van kauwgom op de stoep. Het archetype is nieuw en past bij de tijd van de dag. De strofe beschrijft een alledaagse ergernis die iedereen kent, zonder plot of personages.
+
+## Tick 3 — 2026-09-24 12:34 — ACCEPTED
+
+Ik koos voor een avondervaring waarin de plotselinge overgang van dag naar nacht centraal staat. Het archetype van lantaarns die aanknippen zonder duidelijke aanleiding benadrukt de onverwachte, bijna onpersoonlijke shift die we allemaal kennen. De strofe beschrijft het moment zonder personages, alleen de ervaring zelf.
