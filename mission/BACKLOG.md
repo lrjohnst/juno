@@ -4,7 +4,7 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 3:ies een archetype voor de avond.
+1. Schrijf strofe 4: een archetype voor de nacht.
 
 ## Afgerond
 

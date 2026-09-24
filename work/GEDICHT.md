@@ -15,3 +15,10 @@ Je duim zakt op de verkeerde etage,
  een klik, te laat.
 De lift schokt, de deuren sluiten,
 je ziet je eigen spiegelbeeld zuchten.
+
+## 3. Sleutel die niet past in het slot — avond
+
+De sleutel glijdt soepel in het slot,
+maar draait niet. Je trekt hem eruit,
+keert hem om, probeert het nog een keer —
+het klikt niet, alsof het huis je weigert.
