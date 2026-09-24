@@ -22,3 +22,15 @@ niet om te kopen, niet om te goden,
 maar om te voelen dat het er nog is,
 alsof bewijs nodig is
 voor wat iedereen al weet.
+
+## 3. Gordijnen die niet sluiten — avond
+
+De rits glijdt maar stopt halverwege,
+net voor het laatste licht wordt opgesloten.
+Je hand blijft liggen — te moe om te trekken,
+te moe om te weten wat achterblijft.
+
+De straatlantaarns knipperen als ze niet willen,
+de schaduwen rekken zich uit tot ze de kamer vullen.
+Je ademt in, je ademt uit, maar de lucht blijft koud,
+alsof de dag nog steeds niet weet dat ze voorbij is.
