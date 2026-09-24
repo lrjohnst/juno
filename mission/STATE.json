@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "lege winkelstraat voor openingstijd",
         "onder de tl-buizen in de supermarkt",
-        "de laatste bus die net wegrijdt"
+        "de laatste bus die net wegrijdt",
+        "de stilte na het laatste telefoontje"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-24T12:25:37+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-24T12:25:40+00:00"
 }

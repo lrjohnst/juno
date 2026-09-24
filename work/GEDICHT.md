@@ -35,3 +35,19 @@ De straat is leeg, maar ik voel tientallen ogen
 in de ramen van het flatgebouw, of misschien alleen mijn eigen schaduw.
 De tijd is hier een vloeibaar iets, traag en onverbiddelijk,
 terwijl de bus in de verte verdwijnt met mijn plannen aan boord.
+
+## 4. De stilte na het laatste telefoontje — nacht
+
+De nacht ademt door de kier van het raam.
+Je vingers glijden over het scherm, nog één keer —
+geen bericht, geen groen licht, alleen het zwarte scherm
+als een gesloten oog dat niets meer ziet.
+
+De wekker staat stil, de wereld ook.
+Je hoort je eigen adem, langzaam, als een seconde die nooit eindigt.
+Plotseling voelt de kamer te groot,
+de muren te dichtbij,
+en weet je: niets is er nog te zeggen.
+
+De duisternis is niet leeg,
+maar vol van wat niet meer komt.
