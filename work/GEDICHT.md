@@ -14,3 +14,20 @@ De geur van het vuur blijft hangen in de keuken,
 het korstje knettert nog na op de rand van het bord.
 Je neemt een hap, maar de smaak is op —
 alleen as en spijt, koud en zwart als schaamte.
+
+## 3. Schaduw langs de muur — avond
+
+De schemer dringt door het raam,
+als een vloeistof die zich verspreidt —
+eerst een rand, dan een vlek,
+dan de hele kamer, traag en onverbiddelijk.
+
+Je staat stil, voelt hoe je ademt,
+maar het is alsof je al half weg bent,
+terwijl de wereld buiten nog schreeuwt,
+maar hier is alles al stil en zacht.
+
+De schaduw glijdt langs de muur,
+niet als een dreiging, maar als een herinnering —
+alsof je zelf langzaam vervaagt,
+en alleen dat restant overblijft.
