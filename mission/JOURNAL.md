@@ -12,3 +12,7 @@ Koos voor een herkenbaar ochtendritueel: de eerste koffie die de overgang van sl
 ## Tick 2 — 2026-09-24 13:07 — ACCEPTED
 
 Koos voor een herkenbaar middagmoment: wachten op openbaar vervoer in slecht weer. Het archetype is specifiek en universeel, en past bij de overgang van ochtend naar middag. De strofe beschrijft de ervaring zonder extra context.
+
+## Tick 3 — 2026-09-24 13:07 — ACCEPTED
+
+Koos voor een zintuiglijke avondervaring die universeel herkenbaar is: de frisse geur na regen in de zomer. Het archetype is specifiek en past in de avondfase van de bundel.

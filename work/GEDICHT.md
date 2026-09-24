@@ -13,3 +13,10 @@ De druppels vallen traag op het metalen dakje,
 je hoort ze tikken, een voor een.
 De bus is laat, maar je blijft staan,
 want weglopen zou erger zijn.
+
+## 3. De geur van natte aarde na een zomerbui — avond
+
+De lucht ruikt naar modder en groen,
+alsof de wereld even ademhaalt.
+Je voelt het in je neus, diep en scherp,
+een geur die je niet kunt vasthouden.
