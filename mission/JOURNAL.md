@@ -16,3 +16,7 @@ Ik heb gekozen voor een archetype dat past bij de middag: een moment van frustra
 ## Tick 3 — 2026-09-24 13:06 — ACCEPTED
 
 Ik koos voor een avondervaring die de fysieke en psychologische lading van een dag weerspiegelt: de schaduw als metgezel die zich niet laat afschudden. Het archetype past bij de avond en is nieuw binnen de bundel.
+
+## Tick 4 — 2026-09-24 13:06 — ACCEPTED
+
+Ik voltooide de bundel met een nachtelijke ervaring die de overgang van dag naar nacht en van waakzaamheid naar rust vastlegt. De strofe sluit aan bij de sequentie door de tijd en het archetype te laten evolueren van ochtend naar nacht.

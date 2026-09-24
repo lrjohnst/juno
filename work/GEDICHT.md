@@ -25,3 +25,14 @@ De straatlantaarn knippert aan, maar jij loopt al een kwartier met je schaduw me
 Je stapt opzij — hij glijdt mee, alsof hij vastgeklonken zit aan de grond.
 Je versnelt, draait, maar hij blijft daar, een donkere spiegel die je niet afschudt.
 Dan verdwijnt hij plotseling, net voorbij de hoek, alsof hij weet dat je niet meer kijkt.
+
+## 4. Laatste blik op het donker buiten — nacht
+
+De lamp brandt nog, maar ik doe hem uit.
+De straat is leeg, het licht van de lantaarns
+is te zacht om iets te onthullen.
+Alleen het geluid van mijn adem blijft hangen,
+als een echo die niet weet dat hij alleen is.
+Ik stap terug, alsof ik de stilte niet mag storen,
+maar het donker dringt al door de kier van het raam.
+Nu is het echt nacht, en ik ook.

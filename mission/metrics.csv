@@ -2,3 +2,4 @@ tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
 1,2026-09-24T13:06:40+00:00,ACCEPTED,1,40,,1582,188,eerste koffie zonder haast
 2,2026-09-24T13:06:44+00:00,ACCEPTED,2,114,,1718,268,vergeten sleutel in de voordeur
 3,2026-09-24T13:06:47+00:00,ACCEPTED,3,177,,1828,241,schaduw die te lang meeloopt
+4,2026-09-24T13:06:49+00:00,ACCEPTED,4,256,,1915,221,laatste blik op het donker buiten
