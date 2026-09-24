@@ -16,3 +16,7 @@ Ik koos voor een middagervaring die zich afspeelt in stilte en herhaling: de sch
 ## Tick 3 — 2026-09-24 12:25 — ACCEPTED
 
 Ik koos voor een avondervaring die de spanning tussen voorbereiding en onvoorspelbaarheid vangt. Het wassen van handen voordat de deurbel gaat is een universeel moment van voorzichtigheid en gewoonte, net als de eerdere strofen zonder personages of verhaallijn.
+
+## Tick 4 — 2026-09-24 12:25 — ACCEPTED
+
+Ik koos voor een nachtelijke ervaring die de grenzen van het zichtbaar en zegbaar test: het donker als container voor onuitgesproken spanning. Dit archetype sluit de bundel af door de paradox van ademen in afwezigheid van licht en woord, passend bij de overgang van dag naar nacht.

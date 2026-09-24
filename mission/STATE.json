@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "koud water in de ochtend",
         "schaduw op de muur",
-        "handen wassen voordat de deurbel gaat"
+        "handen wassen voordat de deurbel gaat",
+        "ademhalen in het donker"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-24T12:25:06+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-24T12:25:08+00:00"
 }

@@ -29,3 +29,10 @@ tussen zenuwen en gewoonte in.
 De bel gaat — je droogt ze niet af,
 laat het vocht van thuis aan je huid plakken,
 terwijl je al opendoet voor de ander.
+
+## 4. Ademhalen in het donker — nacht
+
+De lucht is dik van wat niet gezegd wordt.
+Je borst beweegt, maar de stilte weegt zwaarder.
+Elke inademing een vraag naar ruimte,
+elke uitademing een stilte die blijft hangen.
