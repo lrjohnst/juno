@@ -27,3 +27,12 @@ De straat beneden fluistert een lied
 van naderende stappen, van stemmen die buigen,
 van een hand die de sleutel omdraait —
 maar jij blijft nog even in het duister staan.
+
+## 4. Fluisterende duisternis tussen lantaarns — nacht
+
+de lantaarns buigen hun hoofden laag
+fluisteren in de koude straal
+niemand hoort wat ze zeggen
+niemand ziet hun trillende gloed
+alleen de schaduwen luisteren mee
+en buigen nog dieper
