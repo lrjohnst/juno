@@ -4,8 +4,8 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 1: zet het eerste archetype neer, vroeg op de dag.
+1. Schrijf strofe 2: zet het tweede archetype neer, later op de dag.
 
 ## Afgerond
 
-_(nog niets)_
+_(zie JOURNAL.md)_
