@@ -1,13 +1,14 @@
 {
-    "tick": 1,
+    "tick": 2,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 1,
+    "stanzas": 2,
     "target_stanzas": 4,
     "used_archetypes": [
-        "eerste koffie zonder haast"
+        "eerste koffie zonder haast",
+        "vergeten sleutel in de voordeur"
     ],
-    "last_moment_index": 0,
-    "updated_at": "2026-09-24T13:06:40+00:00"
+    "last_moment_index": 1,
+    "updated_at": "2026-09-24T13:06:44+00:00"
 }
