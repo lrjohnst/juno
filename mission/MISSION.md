@@ -1,5 +1,13 @@
 # Missie
 
+> **BEVROREN op 2026-09-20 door Lucas Johnston.** Dit bestand wijzigt niet meer — juno al
+> helemaal niet. Het is het anker waartegen drift gemeten wordt; een missie die meebeweegt met
+> het werk maakt elke uitkomst per definitie on-mission.
+>
+> De kernel controleert elke tick de SHA-256 van dit bestand tegen `kernel/MISSION.sha256`.
+> Wijkt die af, dan stopt de loop. Wil je de missie toch veranderen: pas de tekst aan en
+> werk die hash bij — een bewuste handeling, geen bijvangst.
+
 Schrijf, strofe voor strofe, een bundel van **4 strofen**. Elke strofe beschrijft één alledaagse
 maar archetypische menselijke ervaring, zo helder mogelijk, zodat de lezer die ervaring herkent
 en even opnieuw voelt.
