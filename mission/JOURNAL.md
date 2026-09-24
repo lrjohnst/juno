@@ -4,19 +4,3 @@ Append-only. Eén entry per tick, ook — juist — bij mislukking.
 Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout zich herhaalt.
 
 ---
-
-## Tick 1 — 2026-09-24 12:35 — ACCEPTED
-
-Ik koos voor een lege keuken in de vroege ochtend: een moment van verwachting voordat de dag begint. Het gedicht moet de afwezigheid van geluid en beweging voelbaar maken, zonder dat het iets hoeft te verklaren.
-
-## Tick 2 — 2026-09-24 12:35 — ACCEPTED
-
-Ik koos voor 'stille telefoon' als middag-archetype: een moment van onzekerheid en afwachten, waarin de tijd stil lijkt te staan. De strofe benadrukt de afwezigheid van actie en de spanning die ontstaat uit nietsdoen.
-
-## Tick 3 — 2026-09-24 12:35 — ACCEPTED
-
-Ik koos voor 'verlamde hand op het lichtknopje' als avond-archetype om de aarzeling tussen dag en nacht te vangen: het moment waarop je niet meer weet of je moet blijven of loslaten. De strofe benadrukt de lichamelijke onzekerheid en de stilte van een ruimte die al half verlaten is.
-
-## Tick 4 — 2026-09-24 12:35 — ACCEPTED
-
-Ik schreef een nacht-archetype over het moment waarop de adem even hapert in de slaap, een ervaring die zowel lichamelijk als mentaal voelbaar is. De strofe benadrukt de isolatie en de afwezigheid van externe geluiden, wat past bij de nachtelijke sfeer.
