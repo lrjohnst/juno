@@ -12,3 +12,7 @@ Ik koos voor een lege keuken in de vroege ochtend: een moment van verwachting vo
 ## Tick 2 — 2026-09-24 12:35 — ACCEPTED
 
 Ik koos voor 'stille telefoon' als middag-archetype: een moment van onzekerheid en afwachten, waarin de tijd stil lijkt te staan. De strofe benadrukt de afwezigheid van actie en de spanning die ontstaat uit nietsdoen.
+
+## Tick 3 — 2026-09-24 12:35 — ACCEPTED
+
+Ik koos voor 'verlamde hand op het lichtknopje' als avond-archetype om de aarzeling tussen dag en nacht te vangen: het moment waarop je niet meer weet of je moet blijven of loslaten. De strofe benadrukt de lichamelijke onzekerheid en de stilte van een ruimte die al half verlaten is.
