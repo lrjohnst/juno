@@ -12,3 +12,7 @@ Strofe 1 geschreven als openingservaring van de dag, gefocust op de lege ruimte 
 ## Tick 2 — 2026-09-24 12:33 — ACCEPTED
 
 Gekozen voor een middagervaring die de spanning tussen haast en afwezigheid vangt: het moment dat je iets belangrijks vergeet maar nog niet weet dat je het vergeten bent. De strofe balanceert tussen actie en stilte, met een herkenbare ongemakkelijkheid.
+
+## Tick 3 — 2026-09-24 12:33 — ACCEPTED
+
+Gekozen voor een avondervaring die de trage gewaarwording van tijd en nalatigheid vangt. De theepot als symbool voor uitgestelde taken en het gewicht van kleine vergetenheden, met een lichamelijke sensatie (koude pols, zwevende hand) om het herkenbaar te maken.

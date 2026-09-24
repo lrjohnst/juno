@@ -23,3 +23,15 @@ Je wacht op de bel,
 terwijl je hand al naar de deur reikt, 
 alsof je de tijd kunt inhalen 
 voordat de wereld je verrast.
+
+## 3. Verlate blik op een halfvolle theepot — avond
+
+De theepot staat nog op tafel,
+zoals je hem hebt neergezet —
+koel en zwaar, als een stil verwijt.
+Je pols voelt de tijd die eruit is geglipt.
+De bodem glinstert vaag, maar de vloeistof
+is al lang tot herinnering afgekoeld.
+Je weet dat je hem moet wegzetten,
+maar je hand blijft zweven boven het oor,
+alsof iets hier nog op je wacht.
