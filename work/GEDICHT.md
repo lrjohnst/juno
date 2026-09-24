@@ -40,3 +40,13 @@ De fietsen staan stil, hun banden slap als de adem van wie
 te moe is om naar huis te gaan,
 en de ketting van de mijne hangt als een vraag
 zonder antwoord in de avond.
+
+## 4. Fluisterende radio — nacht
+
+De stem van de omroeper glijdt door het donker,
+zo zacht dat ik mijn adem moet inhouden om hem te horen.
+Hij noemt dorpen waar de lantaarns al uit zijn,
+waar de laatste bus al weg is en de weg terug alleen nog in gedachten.
+De woorden hangen als rook tussen de muren,
+en ik voel hoe de nacht ze langzaam opslokt,
+alsof ik zelf de stilte ben die ze opvult.
