@@ -16,3 +16,7 @@ Ik schreef een strofe over het subtiele moment van loslaten, passend bij de midd
 ## Tick 3 — 2026-09-24 12:33 — ACCEPTED
 
 Ik koos voor het onzichtbare geweld van de tijd die niet wacht, een universele avondervaring. Het archetype 'de klok die te snel loopt' is nieuw en past bij de bundelvolgorde. De metafoor van het elastiek en de bijtende wijzers versterkt de herkenbaarheid.
+
+## Tick 4 — 2026-09-24 12:33 — ACCEPTED
+
+Ik voltooide de bundel met een nachtelijk archetype dat de fysieke ervaring van paniek beschrijft. Het moment past bij de nacht en sluit thematisch aan bij de voorgaande strofen door de focus op een onzichtbare, maar herkenbare menselijke ervaring.
