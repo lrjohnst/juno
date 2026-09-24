@@ -12,3 +12,7 @@ Koos voor een herkenbaar ochtendritueel: de eerste kop koffie. Dit archetype is 
 ## Tick 2 — 2026-09-24 13:06 — ACCEPTED
 
 Koos voor een typisch middagmoment: wachten op een volle lift. Het archetype is uniek en past bij de stroom van mensen in een drukke dag. De strofe beschrijft de fysieke en emotionele ervaring zonder verhaal of personages.
+
+## Tick 3 — 2026-09-24 13:06 — ACCEPTED
+
+Koos voor een avondritueel: de frustratie van sokken zoeken in een berg wasgoed. Het archetype is uniek en past bij het moment dat de dag afloopt. De strofe benadrukt de tast en de herkenbare teleurstelling.
