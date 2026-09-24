@@ -30,3 +30,15 @@ De geur van warme stenen en asfalt
 vult de lucht waar de dag zich lost —
 een laatste zucht van zonlicht, vervlogen,
 en stilte die alles in zich sluit.
+
+## 4. Stilte van de slapeloze nacht — nacht
+
+De wekker zwijgt, maar jij telt.
+Eén-voor-één de seconden die niets zijn.
+De muren ademen traag als een zieke,
+maar jij wacht op dag die niet komt.
+
+De maan staat scherp door het raam,
+als een mes dat de schedel splijt.
+Je handen zoeken de koele lakens,
+maar vinden alleen zichzelf.

@@ -16,3 +16,7 @@ Ik schreef een strofe over de middagervaring van haast en onuitgesproken woorden
 ## Tick 3 — 2026-09-24 12:36 — ACCEPTED
 
 Ik koos voor het zachte vallen van de avond als avond-archetype omdat het contrasteert met de haast van de middag en de stilte van de ochtend. Het moment past bij de avond en is een herkenbare ervaring van overgang en rust.
+
+## Tick 4 — 2026-09-24 12:36 — ACCEPTED
+
+Ik koos voor de stilte van de slapeloze nacht als afsluiter van de bundel, omdat het een universele ervaring is die past bij de eindtijd van de dag. Het archetype contrasteert met de eerdere momenten en sluit de cyclus af met een diepere, introspectieve toon.
