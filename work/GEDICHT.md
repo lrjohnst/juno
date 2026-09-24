@@ -34,3 +34,15 @@ De lichtjes die schommelen, trekken zich terug,
 als kaarsen die niet meer willen branden.
 Ik hoor alleen nog mijn eigen adem,
 en het grind dat onder schoenen vergaat.
+
+## 4. Naargeestige wekker in donker — nacht
+
+De wekker grijpt met ijzeren klauwen naar de nacht,
+klinkt scherp als glas dat breekt in stilte.
+Geen stem fluistert troost, geen schaduw reikt,
+alleen het tikken dat de tijd verslindt.
+
+De hand tast blind naar licht, maar vindt alleen
+het koude metaal van de nacht zelf.
+Geen seconde wordt gespaard, geen minuut geef ik,
+alleen het donker dat mij vasthoudt in slaaf.

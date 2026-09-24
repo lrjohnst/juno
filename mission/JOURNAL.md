@@ -16,3 +16,7 @@ Ik koos voor de verstilde lunchpauze als contrast met de vroege ochtendstilte in
 ## Tick 3 — 2026-09-24 13:06 — ACCEPTED
 
 Ik koos voor een avondervaring die contrasteert met de middagse verstilling door te focussen op geluiden die wegvloeien in het donker. De markt is een plek van drukte en prikkels, maar hier wordt hij zacht en bijna onhoorbaar, als een herinnering die vervaagt.
+
+## Tick 4 — 2026-09-24 13:06 — ACCEPTED
+
+Ik koos voor de wekker als nachtarchetype: een universele ervaring van weerstand tegen de dag die komt, een moment van pure lichamelijke en psychische spanning. Het contrasteert met de eerdere, meer omgevingsgerichte ervaringen door zich te richten op de innerlijke strijd van het wakker worden in het donker.
