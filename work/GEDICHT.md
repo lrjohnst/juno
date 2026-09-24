@@ -13,3 +13,10 @@ De deuren sluiten met een zucht,
 je voelt de adem van de man achter je.
 Hij drukt op de knop alsof het iets uitmaakt,
 terwijl de teller langzaam omhoog kruipt.
+
+## 3. Sokken aantrekken voor het slapengaan — avond
+
+De eerste sok glijdt soepel om de hiel,
+de tweede weigert, trekt strak over de tenen.
+Je wringt, duwt, tot het stof zich nestelt in de plooien
+van een dag die nu definitief voorbij is.

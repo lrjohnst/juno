@@ -12,3 +12,7 @@ Koos voor het herkenbare moment van de eerste koffie in de ochtend, een universe
 ## Tick 2 — 2026-09-24 13:06 — ACCEPTED
 
 Koos voor het herkenbare moment van wachten op een lift tijdens de middag, een situatie waarin ongeduld en ongemak subtiel voelbaar zijn. De strofe richt zich op de fysieke details en de onuitgesproken spanning tussen mensen in een kleine ruimte.
+
+## Tick 3 — 2026-09-24 13:06 — ACCEPTED
+
+Koos voor het avondritueel van sokken aantrekken, een moment van kleine frustratie en overgave. De strofe benadrukt de fysieke weerstand en het gevoel van afronding.
