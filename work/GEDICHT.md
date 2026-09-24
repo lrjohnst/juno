@@ -35,3 +35,16 @@ Het asfalt voelt warm onder je hand,
 maar de schaduwstreep op de muur is koud en breed.
 Je wilt hem pakken, maar hij glijdt weg,
 als een herinnering die net niet te grijpen is.
+
+## 4. De stilte na het laatste geluid — nacht
+
+De radio zwijgt als laatste gast die weet
+dat er geen woorden meer zijn te zeggen.
+Je ademt in het donker, traag en onhoorbaar,
+want zelfs de muren zijn moe van het luisteren.
+
+De klok slaat één keer — geen echo, geen antwoord —
+alleen de tijd die zichzelf aanraakt
+als vingers die een lege kop koffie omklemmen.
+De nacht is geen zwart dat afneemt,
+maar een ruimte die zich vult met wat niet meer komt.

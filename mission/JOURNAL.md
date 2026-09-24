@@ -16,3 +16,7 @@ Ik koos voor een archetype uit het middaguur: de frustrerende strijd met een te 
 ## Tick 3 — 2026-09-24 13:07 — ACCEPTED
 
 Ik koos voor een avondervaring: de schaduw die langer wordt dan wijzelf, een moment waarop tijd en ruimte diep voelbaar worden. Het archetype past bij de schemering als overgang naar de nacht en is nog ongebruikt.
+
+## Tick 4 — 2026-09-24 13:07 — ACCEPTED
+
+Ik koos voor de stilte na het laatste geluid als nachtarchetype: een moment waarop alle geluiden zijn opgelost en alleen de afwezigheid resteert. De toon is zwaar en introspectief, passend bij het einde van de dag en de bundel.
