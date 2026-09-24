@@ -16,3 +16,7 @@ Koos voor een herkenbaar middagmoment: wachten op openbaar vervoer in slecht wee
 ## Tick 3 — 2026-09-24 13:07 — ACCEPTED
 
 Koos voor een zintuiglijke avondervaring die universeel herkenbaar is: de frisse geur na regen in de zomer. Het archetype is specifiek en past in de avondfase van de bundel.
+
+## Tick 4 — 2026-09-24 13:07 — ACCEPTED
+
+Koos voor een nachtelijk archetype dat de eenzaamheid en stilte van een verlaten station vangt. Het geluid van de treindeur is herkenbaar en markeert een moment van afwezigheid, passend bij het laatste tijdstip van de dag.

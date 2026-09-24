@@ -20,3 +20,10 @@ De lucht ruikt naar modder en groen,
 alsof de wereld even ademhaalt.
 Je voelt het in je neus, diep en scherp,
 een geur die je niet kunt vasthouden.
+
+## 4. Het geluid van een treindeur die dichtslaat in een verlaten station — nacht
+
+De echolood van metaal op metaal,
+een koude klap die door de hal galmt.
+Niemand stapt in, niemand stapt uit —
+alleen de nacht en het licht dat blijft branden.
