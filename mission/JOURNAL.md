@@ -8,3 +8,7 @@ Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout
 ## Tick 1 — 2026-09-24 13:05 — ACCEPTED
 
 Gekozen voor een herkenbaar ochtendritueel: de eerste koffie. Het archetype is uniek en past bij het vroege moment. De strofe focust op de sensatie en het begin van de dag.
+
+## Tick 2 — 2026-09-24 13:05 — ACCEPTED
+
+Gekozen voor een typisch middagmoment: de zon die op de rug brandt tijdens een wandeling. Het archetype is uniek en past bij de middag, met focus op de fysieke sensatie en de beweging.
