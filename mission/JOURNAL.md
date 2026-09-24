@@ -8,3 +8,7 @@ Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout
 ## Tick 1 — 2026-09-24 13:07 — ACCEPTED
 
 Ik koos voor 'lege ochtendstraat' als eerste archetype, passend bij de ochtend en nog ongebruikt. De strofe beschrijft de stilte en de onbenutte mogelijkheden van een vroege dag, zonder personages of verhaal.
+
+## Tick 2 — 2026-09-24 13:07 — ACCEPTED
+
+Ik koos voor 'schaduw op de muur' als archetype voor de middag: een ervaring van afwezigheid en wachten zonder specifiek personage. De strofe benadrukt de onveranderlijke aanwezigheid van een schaduw en het verlangen naar iets dat al voorbij is, wat past bij de middag als een moment van stilstand tussen activiteit en rust.
