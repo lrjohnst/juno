@@ -31,3 +31,14 @@ geen haast, geen stem — alleen het gewicht
 van een dag die langzaam instort.
 De vloer neemt het op, zonder te vragen,
 alsof het altijd zo is geweest.
+
+## 4. Adem die stokt in de keel — nacht
+
+De nacht ademt zwaar door de kier,
+zo dicht bij het wakker worden
+dat ik de kou niet meer voel.
+
+Het is de stilte die pijn doet,
+niet de stilte zelf —
+de hand die je tegenhoudt
+voor je iets zegt wat je niet meent.
