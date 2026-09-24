@@ -37,3 +37,15 @@ terwijl de wereld buiten nog even dof blijft.
 Ik sluit mijn ogen — het branden blijft,
 net zo onvermijdelijk als de dag die voorbij is,
 net zo onvermijdelijk als de avond die komt.
+
+## 4. De laatste metro die net wegrijdt — nacht
+
+De deuren sluiten met een zucht die te definitief klinkt,
+voordat mijn voet de drempel raakt. Ik blijf staan,
+mijn jas te licht voor deze wind, mijn adem te traag
+voor het tempo van de straat die zich al sluit.
+
+De lantaarns knipperen als ogen die niet meer kijken,
+en mijn telefoon toont een scherm vol lege pixels —
+geen bericht, geen route, alleen de stilte van een stad
+die me al heeft laten gaan voordat ik binnen was.

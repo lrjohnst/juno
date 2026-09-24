@@ -16,3 +16,7 @@ Ik koos voor het gevoel van tijd die stil lijkt te staan in een rij die niet voo
 ## Tick 3 — 2026-09-24 13:08 — ACCEPTED
 
 Ik koos voor het moment waarop de eerste slok koffie te heet is: een scherpe, fysieke ervaring die de avond inluidt. Het gaat om de tegenstrijdigheid tussen verlangen en pijn, een universeel gevoel dat vaak snel wordt vergeten.
+
+## Tick 4 — 2026-09-24 13:08 — ACCEPTED
+
+Ik koos voor het moment waarop een laatste kans net verkeken is: de metro die wegrijdt terwijl jij nog niet instapt. Het gaat om de scherpe pijn van een beslissing die te laat kwam, gecombineerd met de stilte van een nacht die alleen jou achterlaat. Het past bij de bundel als donker slotstuk.
