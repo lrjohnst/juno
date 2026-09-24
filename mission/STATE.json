@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "lege ochtendstraat",
         "warmte van een open raam",
-        "schaduw van een passerende auto"
+        "schaduw van een passerende auto",
+        "fluister van een nachtelijk raam"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-24T12:33:24+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-24T12:33:27+00:00"
 }

@@ -24,3 +24,10 @@ verlichten even het natte asfalt,
 dan is de straat weer leeg en donker,
 maar op de muur blijft een trillende streep achter.
 Alsof iets er ooit was en nooit meer terugkomt.
+
+## 4. Fluister van een nachtelijk raam — nacht
+
+De ruit trilt, niet van wind maar van adem—
+het glas voelt je hand die niet komt.
+Daar buiten glijdt een schaduw langs de muur,
+zo licht dat je denkt: dit is de stilte die spreekt.

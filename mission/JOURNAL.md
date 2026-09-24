@@ -16,3 +16,7 @@ Ik koos voor de warmte van een open raam als middag-archetype, omdat het een her
 ## Tick 3 — 2026-09-24 12:33 — ACCEPTED
 
 Ik koos voor de schaduw van een passerende auto als avond-archetype, omdat het een herkenbare, kortstondige ervaring is die de overgang van dag naar nacht benadrukt. Het archetype verschilt van de voorgaande twee en past bij de avond.
+
+## Tick 4 — 2026-09-24 12:33 — ACCEPTED
+
+Ik koos voor 'fluister van een nachtelijk raam' als nachtarchetype omdat het een universele, intieme ervaring beschrijft die zich afspeelt in de overgang naar de diepste stilte. Het verschilt van de vorige archetypen en sluit de bundel af met een moment van tastbare aanwezigheid in afwezigheid.
