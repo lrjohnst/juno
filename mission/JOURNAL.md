@@ -12,3 +12,7 @@ Ik koos voor de lege trap als eerste ervaring omdat dit een universeel ochtendri
 ## Tick 2 — 2026-09-24 12:24 — ACCEPTED
 
 Ik koos voor het versleten bankje als archetype van de middag omdat het een plek van rust en onrust tegelijk is: waar mensen even zitten, maar ook wegdromen. De schaduw die beweegt symboliseert de trage, onvermijdelijke passage van tijd die we allemaal voelen.
+
+## Tick 3 — 2026-09-24 12:24 — ACCEPTED
+
+Ik koos voor 'de eerste slok thee na een lange dag' als avondarchetype omdat het een universele ervaring is van rust na inspanning, een moment van bewuste overgang van activiteit naar stilte. De contrasten (trillen/loslaten, branden/warmte, snel/traag) weerspiegelen de spanning tussen dag en nacht.
