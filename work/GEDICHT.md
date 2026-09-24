@@ -18,3 +18,10 @@ Buiten hoor ik stemmen naderen, remmen.
 Mijn hand trilt. De zon brandt op mijn rug,
 en plotseling is het alsof ik voor het eerst
 de deur niet open krijg, nooit meer open krijg.
+
+## 3. Schaduw die te lang meeloopt — avond
+
+De straatlantaarn knippert aan, maar jij loopt al een kwartier met je schaduw mee.
+Je stapt opzij — hij glijdt mee, alsof hij vastgeklonken zit aan de grond.
+Je versnelt, draait, maar hij blijft daar, een donkere spiegel die je niet afschudt.
+Dan verdwijnt hij plotseling, net voorbij de hoek, alsof hij weet dat je niet meer kijkt.

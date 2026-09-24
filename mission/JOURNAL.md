@@ -12,3 +12,7 @@ Ik heb een eenvoudige ochtendervaring gekozen: het moment van de eerste koffie, 
 ## Tick 2 — 2026-09-24 13:06 — ACCEPTED
 
 Ik heb gekozen voor een archetype dat past bij de middag: een moment van frustratie en onzekerheid, herkenbaar voor velen. Het moment van de vergeten sleutel voelt als een universele ervaring, vooral als de dag al druk begint te worden.
+
+## Tick 3 — 2026-09-24 13:06 — ACCEPTED
+
+Ik koos voor een avondervaring die de fysieke en psychologische lading van een dag weerspiegelt: de schaduw als metgezel die zich niet laat afschudden. Het archetype past bij de avond en is nieuw binnen de bundel.
