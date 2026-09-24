@@ -22,3 +22,12 @@ waar ik mijn hand niet op durf te leggen.
 Zo staat hij er, zo blijf ik hier.
 Niet schaduw, niet licht, alleen de muur
 en het wachten op iets dat voorbijging.
+
+## 3. Licht dat op de vloer valt — avond
+
+Het licht van de ondergaande zon,
+strepen als verf die over de planken glijdt,
+geen haast, geen stem — alleen het gewicht
+van een dag die langzaam instort.
+De vloer neemt het op, zonder te vragen,
+alsof het altijd zo is geweest.
