@@ -12,3 +12,10 @@ het is alsof de dag nu pas begint.
 De zon brandt door mijn shirt,
 alsof iemand een hand tegen mijn rug legt.
 Ik loop, en de warmte loopt met me mee.
+
+## 3. Straatverlichting die aangaat — avond
+
+Het moment dat de lantaarns knipperen
+en de straat ineens warm wordt.
+De schaduwen groeien onder je voeten,
+alsof de avond je voorzichtig meeneemt.

@@ -12,3 +12,7 @@ Gekozen voor een herkenbaar ochtendritueel: de eerste koffie. Het archetype is u
 ## Tick 2 — 2026-09-24 13:05 — ACCEPTED
 
 Gekozen voor een typisch middagmoment: de zon die op de rug brandt tijdens een wandeling. Het archetype is uniek en past bij de middag, met focus op de fysieke sensatie en de beweging.
+
+## Tick 3 — 2026-09-24 13:05 — ACCEPTED
+
+Gekozen voor een herkenbaar avondarchetype: het aangaan van straatverlichting. Dit past logisch na de middag en voelt als een overgangsmoment. De strofe focust op de subtiele verandering in sfeer en licht.
