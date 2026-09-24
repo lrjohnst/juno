@@ -21,3 +21,14 @@ De mensen om je heen wiegen mee met hun telefoons —
 één oog op het scherm, één op de horizon,
 terwijl de stad haar adem inhoudt
 voor een bus die nooit schijnt te komen.
+
+## 3. Terugkerende wandeling — avond
+
+De straat slokt mijn voeten zonder geluid,
+het asfalt ademt warmte van de dag na.
+Elke stap een herhaling die zichzelf beantwoordt,
+alsof de tijd hier stilstaat in het halfdonker.
+De lantaarns ontwaken één voor één,
+maar hun licht blijft vreemd en onverschillig.
+Ik loop dezelfde weg terug, alsof ik iets achterlaat,
+alsof ik iets opraap — maar mijn handen zijn leeg.
