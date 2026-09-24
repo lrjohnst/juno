@@ -16,3 +16,7 @@ Ik koos voor het versleten bankje als archetype van de middag omdat het een plek
 ## Tick 3 — 2026-09-24 12:24 — ACCEPTED
 
 Ik koos voor 'de eerste slok thee na een lange dag' als avondarchetype omdat het een universele ervaring is van rust na inspanning, een moment van bewuste overgang van activiteit naar stilte. De contrasten (trillen/loslaten, branden/warmte, snel/traag) weerspiegelen de spanning tussen dag en nacht.
+
+## Tick 4 — 2026-09-24 12:24 — ACCEPTED
+
+Ik koos voor dit nachtarchetype omdat het de ultieme ervaring van afwezigheid en onherroepelijkheid in een alledaags moment samenvat: het missen van de laatste verbinding. Het voelt als een universele nachtervaring van teleurstelling en acceptatie, zonder personage of verhaal, puur de scherpe rand van een herkenbaar gevoel.
