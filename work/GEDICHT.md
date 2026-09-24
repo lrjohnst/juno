@@ -36,3 +36,15 @@ Nu ademt de ruimte weer, maar de machine houdt
 vast aan zijn ritme — een echo zonder stem,
 een slaap die nog niet mag komen, nog niet,
 nog niet.
+
+## 4. Adem die stokt bij het inslapen — nacht
+
+De adem blijft even hangen
+als een blad dat niet valt.
+Je hoort alleen het bloed
+in je oren tikken, traag,
+terwijl de wereld
+zich vouwt alsof hij nooit
+zijn naam heeft gezegd,
+en jij bent al half
+weg uit je eigen lijf.

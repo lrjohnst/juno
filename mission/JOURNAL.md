@@ -16,3 +16,7 @@ Ik koos voor de middag een ervaring die de onzichtbare druk van tijd en licht be
 ## Tick 3 — 2026-09-24 12:36 — ACCEPTED
 
 Ik koos voor de avondervaring van de afwasmachine als symbool van de dag die langzaam tot rust komt. Het geluid fungeert als een overgang tussen actie en stilte, een herkenbare maar zelden benoemde ervaring.
+
+## Tick 4 — 2026-09-24 12:36 — ACCEPTED
+
+Ik koos voor een nachtelijke ervaring die de grens tussen bewustzijn en slaap verbeeldt: het moment waarop de adem even stokt en de wereld lijkt weg te glijden. Dit sluit de bundel af met een herkenbare, maar zelden benoemde sensatie die past bij het einde van de dag.
