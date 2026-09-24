@@ -39,3 +39,10 @@ je hebt gedragen en nu neerlegt.
 De as valt zachtjes op het schoteltje,
 terwijl de straatlantaarns aangaan buiten —
 alsof ze wachten tot jij klaar bent met inhalen.
+
+## 4. Het laatste glas water voor het slapen — nacht
+
+De kraan sist zacht, een ademhaling die niet de mijne is.
+Het water glijdt koel over mijn vingers, een zeldzame stilte in de kamer.
+Ik drink langzaam, alsof ik de dag erin wil oplossen voordat ik hem loslaat.
+De nacht staat al tegen de randen van de glazen, wachtend tot ik haar binnenlaat.

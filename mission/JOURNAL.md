@@ -16,3 +16,7 @@ Ik koos voor een middagervaring die de paradox van aanwezigheid en afwezigheid c
 ## Tick 3 — 2026-09-24 12:34 — ACCEPTED
 
 Ik koos voor een avonderlijke ervaring: het ritueel van de eerste sigaret na een lange dag als moment van overgang. De strofe legt de focus op de tastbare, bijna tastbare details (warmte, as, rook) om de ervaring herkenbaar en lichamelijk te maken. Het moment past bij de avond en is een nieuw archetype.
+
+## Tick 4 — 2026-09-24 12:34 — ACCEPTED
+
+Ik koos voor een nachtelijk moment dat de overgang naar slaap markeert: het laatste glas water als symbool voor loslaten en zuiverheid. De ervaring is herkenbaar maar zelden benoemd, en past perfect als laatste in de bundel die loopt van ochtend naar nacht.
