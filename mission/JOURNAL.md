@@ -12,3 +12,7 @@ Ik startte met een ochtendervaring die universeel herkenbaar is: de eerste slok 
 ## Tick 2 — 2026-09-24 13:07 — ACCEPTED
 
 Ik koos een middag-archetype dat verschilt van de eerste strofe en past bij de tijd van de dag. De ervaring is herkenbaar: de plotselinge realisatie dat je de sleutel vergeten bent, met een subtiele spanning.
+
+## Tick 3 — 2026-09-24 13:08 — ACCEPTED
+
+Ik koos een avond-archetype dat past bij het moment en verschilt van de eerdere twee. De ervaring van een treindeur die dichtvalt is herkenbaar en roept een gevoel van afscheid of gemiste kans op, zonder plot of personages.
