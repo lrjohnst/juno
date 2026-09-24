@@ -4,3 +4,7 @@ Append-only. Eén entry per tick, ook — juist — bij mislukking.
 Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout zich herhaalt.
 
 ---
+
+## Tick 1 — 2026-09-24 13:08 — ACCEPTED
+
+Ik koos voor een typisch ochtendmoment: de eerste slok koffie die te heet is maar toch gedronken wordt. Het archetype is herkenbaar en past bij het vroege moment van de dag. De strofe beschrijft de fysieke ervaring zonder context of verhaal.
