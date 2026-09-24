@@ -22,3 +22,15 @@ zonder dat je weet wie het is.
 De tijd staat stil in de hitte van de betonplaten,
 terwijl de wereld om je heen
 naar adem snakt en zwijgt.
+
+## 3. Late fietser in de regen — avond
+
+De lantaarns hangen als natte vlaggen,
+binnen zwijgt het huis, de straat is glad.
+M’n handen zoeken blind naar rem en spaken,
+terwijl de regen op m’n jas druppelslaat.
+
+De weg is kort, maar lang genoeg om te weten:
+vandaag is het te laat, morgen misschien weer.
+De fiets wiegt mee in zijn eigen gewicht,
+terwijl ik voorbij het licht van de laatste kroeg glij.
