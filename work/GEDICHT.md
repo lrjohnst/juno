@@ -35,3 +35,14 @@ is al lang tot herinnering afgekoeld.
 Je weet dat je hem moet wegzetten,
 maar je hand blijft zweven boven het oor,
 alsof iets hier nog op je wacht.
+
+## 4. Warmte van een net uitgeschakelde laptop — nacht
+
+De koele lucht glijdt over je polsen
+terwijl het scherm nog naschittert in je ogen.
+Geen geluid meer, alleen het tikken van de harde schijf
+die langzaam stilvalt in de kast.
+Je hand rust op het toetsenbord,
+voelt de laatste warmte als een vage herinnering
+aan iets wat net voorbij is,
+alsof de dag zich hier nog even vastklampt voordat ze verdwijnt.
