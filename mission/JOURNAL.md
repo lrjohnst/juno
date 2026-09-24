@@ -12,3 +12,7 @@ Koos voor een archetypische ochtendervaring: de eerste slok koffie die te heet i
 ## Tick 2 — 2026-09-24 13:06 — ACCEPTED
 
 Koos voor een middagervaring die iedereen kent: de vergeten lunch die toch wordt gegeten. Het archetype is uniek en past bij het tijdstip. De strofe beschrijft het moment zonder verhaal of personages.
+
+## Tick 3 — 2026-09-24 13:06 — ACCEPTED
+
+Koos voor een avondervaring: wachten op de tram in de regen, een herkenbaar moment van geduld en ongemak. Het archetype is uniek en past logisch na de middagstrofe.
