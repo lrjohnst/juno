@@ -12,3 +12,10 @@ alleen de klok tikt,
 alleen ik en het eerste licht 
 dat door het raam glijdt 
 als een hand die de dag binnenlaat.
+
+## 2. De hand die per ongeluk de verkeerde knop indrukt — middag
+
+Tussen de regels door, een vinger glijdt —
+de telefoon trilt al voordat je ‘ja’ zegt.
+Het scherm licht op, een naam die niet de jouwe is,
+de stem aan de andere kant begint te spreken alsof het al zo hoorde te zijn.
