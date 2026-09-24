@@ -16,3 +16,7 @@ Ik koos voor de eerste slok koude koffie als middag-archetype omdat het een univ
 ## Tick 3 — 2026-09-24 13:07 — ACCEPTED
 
 Ik koos voor dit archetype omdat een avond in de tram een moment van subtiele verbinding biedt dat herkenbaar is: die blik die even langer blijft hangen, de aarzeling tussen herkenning en anonimiteit. De avond past bij een ervaring die tussen dag en nacht staat, waar de drukte van de dag vervaagt maar de eenzaamheid nog niet volledig intreedt.
+
+## Tick 4 — 2026-09-24 13:07 — ACCEPTED
+
+Ik koos voor het geritsel van deken en lakens als nachtervaring omdat het de meest intieme en universele ervaring van de nacht is: het tastbare contact met jezelf in de duisternis. Het archetype volgt logisch na de avonduitwisseling in de tram en benadrukt de overgang naar volledige rust.

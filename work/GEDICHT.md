@@ -29,3 +29,19 @@ maar hij ziet je. Echt.
 Of misschien alleen zijn eigen spiegelbeeld,
 toch voelt het alsof de wereld even stilstaat,
 alsof je vanavond niet helemaal alleen hoeft te zijn.
+
+## 4. Het geritsel van deken en lakens — nacht
+
+De stof glijdt mee met een zucht,
+zo zacht dat het niet eens een geluid lijkt —
+toch voel ik het, als een vinger die
+over mijn schouder strijkt.
+
+De wereld buiten is een zwarte doos,
+geen licht, geen geluid, alleen de warmte
+van mijn eigen adem die terugkaatst
+tegen de binnenkant van mijn oogleden.
+
+En dan: het eerste moment van stilte,
+waarin ik weet dat ik hier ben —
+en nergens heen hoef.
