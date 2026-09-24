@@ -31,3 +31,15 @@ Toch knippert alles alsof het weet
 dat wij hier alleen nog dwalen,
 niet thuis, niet verdwaald —
 net niet verdwenen.
+
+## 4. De eerste hoest in de stilte — nacht
+
+De nacht ademt door de kier van het raam —
+geen wind, alleen een koude vinger die langs de ribben trekt.
+Je hoest, en plots is daar: de stilte die zich herstelt,
+als een adem die even stokte en nu weer op gang komt.
+
+Het is niet de hoest zelf, maar de manier waarop hij
+snijdt door de stilte, alsof hij zegt: *Hier ben ik.*
+Zonder reden, zonder aanleiding — gewoon een lichaam dat zich herinnert
+dat het niet oneindig is.

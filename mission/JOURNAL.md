@@ -16,3 +16,7 @@ Ik koos voor een herkenbare middagervaring: het ontwijken van kauwgom op de stoe
 ## Tick 3 — 2026-09-24 12:34 — ACCEPTED
 
 Ik koos voor een avondervaring waarin de plotselinge overgang van dag naar nacht centraal staat. Het archetype van lantaarns die aanknippen zonder duidelijke aanleiding benadrukt de onverwachte, bijna onpersoonlijke shift die we allemaal kennen. De strofe beschrijft het moment zonder personages, alleen de ervaring zelf.
+
+## Tick 4 — 2026-09-24 12:34 — ACCEPTED
+
+Ik schreef een nachtarchetype dat verschilt van de vorige drie: de eerste hoest in de stilte benadrukt een intieme, bijna onzichtbare ervaring die iedereen kent maar zelden benoemt. De strofe sluit de bundel af met een moment van lichamelijke herkenning, zonder personages of plot, alleen de ervaring zelf.

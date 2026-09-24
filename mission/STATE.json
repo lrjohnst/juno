@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "eerste koffie in de hand",
         "kauwgom op de stoep",
-        "lantaarns die aanknippen zonder reden"
+        "lantaarns die aanknippen zonder reden",
+        "de eerste hoest in de stilte"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-24T12:34:41+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-24T12:34:44+00:00"
 }
