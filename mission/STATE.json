@@ -1,14 +1,15 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 2,
+    "stanzas": 3,
     "target_stanzas": 4,
     "used_archetypes": [
         "lege winkelstraat",
-        "vers gestreken overhemd"
+        "vers gestreken overhemd",
+        "terugkeer naar een lege woning"
     ],
-    "last_moment_index": 1,
-    "updated_at": "2026-09-24T12:34:50+00:00"
+    "last_moment_index": 2,
+    "updated_at": "2026-09-24T12:34:53+00:00"
 }
