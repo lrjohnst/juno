@@ -16,3 +16,7 @@ Ik koos voor het moment waarop een vers gestreken overhemd wordt aangetrokken: e
 ## Tick 3 — 2026-09-24 12:34 — ACCEPTED
 
 Ik koos voor de avond als moment en 'terugkeer naar een lege woning' als archetype, verschillend van de eerdere twee (lege winkelstraat, vers gestreken overhemd). De strofe legt de focus op de fysieke en emotionele gewaarwording van een leeg huis na een dag buiten, met aandacht voor details als de geur en de echo van voetstappen.
+
+## Tick 4 — 2026-09-24 12:34 — ACCEPTED
+
+Ik koos voor dit archetype omdat het een universele maar zelden benoemde nachtelijke ervaring beschrijft: het eind van alle dagelijkse rituelen. De hand wordt hier een symbool voor afsluiting, verschillend van de eerdere archetypen en passend bij het late moment.

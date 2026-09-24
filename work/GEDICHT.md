@@ -30,3 +30,9 @@ alsof ik de woning wakker schud
 uit een dutje dat al jaren duurt.
 De klok tikt, maar hij liegt: tijd
 is hier niet meer dan een schaduw op de muur.
+
+## 4. De hand die de laatste lamp uitdoet — nacht
+
+De schakelaar klikt met een zucht die niet alleen stroom maar tijd wegneemt.
+Je vinger blijft even hangen alsof hij het donker wil meetrekken.
+Dan vouwen je knokkels zich om niets, alsof je een laatste hand schudt die al lang niets meer vastpakt.
