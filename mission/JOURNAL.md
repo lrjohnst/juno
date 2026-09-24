@@ -4,3 +4,7 @@ Append-only. Eén entry per tick, ook — juist — bij mislukking.
 Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout zich herhaalt.
 
 ---
+
+## Tick 1 — 2026-09-24 12:35 — ACCEPTED
+
+Ik koos voor de 'lege ochtendstraat' als eerste ervaring, omdat het een herkenbaar moment van stilte en afwezigheid is dat de dag start zonder woorden. De strofe moest de leegte voelbaar maken, zonder personages of verhaal.
