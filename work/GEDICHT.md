@@ -26,3 +26,11 @@ maar omdat je even wilt voelen
 hoe het metaal langzaam je warmte overneemt—
 alsof je de dag in je vingers vasthoudt
 voordat je hem loslaat.
+
+## 4. Het moment dat je de wekker uit zet zonder te kijken — nacht
+
+De wijzers vallen stil alsof ze al weken wachtten.
+Je vinger drukt, maar het geluid blijft in je hoofd hangen —
+een echo van iets wat nooit echt begon.
+De duisternis slokt de maten op alsof ze nooit bestonden,
+en je ademt uit alsof je pas nu mag beginnen te tellen.
