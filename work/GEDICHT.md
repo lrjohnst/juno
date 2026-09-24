@@ -32,3 +32,10 @@ De lantaarns ontwaken één voor één,
 maar hun licht blijft vreemd en onverschillig.
 Ik loop dezelfde weg terug, alsof ik iets achterlaat,
 alsof ik iets opraap — maar mijn handen zijn leeg.
+
+## 4. Eerste slaap — nacht
+
+De dekens vouwen zich als een vouwbal over de rand van het bed.
+De kamer ademt mee met het uurwerk van de straatlantaarn.
+Een vleugel van stilte slaat dicht boven mijn hoofd.
+Het kussen neemt mijn slaap al in ontvangst voordat ik hem heb betaald.
