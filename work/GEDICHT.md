@@ -24,3 +24,15 @@ De muur absorbeert, de zon trekt weg,
 en plots is het alsof je voor het eerst ziet
 hoe iets dat zo zeker leek
 toch alleen maar een echo is in steen en tijd.
+
+## 3. Geluid van een afwasmachine in een stiller huis — avond
+
+De machine draait zijn laatste rondjes,
+trilt zacht in de gootsteen als een onwillig hart.
+Alleen het metaal weet nog van de dag:
+hoe handen snel de borden pakten, hoe water
+sloeg op de scherven van wat eetbaar was.
+Nu ademt de ruimte weer, maar de machine houdt
+vast aan zijn ritme — een echo zonder stem,
+een slaap die nog niet mag komen, nog niet,
+nog niet.

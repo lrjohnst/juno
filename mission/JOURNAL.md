@@ -12,3 +12,7 @@ Ik koos voor een alledaagse ochtendervaring die iedereen kent maar zelden benoem
 ## Tick 2 — 2026-09-24 12:36 — ACCEPTED
 
 Ik koos voor de middag een ervaring die de onzichtbare druk van tijd en licht belichaamt: de schaduw als een stil getuige van de dag die voorbijglijdt. Het archetype is nieuw en vult de bundel aan van ochtend naar avond.
+
+## Tick 3 — 2026-09-24 12:36 — ACCEPTED
+
+Ik koos voor de avondervaring van de afwasmachine als symbool van de dag die langzaam tot rust komt. Het geluid fungeert als een overgang tussen actie en stilte, een herkenbare maar zelden benoemde ervaring.
