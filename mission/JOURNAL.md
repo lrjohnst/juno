@@ -16,3 +16,7 @@ Ik koos voor een middagervaring die herkenbaar is maar zelden wordt benoemd: het
 ## Tick 3 — 2026-09-24 13:05 — ACCEPTED
 
 Ik koos voor een avondervaring die de overgang van licht naar donker als metafoor gebruikt voor kleine, ongemerkte rituelen. De strofe moest de spanning tussen actie en inactiviteit, tussen controle en overgave, subtiel weergeven zonder expliciete uitleg.
+
+## Tick 4 — 2026-09-24 13:05 — ACCEPTED
+
+Ik koos voor het archetype van de nachtelijke wekker als symbool voor de spanning tussen wakker zijn en slapen, tussen controle en overgave. De strofe moest de stilte van de nacht en de onontkoombaarheid van de tijd vangen, zonder expliciete uitleg.
