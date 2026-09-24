@@ -1,13 +1,14 @@
 {
-    "tick": 1,
+    "tick": 2,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 1,
+    "stanzas": 2,
     "target_stanzas": 4,
     "used_archetypes": [
-        "eerste kop koffie"
+        "eerste kop koffie",
+        "wachten op de lift die vol is"
     ],
-    "last_moment_index": 0,
-    "updated_at": "2026-09-24T13:06:10+00:00"
+    "last_moment_index": 1,
+    "updated_at": "2026-09-24T13:06:12+00:00"
 }
