@@ -16,3 +16,7 @@ Ik koos voor een verlaten parkeerplaats onder de middagzon als archetype van een
 ## Tick 3 — 2026-09-24 12:33 — ACCEPTED
 
 Ik koos voor een wachtende bus onder straatlantaarns als archetypisch avondmoment: een ervaring van vertraging en stilstaande tijd, waarin de dag nog niet echt voorbij is maar de nacht al voelbaar. Het past bij de opbouw van middag naar avond en vermijdt herhaling van archetypes.
+
+## Tick 4 — 2026-09-24 12:33 — ACCEPTED
+
+Ik koos voor een nachtelijk archetype waarin vertrouwdheid en tijdloosheid samenkomen: de warme adem van een hond tegen je nek. Dit past bij de laatste strofe van de bundel, die de dag afsluit met een intiem, bijna weemoedig moment. Het archetype is uniek binnen de bundel en volgt logisch op de avondervaring van wachten op de bus.
