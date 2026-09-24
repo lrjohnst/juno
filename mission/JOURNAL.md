@@ -12,3 +12,7 @@ Ik koos voor de ervaring van opstaan voordat het licht is, een universeel moment
 ## Tick 2 — 2026-09-24 13:08 — ACCEPTED
 
 Ik koos voor het gevoel van tijd die stil lijkt te staan in een rij die niet vooruitkomt. De sensatie van ongeduld en het fysieke ongemak van stilstand zijn universeel, maar zelden zo scherp benoemd. De backlog vraagt om een volgende ervaring, nu gericht op avond of nacht.
+
+## Tick 3 — 2026-09-24 13:08 — ACCEPTED
+
+Ik koos voor het moment waarop de eerste slok koffie te heet is: een scherpe, fysieke ervaring die de avond inluidt. Het gaat om de tegenstrijdigheid tussen verlangen en pijn, een universeel gevoel dat vaak snel wordt vergeten.

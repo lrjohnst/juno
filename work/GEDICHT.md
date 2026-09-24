@@ -27,3 +27,13 @@ voor je wordt de lucht dunner, de wacht te lang.
 Je telt de tegels op de vloer,
 alsof elk een seconde kan vertragen,
 maar de rij staat stil — en jij ook.
+
+## 3. De eerste slok koffie die te heet is — avond
+
+De vloeistof brandt op mijn tong,
+voordat ik zelfs maar proef wat hij bevat.
+De hitte trekt door mijn keel als een waarschuwing,
+terwijl de wereld buiten nog even dof blijft.
+Ik sluit mijn ogen — het branden blijft,
+net zo onvermijdelijk als de dag die voorbij is,
+net zo onvermijdelijk als de avond die komt.
