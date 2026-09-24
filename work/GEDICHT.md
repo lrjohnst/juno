@@ -21,3 +21,10 @@ je adem vormt wolkjes in de kou.
 De tram vertraagt, maar rijdt door —
 weer een minutenlange stilte.
 Iemand schuift dichterbij, schouders opgetrokken.
+
+## 4. Laatste blik op het scherm voor het slapen — nacht
+
+Het blauwe licht valseert over je gezicht,
+je vingers aarzelen boven de toets.
+Eén klik nog, dan doof je de wereld uit —
+maar de gedachte blijft branden achter je oogleden.

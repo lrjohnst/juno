@@ -16,3 +16,7 @@ Koos voor een middagervaring die iedereen kent: de vergeten lunch die toch wordt
 ## Tick 3 — 2026-09-24 13:06 — ACCEPTED
 
 Koos voor een avondervaring: wachten op de tram in de regen, een herkenbaar moment van geduld en ongemak. Het archetype is uniek en past logisch na de middagstrofe.
+
+## Tick 4 — 2026-09-24 13:06 — ACCEPTED
+
+Koos voor een nachtelijk archetype: het moment waarop je voor de laatste keer naar een scherm kijkt voordat je gaat slapen. Dit is herkenbaar, past bij het nachtelijke tijdstip en sluit de bundel af met een introspectief gevoel.
