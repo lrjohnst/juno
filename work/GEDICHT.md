@@ -21,3 +21,10 @@ maar de lucht blijft warm en roerloos.
 Ik tel de seconden in mijn hoofd,
 wacht op groen, op beweging, op iets
 wat mij ook maar één stap verder brengt.
+
+## 3. Leeg glas op tafel — avond
+
+De dag is uitgedoofd maar niet het licht,
+het glas staat stil, een kleine woestijn.
+Je tikt ertegen — een helder, kort geluid,
+alsof iets in je wacht tot het wordt bewogen.

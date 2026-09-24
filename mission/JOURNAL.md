@@ -12,3 +12,7 @@ Ik koos voor het archetype van het wachten op de wekker omdat het een universele
 ## Tick 2 — 2026-09-24 13:06 — ACCEPTED
 
 Ik koos voor het archetype van het stilhouden bij een rood licht omdat het een universele middagervaring is die iedereen kent: het gefrustreerde wachten op beweging. De toon is ongeduldig maar gecontroleerd, passend bij het moment van de dag.
+
+## Tick 3 — 2026-09-24 13:06 — ACCEPTED
+
+Ik koos voor het archetype van het lege glas omdat het een universele avondervaring is: de stilte na activiteit, het moment waarop alles even stilligt. De toon is reflecterend en licht melancholisch, passend bij het moment van de dag.
