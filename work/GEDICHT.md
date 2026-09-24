@@ -18,3 +18,14 @@ precies daar waar je anders je hoofd tegen leunt.
 Een rechthoek die nooit beweegt, maar wel verandert.
 Hoe lang staat hij er al? Hoe lang nog?
 De tijd die hij meet is niet van jou, maar hij meet wel jouw tijd.
+
+## 3. Handen wassen voordat de deurbel gaat — avond
+
+De kraan loopt even, te heet eerst,
+dan precies goed: het water glijdt,
+koel en scherp als een pasgeslepen mes.
+Je wacht, handen nat, vingers gespreid,
+tussen zenuwen en gewoonte in.
+De bel gaat — je droogt ze niet af,
+laat het vocht van thuis aan je huid plakken,
+terwijl je al opendoet voor de ander.
