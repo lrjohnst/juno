@@ -21,3 +21,18 @@ De lucht trilt boven de motorkap,
 een spiegel van wat je niet wilt zien:
 je eigen gezicht, rood en vochtig,
 verpletterd onder het gewicht van de dag.
+
+## 3. Koele schemering op een verlaten plein — avond
+
+De wind glijdt over de bank 
+waar niemand meer heeft gezeten,
+zijn adem koud als een vergeten sleutel. 
+Dakpannen gloeien nog na in de diepte,
+maar de lucht is al zwaar van dauw en stilte.
+
+De straatlantaarn knipt aan als een oog 
+dat te lang heeft gewacht,
+zijn licht streelt de kasseien zonder haast,
+zoekend naar iets wat niet meer komt.
+De wereld trekt zich terug in schaduwen,
+en jij blijft staan, half in het donker, half in de tijd.
