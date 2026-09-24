@@ -4,8 +4,8 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Voeg een nieuwe regel toe aan het playbook gebaseerd op deze tick: 'Gebruik minstens één synesthetisch detail per strofe om de ervaring te verdiepen.'
+1. Schrijf strofe 1: zet het eerste archetype neer, vroeg op de dag.
 
 ## Afgerond
 
-_(zie JOURNAL.md)_
+_(nog niets)_
