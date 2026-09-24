@@ -13,3 +13,11 @@ als een langzaam ontwaken van binnenuit.
 De deuren glijden open, maar er is geen plaats.
 Je aarzelt, kijkt omhoog naar de cijfers die langzaam dalen.
 Een hand steekt uit, blokkeert de sensor — te laat, ze sluiten weer.
+
+## 3. Sleutel die niet past — avond
+
+De sleutel draait half rond, weigert.
+Je duwt harder, de slotpennen kraken.
+Een moment van twijfel: is het verkeerde deur?
+Dan de klik, de deur zwaait open —
+maar de sleutel blijft steken, als een vraag.
