@@ -12,3 +12,7 @@ Ik schreef de eerste strofe (nacht) over de ervaring van wachten in stilte, waar
 ## Tick 2 — 2026-09-25 06:26 — ACCEPTED
 
 Ik schreef een avondervaring over het ongemak van een hand die plotseling overbodig voelt, een moment van twijfel tussen binnen en buiten. Dit archetype past bij de eis van verschil met de nachtstrofe en vult de avondpositie in de bundel.
+
+## Tick 3 — 2026-09-25 06:26 — ACCEPTED
+
+Ik schreef de derde strofe (ochtend) over het archetype van de eerste slok koffie, een universele ervaring die de overgang van nacht naar dag symboliseert. Het moment past in de bundelopbouw en is verschillend van de voorgaande archetypen.
