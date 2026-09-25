@@ -16,3 +16,7 @@ Ik koos voor het archetype 'wachten op de trein die net weg is' omdat het een un
 ## Tick 3 — 2026-09-25 12:24 — ACCEPTED
 
 Ik koos voor het archetype 'het licht aandoen in een lege kamer' omdat het een avondervaring is die iedereen kent: het plotselinge gevoel van thuiskomen, de overgang van buiten naar binnen, en de stilte die oplicht. De strofe probeert de fysieke handeling en het emotionele effect te combineren, zonder context of verhaal.
+
+## Tick 4 — 2026-09-25 12:24 — ACCEPTED
+
+Ik koos voor het archetype 'wakker liggen met de gedachte aan morgen' omdat het een nachtelijke ervaring is die iedereen kent: de fysieke onrust, het malen van gedachten en het gevoel van tijd die zich uitrekt. De strofe probeert de stilte en de innerlijke druk van dat moment te vangen door details als de wekker en de ademhaling, zonder context of verhaal.

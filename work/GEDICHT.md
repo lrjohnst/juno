@@ -23,3 +23,10 @@ De muren ademen plotseling uit,
 alsof ze al die tijd hebben gewacht
 op dit ene moment: thuis zijn,
 en niets meer hoeven.
+
+## 4. Wakker liggen met de gedachte aan morgen — nacht
+
+Het plafond is een wit vlak zonder antwoord,
+de wekker tikt de seconden weg als schuld.
+Mijn ademhaling stokt, herhaalt zichzelf —
+een ritme dat niet slaapt, maar wacht.
