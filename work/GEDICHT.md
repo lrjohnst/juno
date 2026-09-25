@@ -11,3 +11,12 @@ alsof ergens in huis de tijd op gang komt.
 Je handen om de lege mok:
 nog niemand vraagt iets,
 nog ben je alleen maar wakker aan het worden.
+
+## 2. Instappen in een te warme auto — middag
+
+De deur gaat open en de hitte valt naar buiten,
+alsof iemand de middag heeft opgesloten.
+Je hand zoekt het stuur en trekt zich meteen terug,
+de stoel plakt aan je rug nog voor je zit.
+Even doe je niets dan ademen door je mond,
+wachtend tot de lucht weer van jou wordt.
