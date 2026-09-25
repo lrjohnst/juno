@@ -15,3 +15,11 @@ geen schaduw, geen zuchtje wind.
 Tussen de rails trilt de lucht,
 en iedere minuut wordt zwaarder
 als een steen in je zak.
+
+## 3. Het licht aandoen in een lege kamer — avond
+
+Het licht springt aan—een schok van wit,
+de muren ademen plotseling uit.
+Alles wat stil was, staat nu scherp:
+de leegte die je niet verwachtte,
+de stilte die je zelf hebt meegebracht.
