@@ -18,3 +18,12 @@ Achter je ademt iemand al ongeduldig,
 het eten tikt tegen het plastic deksel,
 en de laatste seconden duren langer
 dan de hele ochtend bij elkaar.
+
+## 3. Sleutels zoeken voor de voordeur — avond
+
+Voor de deur zakt de tas langzaam langs je been,
+een brood steekt scheef uit het papier,
+je vingers woelen blind langs munten, bonnetjes, een dop.
+Achter het glas ligt de gang al in zijn gewone licht,
+maar jij staat nog buiten, met je schouder tegen de kou,
+luisterend naar het kleine metaal dat zich niet laat vinden.
