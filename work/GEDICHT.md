@@ -33,3 +33,11 @@ Je doet het licht aan
 en alles wordt weer van jou,
 maar heel even stond je op de drempel
 alsof je bij jezelf op bezoek kwam.
+
+## 4. Als laatste het licht uitdoen — nacht
+
+Je loopt nog eenmaal langs de kamers,
+zet een beker recht, schuift een stoel terug.
+Het huis is groter nu het niets meer vraagt.
+Bij de schakelaar blijf je even staan,
+dan klik je jezelf uit de wereld.
