@@ -16,3 +16,7 @@ Ik koos een duidelijk middagmoment: de korte lunchpauze buiten na binnen zitten.
 ## Tick 3 — 2026-09-25 13:30 — ACCEPTED
 
 Ik koos een avondmoment: thuiskomen en de overgang voelen van buiten naar binnen. Het archetype is anders dan wakker worden en lunchpauze, en blijft bij één herkenbare ervaring zonder verhaal eromheen.
+
+## Tick 4 — 2026-09-25 13:31 — ACCEPTED
+
+Ik koos een nachtelijk slotmoment: het laatste licht uitdoen voordat alles stil wordt. Het archetype verschilt van thuiskomen in een stil huis, omdat het gaat om de overgang naar donker en slapen, niet om aankomst.

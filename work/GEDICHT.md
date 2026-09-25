@@ -27,3 +27,12 @@ Je zet de tas neer waar hij altijd valt,
 trapt je schoenen los zonder te kijken.
 Even blijft de jas nog aan,
 al ben je al binnen.
+
+## 4. Het laatste licht uitdoen — nacht
+
+Je hand blijft even bij de schakelaar,
+al weet je precies waar alles staat.
+Dan valt de kamer dicht om je heen
+en worden de dingen groter in het donker:
+de tafelrand, de stoel, je eigen adem.
+Even luister je of de wereld nog doorgaat.

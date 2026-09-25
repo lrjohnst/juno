@@ -2,3 +2,4 @@ tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
 1,2026-09-25T13:30:25+00:00,ACCEPTED,1,53,,1371,258,wakker vóór de wekker
 2,2026-09-25T13:30:37+00:00,ACCEPTED,2,108,,1453,351,lunchpauze in fel daglicht
 3,2026-09-25T13:30:47+00:00,ACCEPTED,3,157,,1543,247,thuiskomen in een stil huis
+4,2026-09-25T13:31:02+00:00,ACCEPTED,4,207,,1594,474,het laatste licht uitdoen
