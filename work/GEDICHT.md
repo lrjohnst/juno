@@ -30,3 +30,14 @@ en de ogen kijken door het raam
 naar een wereld die langzaam kleur krijgt,
 maar nog even wazig blijft als de echo
 of dromen die zich aan de randen vasthouden.
+
+## 4. De geur van vers brood bij het openen van de winkeldeur — ochtend
+
+De deur zwaait open —
+vochtige warmte, een scherpe geur
+die zich vastzet in je neusvleugels.
+Geen geluid, alleen de stilte
+die breekt als deeg onder vingers.
+Je ademt in, langzaam,
+en weet: dit is het moment
+waarop de dag echt begint.

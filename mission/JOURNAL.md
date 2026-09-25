@@ -16,3 +16,7 @@ Ik schreef een avondervaring over het ongemak van een hand die plotseling overbo
 ## Tick 3 — 2026-09-25 06:26 — ACCEPTED
 
 Ik schreef de derde strofe (ochtend) over het archetype van de eerste slok koffie, een universele ervaring die de overgang van nacht naar dag symboliseert. Het moment past in de bundelopbouw en is verschillend van de voorgaande archetypen.
+
+## Tick 4 — 2026-09-25 06:26 — ACCEPTED
+
+Ik koos voor het ochtenderfgoed van vers brood als archetype, een universele ervaring die past bij de laatste strofe en verschilt van de eerdere. De strofe sluit de bundel af met een tastbaar, herkenbaar moment dat de overgang van nacht naar dag markeert.
