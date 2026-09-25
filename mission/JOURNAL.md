@@ -16,3 +16,7 @@ Ik koos een herkenbaar middagarchetype: in de lunchpauze iets te eten zoeken ter
 ## Tick 3 — 2026-09-25 13:29 — ACCEPTED
 
 Ik koos voor een avondmoment: thuiskomen wanneer het huis stil is en de dag nog aan je lichaam hangt. Het archetype is duidelijk anders dan de eerdere ochtend- en middagervaringen en blijft bij één herkenbare gewaarwording.
+
+## Tick 4 — 2026-09-25 13:29 — ACCEPTED
+
+Ik koos een duidelijk nachtelijk archetype: half slapend door het donkere huis lopen. Het verschilt van de eerdere thuiskomst doordat het niet over aankomen gaat, maar over de vreemde vertrouwdheid van het huis midden in de nacht.

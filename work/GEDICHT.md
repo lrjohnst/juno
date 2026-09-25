@@ -27,3 +27,12 @@ Even blijf je staan met je hand op de deurklink,
 de tas nog aan je schouder, de schoenen vol dag.
 Uit de kamers komt geen antwoord,
 alleen het zachte brommen van iets dat altijd aanstaat.
+
+## 4. Nachtelijke gang naar de wc — nacht
+
+Op blote voeten door het huis,
+de vloer kouder dan overdag.
+Je raakt geen schakelaar aan,
+kent de bocht om de tafel op de tast.
+Achter elke deur staat dezelfde kamer,
+maar donkerder, alsof zij even zonder jou bestaat.
