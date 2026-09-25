@@ -4,8 +4,10 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 1: zet het eerste archetype neer, vroeg op de dag.
+1. Schrijf strofe 2: kies een archetype voor de ochtend (bijv. 'de eerste koffie die te heet is').
+1. Schrijf strofe 3: kies een archetype voor de middag (bijv. 'de stilte tussen telefoongesprekken').
+1. Schrijf strofe 4: kies een archetype voor de avond (bijv. 'het licht dat te fel is in een lege kamer').
 
 ## Afgerond
 
-_(nog niets)_
+_(zie JOURNAL.md)_
