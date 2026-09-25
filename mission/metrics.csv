@@ -1,5 +1,1 @@
 tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
-1,2026-09-25T13:28:55+00:00,ACCEPTED,1,57,,1371,228,wakker vóór de wekker
-2,2026-09-25T13:29:05+00:00,ACCEPTED,2,111,,1457,254,zoeken naar iets te eten tijdens lunchpauze
-3,2026-09-25T13:29:15+00:00,ACCEPTED,3,169,,1534,262,thuiskomen in een stil huis
-4,2026-09-25T13:29:30+00:00,ACCEPTED,4,214,,1616,417,nachtelijke gang naar de wc
