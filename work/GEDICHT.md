@@ -14,3 +14,10 @@ De zon brandt op het perron, een loodzware lucht,
 de schaduw van het bord is te klein om te delen.
 Je voelt hoe je shirt aan je rug plakt,
 terwijl de minuten zich slepen als natte zolen.
+
+## 3. Het licht aandoen in een lege kamer — avond
+
+Het licht springt aan—een schok van geel,
+een kamer die zich plotseling herinnert:
+de stoel die wacht, het boek half open,
+de stilte die nu opeens gevuld is.
