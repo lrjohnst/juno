@@ -16,3 +16,10 @@ flikkert, vertrektijd nog steeds onzeker.
 
 Je voelt de zweetdruppel die langs je rug
 glijdt, traag als de wijzer van de klok.
+
+## 3. De stilte na een ruzie — avond
+
+De kamer ademt nog na —
+een zucht die niet meer wordt gevolgd.
+Het licht valt schuin door de gordijnen,
+raakt de muur waar woorden bleven kleven.
