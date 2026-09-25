@@ -14,3 +14,10 @@ De zon brandt op het perron, loodzwaar.
 Een zweetdruppel glijdt langs mijn slaap,
 telkens als ik opkijk naar het bord.
 De minuten rekken, de schaduw krimpt.
+
+## 3. Het licht aandoen in een lege kamer — avond
+
+De schakelaar klikt, een schok van geel—
+de muren ademen plotseling uit.
+Alles wat stil was, staat nu scherp
+alsof het wachtte om gezien te worden.

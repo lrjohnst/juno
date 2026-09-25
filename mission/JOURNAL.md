@@ -12,3 +12,7 @@ Ik koos voor het archetype 'eerste slok koffie' omdat het een universeel ochtend
 ## Tick 2 — 2026-09-25 12:24 — ACCEPTED
 
 Ik koos voor het archetype 'wachten op de trein in de hitte' omdat het een alledaagse, fysieke ervaring is die iedereen kent: de combinatie van ongemak, verveling en het gevoel van tijd die stilstaat. De strofe richt zich op de zintuiglijke details en de spanning tussen bewegingloosheid en de verwachting van vertrek.
+
+## Tick 3 — 2026-09-25 12:24 — ACCEPTED
+
+Ik koos voor het archetype 'het licht aandoen in een lege kamer' omdat het een alledaags, bijna onopgemerkt moment is dat een plotselinge verschuiving in sfeer markeert. De strofe richt zich op de contrasten tussen duisternis en plotselinge helderheid, en het gevoel van herkenning dat daarmee gepaard gaat.
