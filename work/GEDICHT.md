@@ -18,3 +18,12 @@ de broodzak kraakt in je hand,
 en even ben je niemand die iets moet afmaken,
 alleen een lichaam dat knippert,
 ademhaalt, en de warmte op zijn wangen voelt.
+
+## 3. Thuiskomen in een stil huis — avond
+
+De sleutel draait met een kleine klik,
+en ineens is er de eigen lucht van kamers.
+Je zet de tas neer waar hij altijd valt,
+trapt je schoenen los zonder te kijken.
+Even blijft de jas nog aan,
+al ben je al binnen.

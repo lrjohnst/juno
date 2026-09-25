@@ -12,3 +12,7 @@ Ik koos een vroeg ochtendmoment: wakker worden net vóór de wekker. Het is alle
 ## Tick 2 — 2026-09-25 13:30 — ACCEPTED
 
 Ik koos een duidelijk middagmoment: de korte lunchpauze buiten na binnen zitten. Het archetype verschilt van wakker worden en houdt de ervaring klein, herkenbaar en zonder plot.
+
+## Tick 3 — 2026-09-25 13:30 — ACCEPTED
+
+Ik koos een avondmoment: thuiskomen en de overgang voelen van buiten naar binnen. Het archetype is anders dan wakker worden en lunchpauze, en blijft bij één herkenbare ervaring zonder verhaal eromheen.
