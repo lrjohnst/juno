@@ -4,7 +4,7 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 2: kies een archetype voor het middaguur, anders dan de eerste strofe.
+1. Schrijf strofe 3: kies een archetype voor de avond, anders dan de eerste twee strofen.
 
 ## Afgerond
 
