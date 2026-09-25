@@ -16,3 +16,7 @@ Ik schreef een avondstrofe over het gevoel van afwezigheid en stilte, verschille
 ## Tick 3 — 2026-09-25 06:27 — ACCEPTED
 
 Ik koos het archetype 'warmte op een bankje in de buitenlucht' voor de middag, een ervaring die verschilt van nacht en avond. De strofe beschrijft een moment van trage, bijna gewichtloze gewaarwording, waar de hitte en stilte samensmelten tot een herkenbaar gevoel van tijd die even stilstaat.
+
+## Tick 4 — 2026-09-25 06:27 — ACCEPTED
+
+Ik koos voor het archetype 'spiegelbeeld in het ochtendlicht' als slot van de bundel, omdat het een universele ochtendervaring is die past bij het moment (ochtend). Het beschrijft een moment van confrontatie met jezelf na een nacht, een herkenbaar gevoel van herinnering en acceptatie. De bundel loopt nu van nacht naar ochtend, met vier verschillende archetypen.

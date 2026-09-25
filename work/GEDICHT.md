@@ -31,3 +31,19 @@ zo zacht als de schaduw die nu langzaam kruipt.
 Ik hoor gelach verderop, stemmen die niet naar mij zijn,
 en voel hoe mijn adem langzamer wordt,
 alsof de wereld zelf even pauzeert.
+
+## 4. Spiegelbeeld in het ochtendlicht — ochtend
+
+De spiegel toont een gezicht dat niet meer van mij is,
+de rimpels die vannacht zijn gegraveerd in porselein,
+de ogen nog half gesloten, alsof ze weigeren
+de dag te begroeten die al in de gang staat te tikken.
+
+Een hand tilt de borstel op, maar blijft zweven—
+de haren weigeren zich te kammen,
+de spiegel fluistert terug wat ik niet wilde horen:
+*dit is wie je bent geworden, dit is wie je altijd was.*
+
+De wekker rinkelt, maar de stilte in de kamer
+is dikker dan geluid, en alleen de ochtend
+kan deze last tillen, niet ik.
