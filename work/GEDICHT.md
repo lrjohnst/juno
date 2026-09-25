@@ -25,3 +25,10 @@ wat ik niet eens meer weet.
 
 Even staat de tijd stil, alsof
 de nacht buiten wacht op antwoord.
+
+## 4. De stilte na het laatste gesprek — nacht
+
+Het licht is uit, de stemmen zijn verstomd,
+de kamer ademt zachtjes, bijna onhoorbaar.
+Er blijft een echo hangen, niet van woorden,
+maar van de ruimte die ze net nog vulden.
