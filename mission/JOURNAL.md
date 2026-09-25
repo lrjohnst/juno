@@ -12,3 +12,7 @@ Ik koos voor het archetype 'eerste slok koffie' omdat het een universeel ochtend
 ## Tick 2 — 2026-09-25 12:25 — ACCEPTED
 
 Ik koos voor het archetype 'wachten op de trein die net weg is' omdat het een universeel moment van frustratie en machteloosheid vastlegt, zonder context of verhaal. De strofe richt zich op het fysieke gevoel van het gemiste moment en de onherroepelijkheid ervan, met beelden die iedereen herkent.
+
+## Tick 3 — 2026-09-25 12:25 — ACCEPTED
+
+Ik koos voor het archetype 'het licht uitdoen in een lege kamer' omdat het een intiem, bijna ritueel moment is dat iedereen kent, maar zelden bewust ervaart. De strofe richt zich op de overgang van aanwezigheid naar afwezigheid, met beelden die de leegte en stilte voelbaar maken.
