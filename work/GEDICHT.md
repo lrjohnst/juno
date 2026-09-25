@@ -25,3 +25,15 @@ de gang houdt even zijn adem in.
 Je jas blijft aan terwijl je luistert
 naar het zachte niets van kamers
 waarin niemand iets van je vraagt.
+
+## 4. Wakker liggen in het donker — nacht
+
+Je ligt stil om niemand te wekken,
+maar het huis hoort alles:
+de klik van een leiding, een auto ver weg,
+je eigen adem die te luid wordt
+zodra je erop let.
+De tijd ligt naast je open,
+zonder licht, zonder haast,
+en elke gedachte vindt precies nu
+de weg terug naar je kussen.

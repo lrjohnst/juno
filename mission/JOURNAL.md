@@ -16,3 +16,7 @@ Ik koos een herkenbare middagervaring: de stille traagheid na de lunch achter ee
 ## Tick 3 — 2026-09-25 13:28 — ACCEPTED
 
 Ik koos een avondmoment dat duidelijk later op de dag ligt: thuiskomen in een stil huis. De strofe concentreert zich op de herkenbare overgang van buiten naar binnen en houdt het bij één ervaring.
+
+## Tick 4 — 2026-09-25 13:28 — ACCEPTED
+
+Ik koos een nachtelijk archetype dat duidelijk later is dan de avond: wakker liggen in het donker. De strofe blijft bij de lichamelijke en zintuiglijke ervaring van het moment, zonder verhaal of personagegeschiedenis.
