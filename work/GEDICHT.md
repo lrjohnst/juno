@@ -17,3 +17,12 @@ de cursor knippert geduldig op één plek.
 Er is geen slaap, alleen dat zachte zakken
 van het lichaam in de stoel,
 terwijl buiten iemand helder langs het raam loopt.
+
+## 3. Thuiskomen in de schemering — avond
+
+De sleutel vindt bijna vanzelf het slot,
+de gang ruikt naar stof, jas, een huis dat heeft gewacht.
+Buiten blijft de straat nog even blauw in het raam,
+binnen klikt een lamp aan met een kleine belofte.
+Je zet je tas neer en merkt pas dan
+hoeveel dag je nog op je schouders droeg.

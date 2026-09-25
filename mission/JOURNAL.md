@@ -12,3 +12,7 @@ Ik koos een vroege ochtendervaring die klein en herkenbaar is: wakker worden voo
 ## Tick 2 — 2026-09-25 13:32 — ACCEPTED
 
 Ik koos een middagarchetype dat duidelijk later komt dan de eerste ochtendstrofe: de loomte na de lunch tijdens werk of school. De strofe blijft bij één herkenbaar moment zonder verhaal of personages uit te bouwen.
+
+## Tick 3 — 2026-09-25 13:32 — ACCEPTED
+
+Ik koos een avondarchetype dat duidelijk later valt dan de middag: thuiskomen wanneer het buiten schemert. De strofe richt zich op het fysieke omslagpunt tussen buiten en binnen, zonder er een verhaal omheen te bouwen.
