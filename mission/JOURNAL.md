@@ -16,3 +16,7 @@ Ik koos voor het archetype 'wachten op de trein die net weg is' omdat het een un
 ## Tick 3 — 2026-09-25 12:25 — ACCEPTED
 
 Ik koos voor het archetype 'het licht uitdoen in een lege kamer' omdat het een intiem, bijna ritueel moment is dat iedereen kent, maar zelden bewust ervaart. De strofe richt zich op de overgang van aanwezigheid naar afwezigheid, met beelden die de leegte en stilte voelbaar maken.
+
+## Tick 4 — 2026-09-25 12:25 — ACCEPTED
+
+Ik koos voor het archetype 'wakker liggen met de gedachte aan morgen' omdat het een nachtelijke ervaring is die iedereen kent, maar zelden benoemd wordt. De strofe richt zich op het gevoel van tijd die stilstaat en tegelijkertijd onverbiddelijk doortikt, zonder context of verhaal eromheen.

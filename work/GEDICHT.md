@@ -23,3 +23,10 @@ de wereld krimpt tot vier muren stil.
 Een laatste streep maan op de vloer,
 een adem die nog even blijft hangen,
 voor alles verdwijnt in het donker.
+
+## 4. Wakker liggen met de gedachte aan morgen — nacht
+
+Het plafond een zwarte spiegel,
+de wekker fluistert cijfers die niet tellen.
+Elke ademhaling telt de seconden
+voordat de dag begint — en jij niet.

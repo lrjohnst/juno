@@ -2,3 +2,4 @@ tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
 1,2026-09-25T12:25:33+00:00,ACCEPTED,1,34,,1581,210,eerste slok koffie
 2,2026-09-25T12:25:38+00:00,ACCEPTED,2,69,,1724,213,wachten op de trein die net weg is
 3,2026-09-25T12:25:43+00:00,ACCEPTED,3,110,,1843,226,het licht uitdoen in een lege kamer
+4,2026-09-25T12:25:47+00:00,ACCEPTED,4,142,,1960,183,wakker liggen met de gedachte aan morgen
