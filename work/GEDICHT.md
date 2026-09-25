@@ -21,3 +21,10 @@ De schakelaar klikt, een schok van geel—
 de muren ademen plotseling uit.
 Alles wat stil was, staat nu scherp
 alsof het wachtte om gezien te worden.
+
+## 4. De stilte na een ruzie — nacht
+
+De klok tikt, maar de muren zwijgen,
+een ademhaling die niet past bij de jouwe.
+De lucht is zwaar van woorden die niet vielen,
+en elke schaduw herhaalt wat je niet zei.

@@ -16,3 +16,7 @@ Ik koos voor het archetype 'wachten op de trein in de hitte' omdat het een alled
 ## Tick 3 — 2026-09-25 12:24 — ACCEPTED
 
 Ik koos voor het archetype 'het licht aandoen in een lege kamer' omdat het een alledaags, bijna onopgemerkt moment is dat een plotselinge verschuiving in sfeer markeert. De strofe richt zich op de contrasten tussen duisternis en plotselinge helderheid, en het gevoel van herkenning dat daarmee gepaard gaat.
+
+## Tick 4 — 2026-09-25 12:25 — ACCEPTED
+
+Ik koos voor het archetype 'de stilte na een ruzie' omdat het een nachtelijke ervaring is die iedereen kent: het gevoel van onuitgesproken spanning en de zwaarte van wat niet is opgelost. De strofe richt zich op de fysieke en emotionele leegte die volgt op conflict, zonder expliciete context of personages.
