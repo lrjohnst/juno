@@ -4,7 +4,7 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 2: kies een archetype voor de middag, iets wat zich afspeelt tussen het begin en het einde van de dag.
+1. Schrijf strofe 3: kies een archetype voor de avond, iets wat zich afspeelt tussen het einde van de dag en het begin van de nacht.
 
 ## Afgerond
 
