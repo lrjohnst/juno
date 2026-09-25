@@ -1,5 +1,1 @@
 tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
-1,2026-09-25T06:28:33+00:00,ACCEPTED,1,52,,1593,274,de eerste slaper die de stilte breekt
-2,2026-09-25T06:28:35+00:00,ACCEPTED,2,112,,1795,257,de eerste fietsers in de straat
-3,2026-09-25T06:28:43+00:00,REJECTED,2,112,,1914,255,moment 'avond' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
-4,2026-09-25T06:28:50+00:00,REJECTED,2,112,,2008,228,moment 'middag' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
