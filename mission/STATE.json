@@ -1,13 +1,14 @@
 {
-    "tick": 1,
+    "tick": 2,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 1,
+    "stanzas": 2,
     "target_stanzas": 4,
     "used_archetypes": [
-        "de eerste slaper die de stilte breekt"
+        "de eerste slaper die de stilte breekt",
+        "de eerste fietsers in de straat"
     ],
-    "last_moment_index": 0,
-    "updated_at": "2026-09-25T06:28:33+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-25T06:28:35+00:00"
 }
