@@ -27,3 +27,14 @@ Even blijf je staan in het ganglicht,
 met sleutels nog warm in je hand,
 en hoort hoe de dag van je af schuift
 zonder dat iemand iets zegt.
+
+## 4. Wakker liggen in het donker — nacht
+
+Je wordt wakker zonder reden,
+het huis houdt zijn adem in.
+Een leiding tikt, een auto schuift voorbij
+als water achter glas.
+Je ogen wennen aan het plafond,
+aan de stoel die weer gewoon een stoel wordt.
+Alles wat overdag geen stem kreeg
+komt zacht naast je liggen.

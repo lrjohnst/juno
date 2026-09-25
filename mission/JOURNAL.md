@@ -16,3 +16,7 @@ Ik koos een herkenbaar middagmoment dat verschilt van de eerdere ochtendervaring
 ## Tick 3 — 2026-09-25 13:31 — ACCEPTED
 
 Ik koos een avondmoment dat duidelijk later op de dag ligt: thuiskomen en de last van de dag neerzetten. Het archetype verschilt van de eerdere ochtend- en middagervaringen en blijft bij één herkenbare fysieke overgang.
+
+## Tick 4 — 2026-09-25 13:31 — ACCEPTED
+
+Ik koos een duidelijk nachtelijk archetype: wakker liggen terwijl het huis stil is en gedachten terugkomen. Het verschilt van de eerdere momenten en sluit de dag af zonder een verhaal te maken.
