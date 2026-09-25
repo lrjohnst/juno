@@ -15,3 +15,13 @@ een echo van metaal op metaal.
 Je adem stokt — te laat —
 en de rails liggen leeg, alsof
 iemand ooit echt verwachtte dat je kwam.
+
+## 3. Het licht van de koelkast dat de keuken vult — avond
+
+De deur zwaait open—een plotselinge plas
+van koud, wit licht over het aanrecht,
+de vloer, mijn hand die zoekt naar iets
+wat ik niet eens meer weet.
+
+Even staat de tijd stil, alsof
+de nacht buiten wacht op antwoord.
