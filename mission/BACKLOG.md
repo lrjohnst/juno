@@ -4,8 +4,8 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Bundel voltooid: vier strofen staan in volgorde van ochtend naar nacht.
+1. Schrijf strofe 1: zet het eerste archetype neer, vroeg op de dag.
 
 ## Afgerond
 
-_(zie JOURNAL.md)_
+_(nog niets)_
