@@ -14,3 +14,7 @@ De stand is ongewijzigd; de volgende tick probeert dezelfde stap opnieuw.
 ## Tick 1 — 2026-09-25 13:12 — ACCEPTED
 
 Ik koos een vroege ochtendervaring die klein en algemeen is: wachten op de waterkoker terwijl de dag nog moet beginnen. De strofe richt zich op het fysieke en hoorbare moment, zonder verhaal eromheen.
+
+## Tick 2 — 2026-09-25 13:12 — ACCEPTED
+
+Ik schreef strofe 2 als middagervaring: de alledaagse frustratie van de verkeerde kassarij kiezen. Het archetype verschilt duidelijk van het wachten op de waterkoker en past later op de dag, tussen ochtend en avond.
