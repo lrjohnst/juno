@@ -16,3 +16,7 @@ Ik koos een middagarchetype dat duidelijk later komt dan de eerste ochtendstrofe
 ## Tick 3 — 2026-09-25 13:32 — ACCEPTED
 
 Ik koos een avondarchetype dat duidelijk later valt dan de middag: thuiskomen wanneer het buiten schemert. De strofe richt zich op het fysieke omslagpunt tussen buiten en binnen, zonder er een verhaal omheen te bouwen.
+
+## Tick 4 — 2026-09-25 13:32 — ACCEPTED
+
+Ik koos een duidelijk nachtelijk archetype dat later is dan de avond: onverwacht wakker liggen in een stil huis. De strofe blijft bij de herkenbare gewaarwording van geluiden, tijdloosheid en alleen wakker zijn.

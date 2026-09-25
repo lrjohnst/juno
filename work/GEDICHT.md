@@ -26,3 +26,12 @@ Buiten blijft de straat nog even blauw in het raam,
 binnen klikt een lamp aan met een kleine belofte.
 Je zet je tas neer en merkt pas dan
 hoeveel dag je nog op je schouders droeg.
+
+## 4. Wakker worden in een stil huis — nacht
+
+Midden in de nacht word je wakker zonder reden,
+het huis ligt om je heen als iets dat luistert.
+De koelkast slaat aan, een leiding tikt na,
+ver weg schuift een auto door een natte straat.
+Je weet even niet hoe laat het is,
+alleen dat iedereen slaapt en jij bestaat.
