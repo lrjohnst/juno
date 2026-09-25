@@ -12,3 +12,7 @@ Ik koos een vroeg ochtendmoment dat vrijwel iedereen kent: wakker worden net voo
 ## Tick 2 — 2026-09-25 13:29 — ACCEPTED
 
 Ik koos een herkenbaar middagarchetype: in de lunchpauze iets te eten zoeken terwijl de tijd doorloopt. De strofe blijft bij het kleine lichamelijke en besluiteloze moment, zonder verhaal eromheen.
+
+## Tick 3 — 2026-09-25 13:29 — ACCEPTED
+
+Ik koos voor een avondmoment: thuiskomen wanneer het huis stil is en de dag nog aan je lichaam hangt. Het archetype is duidelijk anders dan de eerdere ochtend- en middagervaringen en blijft bij één herkenbare gewaarwording.

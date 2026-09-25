@@ -18,3 +18,12 @@ Je pakt iets op, leest niets, zet het terug,
 hoort achter je wielen, stemmen, plastic.
 Even lijkt elke keuze te groot
 voor een middag die gewoon verder moet.
+
+## 3. Thuiskomen in een stil huis — avond
+
+De sleutel draait harder dan je dacht,
+de gang neemt je jas aan zonder iets te vragen.
+Even blijf je staan met je hand op de deurklink,
+de tas nog aan je schouder, de schoenen vol dag.
+Uit de kamers komt geen antwoord,
+alleen het zachte brommen van iets dat altijd aanstaat.
