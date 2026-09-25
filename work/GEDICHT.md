@@ -14,3 +14,12 @@ Het perron ademt uit: een zucht van metaal,
 de rails nog warm van wat had kunnen zijn.
 Je handen zoeken steun in lege zakken,
 en tellen de seconden tot de volgende trein.
+
+## 3. Het licht aandoen in een lege kamer — avond
+
+De schakelaar klikt, een zachte klik—
+de lamp ontvouwt zich als een bloem.
+De muren ademen plotseling uit,
+alsof ze al die tijd hebben gewacht
+op dit ene moment: thuis zijn,
+en niets meer hoeven.

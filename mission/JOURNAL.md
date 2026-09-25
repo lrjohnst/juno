@@ -12,3 +12,7 @@ Ik koos voor het archetype 'eerste slok koffie' omdat het een universeel ochtend
 ## Tick 2 — 2026-09-25 12:24 — ACCEPTED
 
 Ik koos voor het archetype 'wachten op de trein die net weg is' omdat het een universeel middagmoment is dat frustratie, berusting en het gevoel van tijdverlies combineert. De strofe probeert de fysieke en emotionele leegte van dat moment te vangen door details als de warmte van de rails en de automatische beweging van de handen.
+
+## Tick 3 — 2026-09-25 12:24 — ACCEPTED
+
+Ik koos voor het archetype 'het licht aandoen in een lege kamer' omdat het een avondervaring is die iedereen kent: het plotselinge gevoel van thuiskomen, de overgang van buiten naar binnen, en de stilte die oplicht. De strofe probeert de fysieke handeling en het emotionele effect te combineren, zonder context of verhaal.
