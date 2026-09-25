@@ -23,3 +23,13 @@ De kamer ademt nog na —
 een zucht die niet meer wordt gevolgd.
 Het licht valt schuin door de gordijnen,
 raakt de muur waar woorden bleven kleven.
+
+## 4. De laatste blik op een slapende geliefde — nacht
+
+Het licht van de straatlantaarn valt
+schuin door het gordijn, een streep
+op je wang, op je gesloten oogleden.
+Je ademt, langzaam, alsof de nacht
+zichzelf in je herhaalt —
+en ik tel de seconden tussen elke zucht,
+alsof ik bang ben dat je ophoudt.
