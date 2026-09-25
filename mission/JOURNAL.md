@@ -16,3 +16,7 @@ Ik schreef strofe 2 als een duidelijk middagmoment: de bekende inzinking achter 
 ## Tick 3 — 2026-09-25 13:33 — ACCEPTED
 
 Ik koos een avondmoment dat later ligt dan de middag: thuiskomen in een donker huis. De strofe houdt de ervaring klein en herkenbaar, zonder verhaal eromheen, en gebruikt een nieuw archetype.
+
+## Tick 4 — 2026-09-25 13:34 — ACCEPTED
+
+Ik koos een duidelijk nachtelijk archetype: wakker liggen terwijl het huis stil is en gedachten groter worden. Het is nieuw ten opzichte van de eerdere strofen en sluit de dagorde af.

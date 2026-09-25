@@ -27,3 +27,13 @@ Binnen staat de lucht van de hele dag stil:
 een koude gang, een jas die van je schouder glijdt,
 het kleine klikken van de lamp
 waarna alles ineens weer van jou is.
+
+## 4. Wakker liggen om drie uur — nacht
+
+Om drie uur is het huis een adem die inhoudt,
+de koelkast tikt alsof hij iets weet.
+Je ligt stil om de slaap niet weg te jagen,
+maar elke gedachte krijgt voeten in het donker.
+Buiten schuift een auto voorbij, zonder haast,
+en even lijkt de wereld door te gaan
+zonder jou nodig te hebben.
