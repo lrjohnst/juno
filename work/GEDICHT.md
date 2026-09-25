@@ -16,3 +16,15 @@ onder een hemel die geen haast heeft.
 Je ademt uit, de wind neemt het over,
 terwijl de volgende minuut alweer
 zijn schaduw over je schouders legt.
+
+## 3. Het licht aandoen in een lege kamer — avond
+
+Het licht springt aan—een schok
+door de stilte die er was,
+plotseling weerkaatst tegen muren
+waar net nog niets bestond.
+
+De schaduwen trekken zich terug
+alsof ze schrikken van zichzelf,
+en alles wat vergeten lag
+ligt nu te helder in het zicht.
