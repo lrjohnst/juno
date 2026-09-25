@@ -8,3 +8,7 @@ Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout
 ## Tick 1 — 2026-09-25 12:27 — ACCEPTED
 
 Ik koos voor het moment van de eerste slok koffie omdat het een universeel ochtendritueel is dat iedereen herkent, maar zelden bewust ervaart. De nadruk ligt op het zintuiglijke: de warmte, de geur, de smaak en de stilte eromheen, zonder context of verhaal.
+
+## Tick 2 — 2026-09-25 12:27 — ACCEPTED
+
+Ik koos voor het moment van net gemiste aansluiting omdat het een universele ervaring van machteloosheid en tijdelijkheid is, zonder dramatiek. De nadruk ligt op de fysieke sensatie van het perron en de plotselinge leegte, zonder verklaring of emotionele uitweiding.
