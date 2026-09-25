@@ -16,3 +16,12 @@ Na de lunch wordt het scherm een wit raam.
 Je hand blijft op de muis liggen alsof hij iets bewaakt,
 de klok schuift traag door het uur dat niemand bezit,
 en in je mond hangt nog de smaak van koffie die niet hielp.
+
+## 3. Thuiskomen in een stil huis — avond
+
+De sleutel draait harder dan je dacht.
+Binnen staat de lucht van de dag nog stil,
+de gang houdt even zijn adem in.
+Je jas blijft aan terwijl je luistert
+naar het zachte niets van kamers
+waarin niemand iets van je vraagt.
