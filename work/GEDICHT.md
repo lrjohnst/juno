@@ -23,3 +23,12 @@ De muren zuigen het laatste licht op,
 en even is er niets dan het tikken
 der klok, alsof de wereld even wacht
 op wat er nu moet komen.
+
+## 4. Het laatste licht uitdoen — nacht
+
+De schakelaar klikt, de kamer zucht,
+een adem die de muren vasthouden.
+Alles wat overdag zo zeker leek
+is nu een schaduw die zichzelf niet kent.
+Je hand tast nog naar wat er niet meer is —
+een wereld die alleen bestaat bij licht.

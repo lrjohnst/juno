@@ -16,3 +16,7 @@ Ik koos voor het archetype 'wachten op de trein die niet komt' omdat het een uni
 ## Tick 3 — 2026-09-25 12:26 — ACCEPTED
 
 Ik koos voor het archetype 'de stilte na het uitdoen van de televisie' omdat het een avondervaring is die iedereen kent: het abrupte einde van afleiding en de confrontatie met de eigen gedachten. De strofe probeert de fysieke sensatie van die stilte vast te leggen, alsof de ruimte zelf even pauzeert.
+
+## Tick 4 — 2026-09-25 12:26 — ACCEPTED
+
+Ik koos voor het archetype 'het laatste licht uitdoen' omdat het een nachtelijke ervaring is die iedereen kent: het moment waarop de dag definitief overgaat in duisternis en de vertrouwde omgeving plotseling onbekend wordt. De strofe probeert de fysieke en emotionele gewaarwording van dat overgangsmoment vast te leggen, waarin het lichaam nog reageert op wat er niet meer is.

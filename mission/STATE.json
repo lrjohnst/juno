@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "eerste slok koffie",
         "wachten op de trein die niet komt",
-        "de stilte na het uitdoen van de televisie"
+        "de stilte na het uitdoen van de televisie",
+        "het laatste licht uitdoen"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-25T12:26:04+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-25T12:26:10+00:00"
 }
