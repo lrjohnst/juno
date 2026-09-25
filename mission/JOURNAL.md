@@ -16,3 +16,7 @@ Ik koos een duidelijk middagarchetype: met eten in je handen zoeken naar een ple
 ## Tick 3 — 2026-09-25 13:34 — ACCEPTED
 
 Ik koos een avondmoment dat duidelijk later komt dan de middag: thuiskomen in stilte. De strofe richt zich op de kleine geluiden en houdingen van dat ene herkenbare ogenblik, zonder verhaal eromheen.
+
+## Tick 4 — 2026-09-25 13:34 — ACCEPTED
+
+Ik koos een nachtelijk archetype dat duidelijk later ligt dan thuiskomen in de avond: wakker worden en de tijd controleren. De strofe houdt het moment klein en herkenbaar, met de lichamelijke tast en het korte blauwe licht als kern.

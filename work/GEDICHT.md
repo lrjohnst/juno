@@ -28,3 +28,15 @@ de schoenen tegen de muur, de post op de mat,
 de koelkast die als eerste iets terugzegt.
 Je blijft nog even staan met je jas half open,
 alsof de dag pas hier van je af mag vallen.
+
+## 4. Wakker worden en de tijd controleren — nacht
+
+Midden in de nacht word je wakker
+zonder reden die zich laat aanwijzen.
+De kamer staat stil om je heen,
+het dekbed te warm op één plek,
+je hand zoekt de telefoon op de tast.
+Even brandt de tijd blauw in je gezicht:
+nog uren, of bijna niets meer.
+Daarna leg je hem omgekeerd terug
+en luistert hoe het donker weer dichtgaat.
