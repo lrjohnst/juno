@@ -14,3 +14,9 @@ Schreef de eerste strofe over de lege ochtendstraat, het vroegste moment van de 
 Afgekeurd na 3 pogingen. Reden(en): moment 'middag' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
 
 Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
+
+## Tick 3 — 2026-09-25 06:27 — REJECTED
+
+Afgekeurd na 3 pogingen. Reden(en): moment 'avond' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
+
+Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
