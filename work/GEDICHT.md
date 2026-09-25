@@ -20,3 +20,11 @@ Je hand zoekt het stuur en trekt zich meteen terug,
 de stoel plakt aan je rug nog voor je zit.
 Even doe je niets dan ademen door je mond,
 wachtend tot de lucht weer van jou wordt.
+
+## 3. Thuiskomen in een stil huis — avond
+
+De sleutel draait harder dan verwacht in het slot.
+Binnen staat de lucht van de dag nog stil,
+de gang donker, je jas zwaar aan je schouders.
+Even blijf je staan, hand op de schakelaar,
+voordat je het huis weer wakker maakt.

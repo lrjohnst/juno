@@ -12,3 +12,7 @@ Ik koos een vroeg ochtendmoment dat klein en herkenbaar is: wachten tot het wate
 ## Tick 2 — 2026-09-25 13:32 — ACCEPTED
 
 Ik koos een duidelijk middagmoment dat ver van de ochtendelijke waterkoker afligt. De strofe richt zich op de fysieke herkenning van opgesloten warmte en het korte wachten tot de ruimte weer bewoonbaar wordt.
+
+## Tick 3 — 2026-09-25 13:33 — ACCEPTED
+
+Ik koos een avondlijke ervaring die duidelijk later is dan de middag en verschilt van de eerdere fysieke wachtermomenten. De strofe blijft bij het korte, herkenbare ogenblik van thuiskomen vóór het licht aangaat.
