@@ -27,3 +27,12 @@ Je zet je tas neer met een doffe zucht,
 schopt één schoen uit, dan de andere,
 en pas op je sokken merk je
 hoe lang je vandaag rechtop bent geweest.
+
+## 4. Laatste ronde door het huis — nacht
+
+Je loopt nog één keer door de kamers,
+niet omdat er iets te vinden is,
+maar omdat stilte gecontroleerd wil worden.
+Een knop klikt, de gang valt dicht,
+de voordeur geeft onder je hand geen krimp.
+Dan pas mag het huis zonder jou verder ademen.

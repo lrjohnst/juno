@@ -16,3 +16,7 @@ Ik koos een duidelijk middagmoment dat anders is dan de eerdere ochtendervaring:
 ## Tick 3 — 2026-09-25 13:30 — ACCEPTED
 
 Ik koos een avondlijk overgangsmoment: thuiskomen en lichamelijk landen na de dag. Het archetype is anders dan wakker worden en de middagdip, en schuift de bundel logisch richting nacht.
+
+## Tick 4 — 2026-09-25 13:30 — ACCEPTED
+
+Ik koos een nachtelijk afsluitmoment dat verschilt van wakker worden, middagtraagheid en thuiskomen: de laatste ronde door het huis. De strofe richt zich op de herkenbare handelingen en het gevoel van overdracht aan de nacht.
