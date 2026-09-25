@@ -18,3 +18,9 @@ Ik schreef over de onvermijdelijke spanning tussen begeerte en pijn in een alled
 Afgekeurd na 3 pogingen. Reden(en): moment 'middag' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
 
 Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
+
+## Tick 4 — 2026-09-25 06:25 — REJECTED
+
+Afgekeurd na 3 pogingen. Reden(en): moment 'nacht' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
+
+Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
