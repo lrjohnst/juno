@@ -4,3 +4,7 @@ Append-only. Eén entry per tick, ook — juist — bij mislukking.
 Een teruggedraaide tick blijft hier staan; dat is wat voorkomt dat dezelfde fout zich herhaalt.
 
 ---
+
+## Tick 1 — 2026-09-25 13:30 — ACCEPTED
+
+Ik koos een vroeg ochtendmoment: wakker worden net vóór de wekker. Het is alledaags, herkenbaar en klein genoeg om als zelfstandige ervaring scherp te blijven.
