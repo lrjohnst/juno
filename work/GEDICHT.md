@@ -24,3 +24,14 @@ de muren happen naar adem, plotseling wakker.
 Alles wat sliep in de schemer
 ligt nu bloot, onbeschut, alsof
 de kamer zelf even schrikt van zijn eigen huid.
+
+## 4. Wakker liggen met een gedachte die niet loslaat — nacht
+
+De wekker is al uren stil,
+de lakens koel en strak getrokken.
+Eén zin blijft haken, scherp als glas,
+draait rond, wil niet worden afgebroken.
+Het plafond ademt, wit en leeg,
+en ik tel de scheuren in het pleister
+alsof ze antwoord geven kunnen
+op wat ik niet eens vragen durf.
