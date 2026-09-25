@@ -12,3 +12,7 @@ Ik schreef de eerste strofe, die zich afspeelt in de nacht. Het archetype 'eenza
 ## Tick 2 — 2026-09-25 06:27 — ACCEPTED
 
 Ik schreef een avondstrofe over het gevoel van afwezigheid en stilte, verschillend van de nachtelijke eenzaamheid. Het archetype 'verlatenheid in het halfdonker' vult de avond goed en is nieuw in de bundel.
+
+## Tick 3 — 2026-09-25 06:27 — ACCEPTED
+
+Ik koos het archetype 'warmte op een bankje in de buitenlucht' voor de middag, een ervaring die verschilt van nacht en avond. De strofe beschrijft een moment van trage, bijna gewichtloze gewaarwording, waar de hitte en stilte samensmelten tot een herkenbaar gevoel van tijd die even stilstaat.

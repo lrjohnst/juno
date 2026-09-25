@@ -20,3 +20,14 @@ De wind veegt wat blikjes tegen de gevel aan.
 
 Ik tel mijn stappen alsof ze mijn gewicht dragen,
 maar de grond blijft stil. De avond ademt zwaar.
+
+## 3. Warmte op een bankje in de buitenlucht — middag
+
+De zon brandt op mijn voorhoofd,
+maar ik blijf zitten — waarom zou ik opstaan?
+De wind streelt bladeren die niet willen vallen,
+en de tijd glijdt door mijn vingers,
+zo zacht als de schaduw die nu langzaam kruipt.
+Ik hoor gelach verderop, stemmen die niet naar mij zijn,
+en voel hoe mijn adem langzamer wordt,
+alsof de wereld zelf even pauzeert.
