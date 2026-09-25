@@ -14,3 +14,12 @@ De borden knipperen, tijden schuiven op,
 een lege bank, een halflege zak drop.
 De zon brandt op het perron, stil en heet,
 en niemand zegt wat iedereen al weet.
+
+## 3. De stilte na het uitdoen van de televisie — avond
+
+Het scherm wordt zwart, de kamer ademt uit —
+een plotselinge leegte waar het geluid was.
+De muren zuigen het laatste licht op,
+en even is er niets dan het tikken
+der klok, alsof de wereld even wacht
+op wat er nu moet komen.

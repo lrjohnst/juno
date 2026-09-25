@@ -12,3 +12,7 @@ Ik koos voor het moment van de eerste slok koffie omdat het een universeel ochte
 ## Tick 2 — 2026-09-25 12:25 — ACCEPTED
 
 Ik koos voor het archetype 'wachten op de trein die niet komt' omdat het een universele middagervaring is die frustratie, berusting en eenzaamheid combineert. Het perron als tijdelijke tussenwereld leent zich voor een strofe die zowel fysieke details (zon, bank) als een onderliggende spanning vastlegt.
+
+## Tick 3 — 2026-09-25 12:26 — ACCEPTED
+
+Ik koos voor het archetype 'de stilte na het uitdoen van de televisie' omdat het een avondervaring is die iedereen kent: het abrupte einde van afleiding en de confrontatie met de eigen gedachten. De strofe probeert de fysieke sensatie van die stilte vast te leggen, alsof de ruimte zelf even pauzeert.
