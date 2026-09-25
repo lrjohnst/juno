@@ -18,3 +18,12 @@ Je hand blijft even boven het toetsenbord hangen,
 al weet je precies wat er moet gebeuren.
 Buiten gaat de dag gewoon door,
 maar in je hoofd schuift alles een halve meter van je af.
+
+## 3. Thuiskomen en schoenen uitdoen — avond
+
+De sleutel vindt bijna vanzelf het slot,
+de gang neemt je jas aan zonder iets te vragen.
+Je zet je tas neer met een doffe zucht,
+schopt één schoen uit, dan de andere,
+en pas op je sokken merk je
+hoe lang je vandaag rechtop bent geweest.
