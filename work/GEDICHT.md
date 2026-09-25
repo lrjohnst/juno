@@ -19,3 +19,12 @@ Je ogen doen alsof ze nergens zoeken,
 maar tellen iedere lege rand,
 tot iemand opstaat en de ruimte
 plotseling van jou mag zijn.
+
+## 3. Thuiskomen in een stil huis — avond
+
+De sleutel draait harder dan je dacht,
+het ganglicht springt aan en maakt alles gewoon:
+de schoenen tegen de muur, de post op de mat,
+de koelkast die als eerste iets terugzegt.
+Je blijft nog even staan met je jas half open,
+alsof de dag pas hier van je af mag vallen.

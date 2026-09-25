@@ -1,14 +1,15 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 2,
+    "stanzas": 3,
     "target_stanzas": 4,
     "used_archetypes": [
         "wachten tot de waterkoker klikt",
-        "zoeken naar een vrije lunchplek"
+        "zoeken naar een vrije lunchplek",
+        "thuiskomen in een stil huis"
     ],
-    "last_moment_index": 1,
-    "updated_at": "2026-09-25T13:34:20+00:00"
+    "last_moment_index": 2,
+    "updated_at": "2026-09-25T13:34:32+00:00"
 }

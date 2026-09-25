@@ -12,3 +12,7 @@ Ik koos een vroeg ochtendmoment dat bijna iedereen kent: wachten tot het eerste 
 ## Tick 2 — 2026-09-25 13:34 — ACCEPTED
 
 Ik koos een duidelijk middagarchetype: met eten in je handen zoeken naar een plek in de drukte. De strofe blijft bij de lichamelijke en sociale spanning van dat ene moment, zonder er een verhaal van te maken.
+
+## Tick 3 — 2026-09-25 13:34 — ACCEPTED
+
+Ik koos een avondmoment dat duidelijk later komt dan de middag: thuiskomen in stilte. De strofe richt zich op de kleine geluiden en houdingen van dat ene herkenbare ogenblik, zonder verhaal eromheen.
