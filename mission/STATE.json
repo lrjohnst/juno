@@ -1,8 +1,8 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
-    "last_outcome": "accepted",
-    "consecutive_failures": 0,
+    "last_outcome": "rejected",
+    "consecutive_failures": 1,
     "stanzas": 2,
     "target_stanzas": 4,
     "used_archetypes": [
@@ -10,5 +10,5 @@
         "de eerste fietsers in de straat"
     ],
     "last_moment_index": 3,
-    "updated_at": "2026-09-25T06:28:35+00:00"
+    "updated_at": "2026-09-25T06:28:43+00:00"
 }

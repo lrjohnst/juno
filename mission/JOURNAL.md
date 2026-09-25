@@ -12,3 +12,9 @@ Ik schreef de eerste strofe van de bundel, die zich afspeelt in de nacht om de c
 ## Tick 2 — 2026-09-25 06:28 — ACCEPTED
 
 Ik schreef de tweede strofe over de eerste beweging in de ochtend, een moment van voorzichtige herkenning. Het archetype van de eerste fietsers contrasteert met de nachtstilte van strofe 1 en zet de bundel verder op de tijdlijn.
+
+## Tick 3 — 2026-09-25 06:28 — REJECTED
+
+Afgekeurd na 3 pogingen. Reden(en): moment 'avond' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
+
+Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
