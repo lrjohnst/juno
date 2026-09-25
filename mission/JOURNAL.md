@@ -16,3 +16,7 @@ Ik koos voor het archetype 'wachten op de trein die net weg is' omdat dit een he
 ## Tick 3 — 2026-09-25 12:26 — ACCEPTED
 
 Ik koos voor het archetype 'het licht aandoen in een lege kamer' omdat dit een avondervaring is die iedereen kent: de plotselinge overgang van duisternis naar zichtbaarheid, waarbij de kamer zichzelf lijkt te onthullen. De strofe richt zich op het contrast tussen de stilte ervoor en de scherpte erna, en het gevoel van herkenning en vervreemding tegelijk.
+
+## Tick 4 — 2026-09-25 12:26 — ACCEPTED
+
+Ik koos voor het archetype 'de stilte na het laatste gesprek' omdat dit een nachtelijke ervaring is die iedereen kent: het plotselinge gewicht van wat net nog werd uitgesproken, nu omgezet in stilte. De strofe richt zich op het contrast tussen de afwezigheid van geluid en de aanwezigheid van wat net nog werd gevoeld, zonder verhaal of context.

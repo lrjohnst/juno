@@ -28,3 +28,10 @@ De schaduwen trekken zich terug
 alsof ze schrikken van zichzelf,
 en alles wat vergeten lag
 ligt nu te helder in het zicht.
+
+## 4. De stilte na het laatste gesprek — nacht
+
+De woorden zijn gevallen, de stemmen weg,
+de kamer ademt uit in donker.
+Alles wat gezegd moest zijn, ligt nu
+als een steen op de bodem van de nacht.
