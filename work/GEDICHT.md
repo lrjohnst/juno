@@ -17,3 +17,19 @@ Buiten schuift het verkeer door alsof het iets weet,
 en binnen hoor je hoe hard een slok kan klinken.
 Niet verdrietig, niet alleen precies,
 maar losgeraakt van alles wat je net nog moest.
+
+## 3. Thuiskomen in een donker huis — avond
+
+De sleutel zoekt even naar het slot,
+zoals je hand nog buiten blijft,
+vol kou, vol straatgeluid.
+
+Binnen wacht het donker zonder haast.
+De gang ruikt naar je eigen leven:
+wasmiddel, stof, iets dat je niet meer merkt
+behalve op dit eerste ogenblik.
+
+Je doet het licht aan
+en alles wordt weer van jou,
+maar heel even stond je op de drempel
+alsof je bij jezelf op bezoek kwam.
