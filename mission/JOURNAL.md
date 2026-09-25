@@ -16,3 +16,7 @@ Ik koos een duidelijk middagmoment dat ver van de ochtendelijke waterkoker aflig
 ## Tick 3 — 2026-09-25 13:33 — ACCEPTED
 
 Ik koos een avondlijke ervaring die duidelijk later is dan de middag en verschilt van de eerdere fysieke wachtermomenten. De strofe blijft bij het korte, herkenbare ogenblik van thuiskomen vóór het licht aangaat.
+
+## Tick 4 — 2026-09-25 13:33 — ACCEPTED
+
+Ik koos een nachtelijk moment dat later is dan de avond en duidelijk verschilt van de eerdere huiselijke aankomst. De strofe blijft bij de herkenbare ervaring van wakker liggen terwijl de omgeving al slaapt.

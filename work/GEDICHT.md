@@ -28,3 +28,12 @@ Binnen staat de lucht van de dag nog stil,
 de gang donker, je jas zwaar aan je schouders.
 Even blijf je staan, hand op de schakelaar,
 voordat je het huis weer wakker maakt.
+
+## 4. Wakker liggen naast slapende adem — nacht
+
+Je ligt wakker in het donker,
+naast iemand die rustig ademt.
+De cijfers van de wekker veranderen zonder geluid,
+je lichaam blijft liggen alsof het slaapt,
+maar achter je ogen loopt de dag nog door,
+klein en helder, nergens meer heen.

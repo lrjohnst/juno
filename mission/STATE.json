@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "wachten op de waterkoker",
         "instappen in een te warme auto",
-        "thuiskomen in een stil huis"
+        "thuiskomen in een stil huis",
+        "wakker liggen naast slapende adem"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-25T13:33:05+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-25T13:33:16+00:00"
 }
