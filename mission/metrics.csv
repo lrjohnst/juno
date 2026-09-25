@@ -1,5 +1,1 @@
 tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
-1,2026-09-25T06:27:12+00:00,ACCEPTED,1,77,,1629,266,lege ochtendstraat
-2,2026-09-25T06:27:19+00:00,REJECTED,1,77,,1771,265,moment 'middag' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
-3,2026-09-25T06:27:26+00:00,REJECTED,1,77,,1865,201,moment 'avond' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
-4,2026-09-25T06:27:34+00:00,REJECTED,1,77,,1958,293,moment 'middag' ligt vóór het vorige moment; de bundel loopt van nacht naar ochtend
