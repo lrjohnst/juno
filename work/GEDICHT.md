@@ -16,3 +16,11 @@ Je voet tikt een ritme dat niemand hoort,
 behalve de klok die steeds trager loopt.
 De borden flikkeren, alsof ze liegen
 over de tijd die hier niet meer bestaat.
+
+## 3. Het licht aandoen in een lege kamer — avond
+
+De schakelaar klikt, een schok van geel—
+de muren happen naar adem, plotseling wakker.
+Alles wat sliep in de schemer
+ligt nu bloot, onbeschut, alsof
+de kamer zelf even schrikt van zijn eigen huid.

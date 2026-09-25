@@ -12,3 +12,7 @@ Ik koos voor het moment van de eerste slok koffie omdat het een universeel ochte
 ## Tick 2 — 2026-09-25 12:25 — ACCEPTED
 
 Ik koos voor het archetype 'wachten op de trein die niet komt' omdat het een universele middagervaring is die spanning tussen verwachting en stilstand oproept. De strofe richt zich op de fysieke en psychologische details van het wachten: het tikken van de voet, de onbetrouwbare borden, en de vervormde tijdservaring.
+
+## Tick 3 — 2026-09-25 12:25 — ACCEPTED
+
+Ik koos voor het archetype 'het licht aandoen in een lege kamer' omdat het een avondervaring is die vaak ongemerkt blijft, maar een plotselinge verschuiving in sfeer en perceptie markeert. De strofe richt zich op de tegenstelling tussen duisternis en plotselinge blootstelling, en de bijna fysieke reactie van de ruimte zelf.
