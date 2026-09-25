@@ -18,3 +18,11 @@ Je sleutels rinkelen in je zak,
 de telefoon trilt met ongelezen berichten.
 De wereld buiten is oranje en scherp,
 en je hart klopt alsof het je wil inhalen.
+
+## 3. Lopende schaduw — middag
+
+De zon staat hoog en snijdt scherp door het hekwerk.
+Mijn schaduw glijdt voor me uit, langer dan ik lang ben,
+streept plekken gras waar ik niet durf te lopen.
+Zo loop ik achter mezelf aan, alsof ik weet waar ik heen ga,
+maar mijn voeten volgen alleen maar het koude beton van de weg.

@@ -1,14 +1,15 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 2,
+    "stanzas": 3,
     "target_stanzas": 4,
     "used_archetypes": [
         "wacht op de laatste bus",
-        "haastige trap af"
+        "haastige trap af",
+        "lopende schaduw"
     ],
-    "last_moment_index": 1,
-    "updated_at": "2026-09-25T06:28:56+00:00"
+    "last_moment_index": 2,
+    "updated_at": "2026-09-25T06:28:58+00:00"
 }

@@ -12,3 +12,7 @@ Ik plaatste de eerste strofe als nachtelijke ervaring, het wachten op de laatste
 ## Tick 2 — 2026-09-25 06:28 — ACCEPTED
 
 Ik heb een avondlijke ervaring gekozen die past bij de gejaagdheid van de avond, in contrast met de stilte van de nacht. De archetype 'haastige trap af' voelt als een universeel moment van stress en tijdsdruk.
+
+## Tick 3 — 2026-09-25 06:28 — ACCEPTED
+
+Ik koos voor een middagelijk moment waarin de schaduw als spiegel dient van een innerlijke aarzeling. De archetype 'lopende schaduw' is fris en uniek, en past bij het contemplatieve licht van de middag.
