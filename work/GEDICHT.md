@@ -23,3 +23,13 @@ de muren ademen plotseling uit.
 Alles wat stil was, staat nu scherp:
 de leegte die je niet verwachtte,
 de stilte die je zelf hebt meegebracht.
+
+## 4. De stilte na een telefoongesprek — nacht
+
+De lijn is dood, de stem weg,
+maar nog hangt het woord in de lucht
+als een echo die niet meer terugkomt.
+Je houdt de hoorn vast, alsof hij
+nog iets kan zeggen —
+maar er is alleen de stilte,
+de leegte die je ineens hoort.
