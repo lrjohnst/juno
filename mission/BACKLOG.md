@@ -4,7 +4,7 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Schrijf strofe 3: kies een nieuw archetype later op de dag, in de avond.
+1. Schrijf strofe 4: kies een nieuw archetype in de nacht.
 
 ## Afgerond
 

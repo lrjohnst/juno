@@ -16,3 +16,14 @@ Je kauwt zonder honger, leest dezelfde zin opnieuw,
 terwijl buiten de dag even vol in het raam staat
 en niemand zegt dat pauze soms alleen betekent:
 niet opstaan, maar trager doorgaan.
+
+## 3. Thuiskomen en de tas neerzetten — avond
+
+De deur valt achter je dicht,
+en de kamer neemt je jaslucht aan.
+Je zet de tas neer alsof hij zwaarder is
+dan alles wat erin zit.
+Even blijf je staan in het ganglicht,
+met sleutels nog warm in je hand,
+en hoort hoe de dag van je af schuift
+zonder dat iemand iets zegt.

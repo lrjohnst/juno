@@ -1,14 +1,15 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 2,
+    "stanzas": 3,
     "target_stanzas": 4,
     "used_archetypes": [
         "wachten op de waterkoker",
-        "lunchen achter het scherm"
+        "lunchen achter het scherm",
+        "thuiskomen en de tas neerzetten"
     ],
-    "last_moment_index": 1,
-    "updated_at": "2026-09-25T13:31:22+00:00"
+    "last_moment_index": 2,
+    "updated_at": "2026-09-25T13:31:32+00:00"
 }

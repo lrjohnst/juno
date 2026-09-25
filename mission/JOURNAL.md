@@ -12,3 +12,7 @@ Ik koos een vroeg ochtendmoment dat klein en herkenbaar is: wachten tot het wate
 ## Tick 2 — 2026-09-25 13:31 — ACCEPTED
 
 Ik koos een herkenbaar middagmoment dat verschilt van de eerdere ochtendervaring: eten tijdens het werk zonder echt los te komen. De strofe blijft bij één kleine ervaring en plaatst die duidelijk rond het volle licht van de middag.
+
+## Tick 3 — 2026-09-25 13:31 — ACCEPTED
+
+Ik koos een avondmoment dat duidelijk later op de dag ligt: thuiskomen en de last van de dag neerzetten. Het archetype verschilt van de eerdere ochtend- en middagervaringen en blijft bij één herkenbare fysieke overgang.
