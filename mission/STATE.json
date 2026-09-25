@@ -1,13 +1,13 @@
 {
-    "tick": 1,
+    "tick": 2,
     "status": "bezig",
-    "last_outcome": "accepted",
-    "consecutive_failures": 0,
+    "last_outcome": "rejected",
+    "consecutive_failures": 1,
     "stanzas": 1,
     "target_stanzas": 4,
     "used_archetypes": [
         "handen in de broodtrommel"
     ],
     "last_moment_index": 2,
-    "updated_at": "2026-09-25T06:27:36+00:00"
+    "updated_at": "2026-09-25T06:27:44+00:00"
 }
