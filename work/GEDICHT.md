@@ -26,3 +26,11 @@ Mijn schaduw glijdt voor me uit, langer dan ik lang ben,
 streept plekken gras waar ik niet durf te lopen.
 Zo loop ik achter mezelf aan, alsof ik weet waar ik heen ga,
 maar mijn voeten volgen alleen maar het koude beton van de weg.
+
+## 4. Eerste koffie — ochtend
+
+De porseleinen kop warmt mijn handen / nog voordat de damp zich verraadt. 
+Het eerste slokje is een belofte — 
+niet van de dag, maar van dit moment: 
+hoe stilheid en hitte samensmelten 
+in een leegte die nog niet gevuld is.
