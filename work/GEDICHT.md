@@ -18,3 +18,12 @@ Je hand rust op de muis, zwaar en warm,
 een mail staat half geopend te wachten.
 Buiten rijdt een vrachtwagen voorbij;
 even is de hele dag een kamer zonder deur.
+
+## 3. Thuiskomen in een donker huis — avond
+
+De sleutel draait harder dan nodig in het slot,
+alsof het huis eerst moet weten dat jij het bent.
+Binnen staat de lucht van de hele dag stil:
+een koude gang, een jas die van je schouder glijdt,
+het kleine klikken van de lamp
+waarna alles ineens weer van jou is.
