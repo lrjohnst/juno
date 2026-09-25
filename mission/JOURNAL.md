@@ -16,3 +16,7 @@ Ik koos voor het archetype 'wachten op de trein in de hitte' omdat het een unive
 ## Tick 3 — 2026-09-25 12:24 — ACCEPTED
 
 Ik koos voor het archetype 'het licht aandoen in een lege kamer' omdat het een avondervaring is die iedereen kent: het plotselinge bewustzijn van een ruimte die er al die tijd al was, maar pas zichtbaar wordt door het licht. De strofe probeert de schok van herkenning vast te leggen, het gevoel dat de kamer zichzelf onthult als een plek vol kleine, vergeten details.
+
+## Tick 4 — 2026-09-25 12:24 — ACCEPTED
+
+Ik koos voor het archetype 'de stilte na een telefoongesprek' omdat het een nachtelijke ervaring is die iedereen kent: het abrupte einde van een verbinding, gevolgd door een leegte die niet meteen verdwijnt. De strofe probeert die ongrijpbare nasleep vast te leggen, het gevoel dat de woorden nog in de ruimte hangen, ook al is er niemand meer die ze hoort.

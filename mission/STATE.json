@@ -1,15 +1,16 @@
 {
-    "tick": 3,
-    "status": "bezig",
+    "tick": 4,
+    "status": "compleet",
     "last_outcome": "accepted",
     "consecutive_failures": 0,
-    "stanzas": 3,
+    "stanzas": 4,
     "target_stanzas": 4,
     "used_archetypes": [
         "eerste slok koffie",
         "wachten op de trein in de hitte",
-        "het licht aandoen in een lege kamer"
+        "het licht aandoen in een lege kamer",
+        "de stilte na een telefoongesprek"
     ],
-    "last_moment_index": 2,
-    "updated_at": "2026-09-25T12:24:35+00:00"
+    "last_moment_index": 3,
+    "updated_at": "2026-09-25T12:24:40+00:00"
 }

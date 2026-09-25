@@ -21,3 +21,10 @@ Het licht springt aan—een schok van geel,
 een kamer die zich plotseling herinnert:
 de stoel die wacht, het boek half open,
 de stilte die nu opeens gevuld is.
+
+## 4. De stilte na een telefoongesprek — nacht
+
+De lijn is dood, de stem weg,
+maar nog hangt er iets in de lucht —
+een echo van wat net nog klonk,
+een gewicht dat niet verdwijnt.
