@@ -1,5 +1,1 @@
 tick,timestamp,outcome,stanzas,words,judge_score,input_tokens,output_tokens,note
-1,2026-09-25T13:34:52+00:00,ACCEPTED,1,58,,1371,230,wakker vóór de wekker
-2,2026-09-25T13:35:06+00:00,ACCEPTED,2,115,,1458,402,middagpauze zonder gesprek
-3,2026-09-25T13:35:18+00:00,ACCEPTED,3,190,,1523,323,thuiskomen in een donker huis
-4,2026-09-25T13:35:32+00:00,ACCEPTED,4,234,,1599,485,als laatste het licht uitdoen
