@@ -4,8 +4,8 @@ Bovenste item is de eerstvolgende stap. juno onderhoudt deze lijst zelf.
 
 ## Open
 
-1. Begin bij groep 1: laat `juno_eval` losse getallen teruggeven.
+1. Draai de tests en corrigeer eventuele afwijkingen in operatorprecedentie, scoping of uitvoerformattering.
 
 ## Afgerond
 
-_(nog niets)_
+_(zie JOURNAL.md)_
