@@ -1,12 +1,12 @@
 {
-    "tick": 1,
+    "tick": 2,
     "status": "bezig",
-    "last_outcome": "accepted",
-    "consecutive_failures": 0,
+    "last_outcome": "rejected",
+    "consecutive_failures": 1,
     "groen": 19,
     "totaal": 40,
     "bestanden": [
         "interpreter.php"
     ],
-    "updated_at": "2026-10-11T20:18:35+00:00"
+    "updated_at": "2026-10-11T20:18:46+00:00"
 }
