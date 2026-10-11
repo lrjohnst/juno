@@ -24,3 +24,9 @@ FAIL  05-vergelijken/ongelijk  in='2 == 3'  verwacht=false  kreeg='2'
 (en nog 13 falende tests, die je ziet zodra deze groen staan)
 
 Het werkstuk is teruggedraaid naar de vorige staat. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
+
+## Tick 3 — 2026-10-11 20:24 — REJECTED
+
+Afgekeurd na 3 pogingen. Reden(en): bestandsnaam '../kernel/tick.php' mag niet; toegestaan is kleine letters, cijfers en underscores, met .php erachter
+
+Het werkstuk is teruggedraaid naar de vorige staat. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
