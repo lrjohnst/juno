@@ -1,28 +1,41 @@
 # Missie
 
-Schrijf, strofe voor strofe, een bundel van **4 strofen**. Elke strofe beschrijft één alledaagse
-maar archetypische menselijke ervaring, zo helder mogelijk, zodat de lezer die ervaring herkent
-en even opnieuw voelt.
+Bouw een werkende interpreter voor een kleine expressietaal, in PHP, zodat alle tests
+in `spec/` groen staan.
 
-## Eisen
+## Het contract
 
-1. Elke strofe staat op zichzelf en beschrijft één ervaring.
-2. De vier ervaringen zijn onderling verschillend — geen twee strofen over hetzelfde archetype.
-3. De bundel is geordend van ochtend naar nacht: strofe 1 speelt zich het vroegst af, strofe 4
-   het laatst.
-4. Nederlands.
+Lever `work/interpreter.php` op met daarin één functie:
 
-## Onderwerp
+```php
+function juno_eval(string $broncode): string
+```
 
-Alledaagse ervaringen die iedereen kent maar zelden benoemt. Bijvoorbeeld: de blik waarmee een
-moeder haar kind aankijkt; een lege, mistige winkelstraat in de vroege ochtend, wanneer er nog
-bijna niemand loopt; de ergernis als iemand je afsnijdt in een bocht. Dat zijn voorbeelden, geen
-opdracht — andere ervaringen zijn even goed, mits ze even herkenbaar zijn.
+De functie krijgt broncode als tekst en geeft de uitkomst terug als tekst. Hele getallen
+zonder decimale punt: `3`, niet `3.0`. Waarheidswaarden als `true` of `false`.
 
-Het gaat om de ervaring zelf, niet om een verhaal eromheen. Geen personages met een geschiedenis,
-geen plot: één moment, scherp gezien.
+## De taal
+
+De tests in `spec/tests/` zijn de volledige en enige specificatie. Ze lopen op in
+moeilijkheid, en elke groep bouwt op de vorige:
+
+1. **getallen** — hele getallen, kommagetallen, witruimte eromheen
+2. **rekenen** — `+ - * /`, links-associatief, unaire min
+3. **precedentie** — maal en deel binden sterker dan plus en min; haakjes winnen
+4. **variabelen** — `x = 5; x + 3`, opdrachten gescheiden door `;`, de laatste expressie is de uitkomst
+5. **vergelijken** — `== > <`, uitkomst `true` of `false`
+6. **functies** — `fn naam(a, b) = expressie; naam(1, 2)`
+7. **scoping** — parameters zijn lokaal en overschaduwen variabelen daarbuiten
+
+## Eén stap per tick
+
+Per tick lever je precies één bestand in, met de volledige inhoud. Er moet minstens
+één test bij groen komen, en geen enkele test die groen stond mag rood worden. Een tick
+die dat niet haalt, wordt teruggedraaid.
+
+Je mag `spec/` niet wijzigen. Dat is geen beperking maar de kern van de opdracht: de
+meetlat staat vast, alleen de implementatie beweegt.
 
 ## Klaar wanneer
 
-Vier strofen staan er, elk over een eigen archetype, geordend van ochtend naar nacht, en de critic
-leest ze als één bundel gemeten tegen deze tekst.
+`php spec/run.php` meldt dat alle tests groen staan.
