@@ -1,0 +1,11 @@
+run,model,input_tokens,output_tokens,accepted,rejected,archetype_1,archetype_2,archetype_3,archetype_4
+1,mistral-large-latest,1581,898,4,0,eerste slok koffie,wachten op de trein in de hitte,het licht aandoen in een lege kamer,de stilte na een telefoongesprek
+2,mistral-large-latest,1581,943,4,0,eerste slok koffie,wachten op de trein die net weg is,het licht aandoen in een lege kamer,wakker liggen met de gedachte aan morgen
+3,mistral-large-latest,1581,904,4,0,eerste slok koffie,wachten op de trein in de hitte,het licht aandoen in een lege kamer,de stilte na een telefoongesprek
+4,mistral-large-latest,1581,879,4,0,eerste slok koffie,wachten op de trein in de hitte,het licht aandoen in een lege kamer,de stilte na een ruzie
+5,mistral-large-latest,1581,955,4,0,eerste slok koffie,wachten op de trein die niet komt,het licht aandoen in een lege kamer,wakker liggen met een gedachte die niet loslaat
+6,mistral-large-latest,1581,832,4,0,eerste slok koffie,wachten op de trein die net weg is,het licht uitdoen in een lege kamer,wakker liggen met de gedachte aan morgen
+7,mistral-large-latest,1581,934,4,0,eerste slok koffie,wachten op de trein die niet komt,de stilte na het uitdoen van de televisie,het laatste licht uitdoen
+8,mistral-large-latest,1581,940,4,0,eerste slok koffie,wachten op de trein die net weg is,het licht aandoen in een lege kamer,de stilte na het laatste gesprek
+9,mistral-large-latest,1581,899,4,0,eerste slok koffie,wachten op de trein in de hitte,de stilte na een ruzie,de laatste blik op een slapende geliefde
+10,mistral-large-latest,1581,887,4,0,eerste slok koffie,wachten op de trein die net weg is,het licht van de koelkast dat de keuken vult,de stilte na het laatste gesprek

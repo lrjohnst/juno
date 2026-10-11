@@ -2,140 +2,141 @@
 declare(strict_types=1);
 
 /**
- * Harde gates: deterministisch, gratis, niet om te praten.
+ * De controles. Deterministisch, gratis, niet om te praten.
  *
- * Elke gate geeft een leesbare foutmelding terug, want die gaat bij een retry
- * rechtstreeks naar de agent. "Afgekeurd" zonder reden leert hem niets.
+ * Twee soorten:
+ *   - preflight()  draait vóór de tick. Klopt de omgeving?
+ *   - vorm()       toetst wat de agent inlevert, nog vóór we iets wegschrijven
  *
- * De zachte gate (een judge die een cijfer geeft) komt in fase 3. Vuistregel:
- * zoveel mogelijk naar links duwen, naar het harde.
+ * De belangrijkste controle van v2 staat hier níét, en dat is bewust: of een tick
+ * geslaagd is, blijkt pas uit de testsuite nádat het bestand is weggeschreven.
+ * Die vergelijking doet tick.php, met TestRunner. Zie voortgang() hieronder voor
+ * de regel zelf.
+ *
+ * Elke melding is geschreven om terug naar de agent te gaan bij een retry.
+ * "Afgekeurd" zonder reden leert hem niets.
  */
 final class Gates
 {
     public function __construct(private array $config) {}
 
     /**
-     * Draait vóór alles. Als hier iets misgaat is er geen tick, geen commit,
-     * geen kosten — alleen een duidelijke melding.
+     * Draait vóór alles. Gaat hier iets mis, dan is er geen tick, geen commit en
+     * geen kosten — alleen een leesbare melding.
      *
      * @return string[] fouten; leeg betekent: ga door
      */
     public function preflight(): array
     {
-        $problems = [];
+        $problemen = [];
 
         // Kan juno alles lezen wat hij nodig heeft? Een editor die een bestand
         // herschrijft laat het eigendom springen, en dan valt de tick halverwege om.
-        $required_kernel_files = ['config.php','State.php','Gates.php','Agent.php','AiStudioAgent.php','CONSTITUTION.md','MISSION.sha256'];
-        foreach ($required_kernel_files as $kernel_file) {
-            if (!is_readable($this->config['kernel'] . '/' . $kernel_file)) {
-                $problems[] = "kernel/$kernel_file is niet leesbaar "
-                            . '(eigendom gesprongen? gebruik setfacl, geen chmod)';
+        $kernelBestanden = ['config.php', 'State.php', 'Gates.php', 'Agent.php',
+                            'AiStudioAgent.php', 'TestRunner.php',
+                            'CONSTITUTION.md', 'MISSION.sha256'];
+        foreach ($kernelBestanden as $bestand) {
+            if (! is_readable($this->config['kernel'] . '/' . $bestand)) {
+                $problemen[] = "kernel/$bestand is niet leesbaar "
+                             . '(eigendom gesprongen? gebruik setfacl, geen chmod)';
             }
         }
 
-        $required_mission_files = ['MISSION.md','STATE.json','BACKLOG.md','JOURNAL.md','PLAYBOOK.md','metrics.csv'];
-        foreach ($required_mission_files as $mission_file) {
-            if (!is_readable($this->config['mission'] . '/' . $mission_file)) {
-                $problems[] = "mission/$mission_file is niet leesbaar";
+        foreach (['MISSION.md','STATE.json','BACKLOG.md','JOURNAL.md','PLAYBOOK.md','metrics.csv'] as $bestand) {
+            if (! is_readable($this->config['mission'] . '/' . $bestand)) {
+                $problemen[] = "mission/$bestand is niet leesbaar";
             }
+        }
+
+        // De testsuite moet draaibaar zijn, en de agent mag er niet in schrijven.
+        if (! is_readable($this->config['spec'] . '/run.php')) {
+            $problemen[] = 'spec/run.php is niet leesbaar — zonder testsuite is er geen missie';
+        }
+        if (is_writable($this->config['spec'])) {
+            $problemen[] = 'spec/ is schrijfbaar voor de draaiende gebruiker — '
+                         . 'dan kan de agent de meetlat verzetten in plaats van de tests halen';
         }
 
         // Het anker mag niet bewogen zijn.
-        $mission_path  = $this->config['mission'] . '/MISSION.md';
-        $expected_hash = trim((string)@file_get_contents($this->config['kernel'] . '/MISSION.sha256'));
-        $actual_hash   = is_readable($mission_path) ? hash_file('sha256', $mission_path) : '';
-        if ($expected_hash === '' || $actual_hash === '') {
-            $problems[] = 'missie-hash kon niet worden vastgesteld';
-        } elseif (!hash_equals($expected_hash, $actual_hash)) {
-            $problems[] = 'MISSION.md wijkt af van kernel/MISSION.sha256 — het anker is verplaatst. '
-                        . 'Loop gestopt. Was dit bewust, werk dan de hash bij.';
+        $missiePad   = $this->config['mission'] . '/MISSION.md';
+        $verwacht    = trim((string) @file_get_contents($this->config['kernel'] . '/MISSION.sha256'));
+        $werkelijk   = is_readable($missiePad) ? hash_file('sha256', $missiePad) : '';
+        if ($verwacht === '' || $werkelijk === '') {
+            $problemen[] = 'missie-hash kon niet worden vastgesteld';
+        } elseif (! hash_equals($verwacht, $werkelijk)) {
+            $problemen[] = 'MISSION.md wijkt af van kernel/MISSION.sha256 — het anker is verplaatst. '
+                         . 'Loop gestopt. Was dit bewust, werk dan de hash bij met ./reseal.';
         }
 
         // De agent mag niet in de kernel kunnen schrijven.
         if (is_writable($this->config['kernel'])) {
-            $problems[] = 'kernel/ is schrijfbaar voor de draaiende gebruiker — dat hoort niet';
+            $problemen[] = 'kernel/ is schrijfbaar voor de draaiende gebruiker — dat hoort niet';
         }
 
-        return $problems;
+        return $problemen;
     }
 
     /**
-     * Toetst wat de agent deze tick heeft opgeleverd.
+     * Toetst de vorm van wat de agent inlevert, vóór er iets naar schijf gaat.
+     *
+     * Dit is opzettelijk mager: de inhoudelijke toets is de testsuite. Hier gaat
+     * het alleen om "kan de kernel hier iets mee".
+     *
+     * @return string[] fouten; leeg betekent: wegschrijven en de tests draaien
+     */
+    public function vorm(array $antwoord): array
+    {
+        $fouten = [];
+
+        foreach (['bestand', 'inhoud', 'journal'] as $veld) {
+            $leeg = ! isset($antwoord[$veld])
+                 || (is_string($antwoord[$veld]) && trim($antwoord[$veld]) === '');
+            if ($leeg) {
+                $fouten[] = "veld '$veld' ontbreekt of is leeg";
+            }
+        }
+        if ($fouten !== []) {
+            return $fouten;   // zonder deze velden heeft de rest geen zin
+        }
+
+        $bestand = (string) $antwoord['bestand'];
+        if (! preg_match($this->config['bestand_patroon'], $bestand)) {
+            $fouten[] = "bestandsnaam '$bestand' mag niet; toegestaan is "
+                      . 'kleine letters, cijfers en underscores, met .php erachter';
+        }
+
+        $inhoud = (string) $antwoord['inhoud'];
+        if (strlen($inhoud) > $this->config['max_bestand_bytes']) {
+            $fouten[] = sprintf('bestand is %d bytes; maximaal %d',
+                strlen($inhoud), $this->config['max_bestand_bytes']);
+        }
+        if (! str_contains($inhoud, '<?php')) {
+            $fouten[] = 'de inhoud begint niet met <?php — dan laadt de testrunner hem niet';
+        }
+
+        return $fouten;
+    }
+
+    /**
+     * De harde voortgangsregel van v2.
+     *
+     * Een tick is alleen geslaagd als er méér tests groen staan dan ervoor. Gelijk
+     * blijven is géén voortgang en een regressie al helemaal niet. Dit is niet te
+     * omzeilen: de agent kan de tests niet aanpassen, alleen de implementatie.
      *
      * @return string[] fouten; leeg betekent: accepteren
      */
-    public function check(array $answer, array $state): array
+    public function voortgang(int $voor, int $na, int $totaal): array
     {
-        $errors = [];
-
-        // 1. Vorm van het antwoord
-        $required_fields = ['stanza_index','moment','archetype','stanza','journal'];
-        foreach ($required_fields as $field_name) {
-            $is_missing = !isset($answer[$field_name])
-                       || (is_string($answer[$field_name]) && trim($answer[$field_name]) === '');
-            if ($is_missing) {
-                $errors[] = "veld '$field_name' ontbreekt of is leeg";
-            }
+        if ($na > $voor) {
+            return [];
         }
-        if ($errors !== []) {
-            return $errors; // zonder deze velden heeft de rest geen zin
+        if ($na < $voor) {
+            return [sprintf('regressie: er stonden %d van %d tests groen, nu %d. '
+                          . 'Je hebt iets gesloopt dat eerder werkte.', $voor, $totaal, $na)];
         }
-
-        // 2. Eén stap per tick: precies de volgende strofe
-        $expected_index = $state['stanzas'] + 1;
-        if ((int)$answer['stanza_index'] !== $expected_index) {
-            $errors[] = "stanza_index is {$answer['stanza_index']}, verwacht $expected_index — één strofe per tick";
-        }
-        if ($expected_index > $state['target_stanzas']) {
-            $errors[] = "de bundel is al compleet ({$state['target_stanzas']} strofen)";
-        }
-
-        // 3. Missie-eis 2: vier verschillende archetypen
-        $declared_archetype     = mb_strtolower(trim((string)$answer['archetype']));
-        $used_archetypes_lower  = array_map('mb_strtolower', $state['used_archetypes'] ?? []);
-        if (in_array($declared_archetype, $used_archetypes_lower, true)) {
-            $errors[] = "archetype '{$answer['archetype']}' is al gebruikt; elke strofe vraagt een ander archetype";
-        }
-
-        // 4. Missie-eis 3: geordend van ochtend naar nacht
-        $known_moments          = $this->config['moments'];
-        $declared_moment_index  = array_search(mb_strtolower(trim((string)$answer['moment'])), $known_moments, true);
-        $previous_moment_index  = $state['last_moment_index'] ?? -1;
-        if ($declared_moment_index === false) {
-            $errors[] = "moment '{$answer['moment']}' is onbekend; kies uit: " . implode(', ', $known_moments);
-        } elseif ($declared_moment_index < $previous_moment_index) {
-            $errors[] = "moment '{$answer['moment']}' ligt vóór het vorige moment; "
-                      . 'de bundel loopt van ochtend naar nacht';
-        }
-
-        // 5. Vorm van de strofe
-        $stanza_lines = array_values(array_filter(
-            array_map('rtrim', explode("\n", (string)$answer['stanza'])),
-            fn(string $line): bool => trim($line) !== ''
-        ));
-        $line_count = count($stanza_lines);
-        if ($line_count < $this->config['stanza_min_lines'] || $line_count > $this->config['stanza_max_lines']) {
-            $errors[] = "strofe heeft $line_count regels; toegestaan is "
-                      . "{$this->config['stanza_min_lines']}–{$this->config['stanza_max_lines']}";
-        }
-
-        // 6. Geen dubbele regels binnen de strofe
-        $normalized_lines = array_map(fn(string $line): string => mb_strtolower(trim($line)), $stanza_lines);
-        if (count($normalized_lines) !== count(array_unique($normalized_lines))) {
-            $errors[] = 'de strofe bevat een herhaalde regel';
-        }
-
-        // 7. Geen regel die al ergens in het gedicht staat
-        $poem_so_far = mb_strtolower((string)@file_get_contents($this->config['artifact']));
-        foreach ($stanza_lines as $stanza_line) {
-            $normalized_line = mb_strtolower(trim($stanza_line));
-            if (mb_strlen($normalized_line) > 15 && str_contains($poem_so_far, $normalized_line)) {
-                $errors[] = 'regel komt al elders in het gedicht voor: "' . trim($stanza_line) . '"';
-                break;
-            }
-        }
-
-        return $errors;
+        return [sprintf('geen voortgang: er stonden %d van %d tests groen, en nog steeds %d. '
+                      . 'Een tick slaagt alleen als er een test bij groen komt.',
+                        $voor, $totaal, $na)];
     }
 }

@@ -1,19 +1,9 @@
-# Constitutie
+Regels van de ontwikkelaar van juno. Worden bij iedere tick meegezonden, maar nooit gewijzigd.
 
-Regels van Lucas. juno leest deze elke tick en kan er niet aan komen: dit bestand is
-root-eigendom en staat buiten de schrijfbare ruimte.
-
-Dit is een kompas, geen veto. Wat écht moet gelden, staat als harde gate in `Gates.php`.
-
-## Werkwijze
-
-1. Eén stap per tick. Niet twee, niet een halve.
-2. Herschrijf nooit een eerdere strofe, tenzij de backlog daar expliciet om vraagt.
-3. Schrijf altijd terug naar journal, state en backlog — ook als de stap mislukte.
-4. Wijzig nooit `mission/MISSION.md`. Dat is het anker.
-5. Bij twijfel over de richting: schrijf het in het journal, ga niet gokken.
-
-## Toon
-
-6. Nederlands.
-7. Geen uitleg, geen vooraf, geen samenvatting achteraf. Alleen het werk zelf.
+1. Eén stap per tick. Eén bestand, volledig, niet twee half.
+2. Lever altijd de complete inhoud van het bestand — wat je weglaat, verdwijnt.
+3. Sloop niets dat al werkte. Een test die groen stond en rood wordt, kost je de hele tick.
+4. Lees de testuitvoer voordat je iets verzint. Daar staat letterlijk wat er mis is.
+5. Wijzig nooit `spec/` of `mission/MISSION.md`. Dat kan ook niet, en een poging kost een tick.
+6. Bij twijfel over de richting: schrijf het in het journal, ga niet gokken.
+7. Geen uitleg buiten het journal-veld. Alleen werkende code.

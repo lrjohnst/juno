@@ -14,12 +14,14 @@ interface Agent
 /**
  * Doet geen enkele aanroep en kost niets.
  *
- * Bestaat om de lus te debuggen: lock, gates, rollback, journal, commit.
- * Pas als honderd stub-ticks foutloos draaien is het zinnig om tokens uit te geven.
+ * Bestaat om de lus te debuggen: lock, vormcontrole, testsuite, voortgangsgate,
+ * rollback, journal, commit. De 'ok'-modus levert een échte werkende parser op,
+ * want anders test je de voortgangsgate niet — die kijkt naar de testuitslag en
+ * laat zich niet voor de gek houden met een placeholder.
  */
 final class DryRunAgent implements Agent
 {
-    /** @param 'ok'|'invalid-json'|'gate-fail' $agent_mode */
+    /** @param 'ok'|'invalid-json'|'vorm-fout'|'geen-voortgang' $agent_mode */
     public function __construct(
         private array $config,
         private array $state,
@@ -29,55 +31,116 @@ final class DryRunAgent implements Agent
     public function run(string $prompt): array
     {
         $raw_answer = match ($this->agent_mode) {
-            'invalid-json' => 'Hier is je strofe! ```niet eens json```',
-            'gate-fail'    => $this->fakeAnswer(break_a_gate: true),
-            default        => $this->fakeAnswer(),
+            'invalid-json'    => 'Hier is je bestand! ```niet eens json```',
+            'vorm-fout'       => $this->antwoord('../kernel/tick.php', '<?php // buiten work/'),
+            'geen-voortgang'  => $this->antwoord('leeg.php', "<?php\n// doet niets\n"),
+            default           => $this->antwoord('interpreter.php', $this->parser()),
         };
 
-        return [
-            'raw'   => $raw_answer,
-            'usage' => ['input_tokens' => 0, 'output_tokens' => 0],
-        ];
+        return ['raw' => $raw_answer, 'usage' => ['input_tokens' => 0, 'output_tokens' => 0]];
     }
 
-    private function fakeAnswer(bool $break_a_gate = false): string
+    private function antwoord(string $bestand, string $inhoud): string
     {
-        $stanza_index  = $this->state['stanzas'] + 1;
-        $known_moments = $this->config['moments'];
-        $moment        = $known_moments[min($stanza_index - 1, count($known_moments) - 1)];
-
-        $stanza_texts = [
-            1 => ["De straat ligt nog in laken gehuld,", "een rolluik rammelt zich wakker.", "Niemand kijkt op; de mist", "houdt alles op veilige afstand."],
-            2 => ["Ze kijkt hem aan over de tafel heen,", "die blik die alles al weet", "voordat hij zijn mond opendoet.", "Hij eet door en weet het ook."],
-            3 => ["De bocht, en dan die ander,", "die zomaar voor je schuift.", "Een hand gaat omhoog, half gebaar,", "half iets wat je thuis zou laten."],
-            4 => ["Het huis kraakt zijn dag uit.", "Boven slaapt iemand al,", "beneden blijft één lamp branden", "voor niemand in het bijzonder."],
-        ];
-
-        $archetype_names = [
-            1 => 'lege ochtendstraat',
-            2 => 'blik van een moeder',
-            3 => 'afgesneden in de bocht',
-            4 => 'het huis dat uitdooft',
-        ];
-
-        // gate-fail: hergebruik het archetype van strofe 1 — schendt missie-eis 2
-        $declared_archetype = $break_a_gate
-            ? 'lege ochtendstraat'
-            : ($archetype_names[$stanza_index] ?? "stub-archetype-$stanza_index");
-
-        $fallback_stanza = ["Stub regel een.", "Stub regel twee.", "Stub regel drie."];
-
-        $next_backlog = $stanza_index < $this->state['target_stanzas']
-            ? ['Schrijf strofe ' . ($stanza_index + 1) . ': kies een archetype dat later op de dag speelt.']
-            : ['Bundel compleet — laat de critic de samenhang beoordelen.'];
-
         return json_encode([
-            'stanza_index' => $stanza_index,
-            'moment'       => $moment,
-            'archetype'    => $declared_archetype,
-            'stanza'       => implode("\n", $stanza_texts[$stanza_index] ?? $fallback_stanza),
-            'journal'      => "Dry-run: strofe $stanza_index neergezet ($moment). Geen API-aanroep gedaan.",
-            'backlog'      => $next_backlog,
+            'bestand' => $bestand,
+            'inhoud'  => $inhoud,
+            'journal' => "Dry-run ({$this->agent_mode}): $bestand ingeleverd. Geen API-aanroep gedaan.",
+            'backlog' => ['Volgende groep tests oppakken.'],
         ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    }
+
+    /**
+     * Een compacte recursive-descent parser die de eerste drie testgroepen haalt:
+     * getallen, de vier operatoren, en precedentie met haakjes. Geen variabelen,
+     * geen functies — dat is juist de bedoeling: de stub-tick laat de testsuite
+     * van 0 naar 19 gaan en stopt daar, zodat je ook een vervolgtick kunt zien
+     * afketsen op "geen voortgang".
+     */
+    private function parser(): string
+    {
+        return <<<'PHP'
+<?php
+declare(strict_types=1);
+
+/**
+ * Door de dry-run-stub ingeleverd. Haalt groep 1 tot en met 3.
+ */
+function juno_eval(string $broncode): string
+{
+    $parser = new class(trim($broncode)) {
+        private int $pos = 0;
+        public function __construct(private string $t) {}
+
+        public function evalueer(): float
+        {
+            return $this->som();
+        }
+
+        private function spring(): void
+        {
+            while ($this->pos < strlen($this->t) && ctype_space($this->t[$this->pos])) { $this->pos++; }
+        }
+
+        private function kijk(): string
+        {
+            $this->spring();
+            return $this->pos < strlen($this->t) ? $this->t[$this->pos] : '';
+        }
+
+        private function som(): float
+        {
+            $links = $this->product();
+            while (true) {
+                $teken = $this->kijk();
+                if ($teken === '+') { $this->pos++; $links += $this->product(); }
+                elseif ($teken === '-') { $this->pos++; $links -= $this->product(); }
+                else { return $links; }
+            }
+        }
+
+        private function product(): float
+        {
+            $links = $this->unair();
+            while (true) {
+                $teken = $this->kijk();
+                if ($teken === '*') { $this->pos++; $links *= $this->unair(); }
+                elseif ($teken === '/') { $this->pos++; $links /= $this->unair(); }
+                else { return $links; }
+            }
+        }
+
+        private function unair(): float
+        {
+            if ($this->kijk() === '-') { $this->pos++; return -$this->unair(); }
+            return $this->atoom();
+        }
+
+        private function atoom(): float
+        {
+            if ($this->kijk() === '(') {
+                $this->pos++;
+                $waarde = $this->som();
+                if ($this->kijk() === ')') { $this->pos++; }
+                return $waarde;
+            }
+            $start = $this->pos;
+            while ($this->pos < strlen($this->t)
+                   && (ctype_digit($this->t[$this->pos]) || $this->t[$this->pos] === '.')) {
+                $this->pos++;
+            }
+            if ($start === $this->pos) {
+                throw new RuntimeException('geen getal op positie ' . $this->pos);
+            }
+            return (float) substr($this->t, $start, $this->pos - $start);
+        }
+    };
+
+    $uitkomst = $parser->evalueer();
+
+    // Hele getallen zonder komma teruggeven, zoals de tests verwachten.
+    return $uitkomst == (int) $uitkomst ? (string) (int) $uitkomst : (string) $uitkomst;
+}
+PHP;
     }
 }

@@ -1,0 +1,129 @@
+{
+ "variatie": {
+  "mistral-small": [
+   {
+    "uniek": 4,
+    "totaal": 5
+   },
+   {
+    "uniek": 5,
+    "totaal": 5
+   },
+   {
+    "uniek": 5,
+    "totaal": 5
+   },
+   {
+    "uniek": 5,
+    "totaal": 5
+   }
+  ],
+  "mistral-medium": [
+   {
+    "uniek": 1,
+    "totaal": 5
+   },
+   {
+    "uniek": 5,
+    "totaal": 5
+   },
+   {
+    "uniek": 4,
+    "totaal": 5
+   },
+   {
+    "uniek": 5,
+    "totaal": 5
+   }
+  ],
+  "mistral-large": [
+   {
+    "uniek": 1,
+    "totaal": 10
+   },
+   {
+    "uniek": 3,
+    "totaal": 10
+   },
+   {
+    "uniek": 5,
+    "totaal": 10
+   },
+   {
+    "uniek": 7,
+    "totaal": 10
+   }
+  ],
+  "gpt-5.5": [
+   {
+    "uniek": 4,
+    "totaal": 10
+   },
+   {
+    "uniek": 9,
+    "totaal": 10
+   },
+   {
+    "uniek": 5,
+    "totaal": 10
+   },
+   {
+    "uniek": 9,
+    "totaal": 10
+   }
+  ]
+ },
+ "fluff": {
+  "zonder": {
+   "exact": 2,
+   "leeg": 9,
+   "n": 10
+  },
+  "met": {
+   "exact": 2,
+   "leeg": 6,
+   "n": 10
+  }
+ },
+ "tweebijtwee": {
+  "A-small": {
+   "lift": 0,
+   "leeg1": 4,
+   "n": 5
+  },
+  "A-medium": {
+   "lift": 0,
+   "leeg1": 0,
+   "n": 5
+  },
+  "B-small": {
+   "lift": 0,
+   "leeg1": 0,
+   "n": 5
+  },
+  "B-medium": {
+   "lift": 5,
+   "leeg1": 0,
+   "n": 5
+  }
+ },
+ "omgekeerd": {
+  "totaal": 10,
+  "compleet": 3
+ },
+ "kosten": {
+  "gpt": {
+   "in": "1371",
+   "out": 12045
+  },
+  "large": {
+   "in": "1581",
+   "out": 9071
+  }
+ },
+ "totalen": {
+  "bundels": 70,
+  "strofen": 261,
+  "ticks": 280
+ }
+}

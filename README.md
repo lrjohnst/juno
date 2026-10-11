@@ -7,27 +7,42 @@ begint weer bij nul.
 
 **Rapport met alle bevindingen en gedichten:** <https://lucasjohnston.nl/juno>
 
-## Waarom een gedicht
+## De huidige missie: een testsuite groen krijgen
 
-De eerste missie is klein en controleerbaar: schrijf een bundel van vier strofen, elk over een
-alledaagse ervaring, geordend van ochtend naar nacht. Niet omdat het om poëzie gaat, maar omdat
-je aan een gedicht met het blote oog ziet wanneer een systeem afdwaalt. Bij een handelsalgoritme
-ziet afdwalen eruit als een grafiek die nog steeds stijgt.
+Juno bouwt een interpreter voor een kleine expressietaal in PHP, tot alle 40 tests in `spec/`
+groen staan. Die testsuite is **bevroren en root-eigendom** — juno kan hem niet aanpassen.
+Dat is de kern: wie de test kan wijzigen, haalt niet de test maar de meetlat omlaag.
 
-Dit project is dus eerst een *harnas* en pas daarna een toepassing.
+Daarmee is de kwaliteitstoets hard. Een tick slaagt alleen als er een test bij groen komt en
+geen enkele test die groen stond rood wordt. Geen beoordelaar, geen cijfer op gevoel.
+
+## Hiervoor: de gedichten-agent
+
+De eerste versie schreef gedichten — niet om de poëzie, maar omdat je aan een gedicht met het
+blote oog ziet wanneer een systeem afdwaalt. Dat bewees het harnas en leverde onderweg een
+reeks experimenten op over het sturen van taalmodellen.
+
+- Rapport met alle 70 bundels: <https://lucasjohnston.nl/juno>
+- Archief en ruwe data: [docs/v1-gedicht/](docs/v1-gedicht/)
+- Code: `git checkout v1-gedicht`
 
 ## Opzet
 
 ```
 kernel/      de aansturing — dom, deterministisch, en niet schrijfbaar voor de agent
-  tick.php       één ronde: lock, preflight, prompt, agent, gates, rollback, commit
-  Gates.php      harde controles; elke melding gaat bij een retry terug naar de agent
+  tick.php       één ronde: lock, preflight, nulmeting, agent, schrijven, hermeting, commit
+  Gates.php      preflight, vormcontrole en de harde voortgangsregel
+  TestRunner.php draait spec/ en leest de uitslag
   State.php      lezen en schrijven van mission/
   Agent.php      stub-agent voor tests, zonder API-aanroep
   AiStudioAgent.php   praat met ai-studio (eigen LLM-gateway)
   CONSTITUTION.md     werkregels voor de agent
   MISSION.sha256      hash van de missie; wijkt die af, dan stopt de loop
-  tests/         14 tests, waarvan 5 die de agent per definitie niet kan uitvoeren
+  tests/         19 tests, waarvan 7 die de agent per definitie niet kan uitvoeren
+
+spec/        de bevroren testsuite — root-eigendom. Dit ís de missie
+  run.php        de testrunner; meldt OK/FAIL per test en een totaalregel
+  tests/         40 testgevallen in zeven groepen, oplopend in moeilijkheid
 
 mission/     de staat — de agent schrijft hier, in een vaste vorm
   MISSION.md     bevroren. Het anker waartegen afdwaling gemeten wordt
@@ -49,6 +64,7 @@ var/         runtime: lockfile, noodstop, logs (buiten git)
 ./tick --dry-run       # stub-agent, geen API, geen kosten
 ./tick --verbose       # toon de volledige prompt
 ./tick --model=gpt-5.5 # ander model dan de standaard
+php spec/run.php       # de testsuite handmatig draaien
 ./reset                # terug naar tick 0 (alleen de staat, nooit code)
 ./reseal               # de missie opnieuw verzegelen na een wijziging
 
@@ -68,9 +84,15 @@ eerste afkeuring gewoon de lat.
 tijd — maar `JOURNAL.md` en `metrics.csv` groeien alleen aan. Zonder die asymmetrie maakt de
 volgende tick exact dezelfde fout, tot in het oneindige.
 
+## Aan de slag
+
+Praktische gids, valkuilen en instructies: **[HANDLEIDING.md](HANDLEIDING.md)**.
+
 ## Status
 
-Het harnas werkt: 14 tests groen, honderden ronden gedraaid over vier taalmodellen. Wat nog
-niet gebouwd is staat in [BACKLOG.md](BACKLOG.md) — met name de zachte controle (een beoordelaar
-met een cijfer), de reflectie-ronde die het playbook vult, en een systemd-timer die de loop
-echt autonoom maakt.
+Het harnas werkt: 19 tests groen, honderden ronden gedraaid over vijf taalmodellen. Openstaand
+werk in [BACKLOG.md](BACKLOG.md).
+
+Eén bevinding om te weten voordat je begint: **GPT-5.5 haalde de huidige 40 tests in één tick**
+— 366 regels met lexer, parser en runtime, meteen groen. Daarmee is er geen loop om te
+observeren. De suite moet moeilijker, of het model kleiner. Zie het slot van de handleiding.

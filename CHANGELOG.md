@@ -4,6 +4,36 @@ Autonome agent-loop. Elke tick is één stap richting de missie.
 
 ---
 
+## 2026-10-11
+
+### v2 — code als werkstuk
+
+**Gearchiveerd:** de gedichten-agent als tag `v1-gedicht`, met ruwe data, experimentscripts
+en een verhaal in `docs/v1-gedicht/`. Rapport blijft op <https://lucasjohnston.nl/juno>.
+
+**Nieuw: de testsuite is de missie.** `spec/` bevat 40 testgevallen in zeven groepen en een
+eigen runner zonder externe afhankelijkheden. Root-eigendom, dus de agent kan de meetlat niet
+verzetten — alleen zijn implementatie.
+
+- `kernel/TestRunner.php` draait de suite en leest de uitslag.
+- `Gates.php` opnieuw opgezet in drie momenten: `preflight()`, `vorm()` en `voortgang()`.
+  De harde regel: een tick slaagt alleen als er méér tests groen staan dan ervoor.
+- `tick.php` draait nu een nulmeting vóór en een hermeting ná het wegschrijven. Daardoor is
+  de rollback geen ceremonie meer, en krijgt de agent bij een retry de echte testuitvoer.
+- Vormcontrole blokkeert padtraversal (`../kernel/tick.php` wordt geweigerd).
+- Nieuwe ai-studio-prompt `juno-code` (#28) met eigen schema, model gpt-5.5.
+- Kernel-tests herschreven: 12 als juno, 7 als root. Nieuw daarin: de controle dat `spec/`
+  dicht is voor juno.
+- `HANDLEIDING.md` toegevoegd met instructies, de rechten-valkuilen en de prompt-lessen uit v1.
+
+**Gevonden tijdens het bouwen:** `grep -q` in een pipe stuurt SIGPIPE naar `tick.php`, die dan
+halverwege stopt en zijn journal nooit schrijft. Eén eigen test stond daardoor op rood terwijl
+de kernel klopte. Testscripts vangen de uitvoer nu eerst op in een variabele.
+
+**Eerste echte tick:** GPT-5.5 haalde alle 40 tests in één keer — 366 regels met lexer, parser
+en runtime. De missie is dus te makkelijk om een loop te observeren; dat staat als eerste punt
+op de backlog.
+
 ## 2026-09-23
 
 ### Fase 2 — koppeling met ai-studio (af)

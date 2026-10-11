@@ -1,0 +1,21 @@
+run,voorbeelden,model,input_tokens,archetype_1,archetype_2,archetype_3,archetype_4
+1,A,mistral-small-latest,1593,vroege treinreiziger,zwoele lunchpauze in de stad,late fietser in de regen,stilte tussen nacht en dageraad
+2,A,mistral-medium-latest,1593,eerste slok koffie,warme zon op de rug,straatverlichting die aangaat,laatste blik op de telefoon voor het slapen
+3,B,mistral-small-latest,1582,wassen in koud water,wachten op een bankje in de zon,de eerste slok bier na een lange dag,het moment dat je lamp uitdoet en nog even in het donker staat
+4,B,mistral-medium-latest,1582,eerste slok koffie,wachten op de lift die niet komt,sleutels zoeken in een volle tas,laatste blik op de telefoon voor het slapen
+5,A,mistral-small-latest,1593,lege koffiepot,vergeten paraplu in de regen,licht dat uitgaat in de kamer,laatste blik op de wekker
+6,A,mistral-medium-latest,1593,eerste slok koffie,wachtend op de bus,straatverlichting die aangaat,laatste blik op een scherm voor het slapen
+7,B,mistral-small-latest,1582,wachten op de wekker,stilstaan bij een rood licht,leeg glas op tafel,eerste diepe ademhaling in bed
+8,B,mistral-medium-latest,1582,eerste kop koffie,wachten op de lift die vol is,sokken zoeken in de wasmand,laatste blik op de telefoon voor het slapen
+9,A,mistral-small-latest,1593,leeg theehuis,verstilde lunchpauze,vervagende marktgeluiden,naargeestige wekker in donker
+10,A,mistral-medium-latest,1593,eerste slok koffie,vergeten lunch op kantoor,wachten op de tram in de regen,laatste blik op het scherm voor het slapen
+11,B,mistral-small-latest,1582,eerste koffie zonder haast,vergeten sleutel in de voordeur,schaduw die te lang meeloopt,laatste blik op het donker buiten
+12,B,mistral-medium-latest,1582,eerste kop koffie,wachten op de lift,sokken aantrekken voor het slapengaan,dromen herinneren bij het wakker worden
+13,A,mistral-small-latest,1593,lege ochtendstraat,schaduw op de muur,licht dat op de vloer valt,adem die stokt in de keel
+14,A,mistral-medium-latest,1593,eerste slok koffie,wachten op de bus in de regen,de geur van natte aarde na een zomerbui,het geluid van een treindeur die dichtslaat in een verlaten station
+15,B,mistral-small-latest,1582,eerste slok koffie,te volle tas dichtknopen,schaduw die langer wordt dan jij,de stilte na het laatste geluid
+16,B,mistral-medium-latest,1582,eerste slok koffie te heet,verkeerde knop indrukken in de lift,sleutel die niet past in het slot,woelen in bed zonder slaap te vinden
+17,A,mistral-small-latest,1593,lege ochtendstraat,de eerste slok koude koffie,de blik van een vreemde in de tram,het geritsel van deken en lakens
+18,A,mistral-medium-latest,1593,eerste slok koffie,vergeten sleutel in de deur,laatste treindeur die dichtvalt,leeg scherm voor het slapengaan
+19,B,mistral-small-latest,1582,opstaan voordat het licht is,te laat in de rij staan,de eerste slok koffie die te heet is,de laatste metro die net wegrijdt
+20,B,mistral-medium-latest,1582,eerste slok koffie,wachten op de lift die vol zit,sleutel die niet past,laatste licht uitdoen

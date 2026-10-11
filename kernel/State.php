@@ -33,10 +33,9 @@ final class State
             'status' => 'idle',
             'last_outcome' => null,
             'consecutive_failures' => 0,
-            'stanzas' => 0,
-            'target_stanzas' => 4,
-            'used_archetypes' => [],
-            'last_moment_index' => -1,
+            'groen' => 0,
+            'totaal' => 0,
+            'bestanden' => [],
             'updated_at' => null,
         ];
     }
@@ -67,7 +66,7 @@ final class State
     /** Append-only. Dit bestand is het dashboard. */
     public function metric(array $metric_row): void
     {
-        $columns = ['tick','timestamp','outcome','stanzas','words','judge_score','input_tokens','output_tokens','note'];
+        $columns = ['tick','timestamp','outcome','groen','totaal','input_tokens','output_tokens','note'];
         $escaped_values = [];
         foreach ($columns as $column_name) {
             $value = (string)($metric_row[$column_name] ?? '');
