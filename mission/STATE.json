@@ -1,8 +1,8 @@
 {
-    "tick": 3,
+    "tick": 4,
     "status": "bezig",
     "last_outcome": "rejected",
-    "consecutive_failures": 2,
+    "consecutive_failures": 3,
     "groen": 19,
     "totaal": 40,
     "bestanden": [
