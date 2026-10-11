@@ -30,3 +30,9 @@ Het werkstuk is teruggedraaid naar de vorige staat. Deze entry blijft staan, zod
 Afgekeurd na 3 pogingen. Reden(en): bestandsnaam '../kernel/tick.php' mag niet; toegestaan is kleine letters, cijfers en underscores, met .php erachter
 
 Het werkstuk is teruggedraaid naar de vorige staat. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
+
+## Tick 4 — 2026-10-11 20:20 — REJECTED
+
+Afgekeurd na 3 pogingen. Reden(en): het antwoord was geen geldige JSON
+
+Het werkstuk is teruggedraaid naar de vorige staat. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
