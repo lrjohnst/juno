@@ -2,3 +2,4 @@ tick,timestamp,uitkomst,stand,maximum,agent,input_tokens,output_tokens,noot
 1,2026-10-18T17:47:30+00:00,ACCEPTED,1,5,stub:ok,0,0,0/5 regels → 1/5 regels
 2,2026-10-18T17:47:30+00:00,REJECTED,1,5,stub:stuk,0,0,het antwoord was geen geldige JSON
 3,2026-10-18T17:47:30+00:00,REJECTED,1,5,stub:leeg,0,0,deze velden ontbreken of zijn leeg: regel
+4,2026-10-18T17:47:30+00:00,REJECTED,1,5,stub:te-lang,0,0,"de regel moet tussen 1 en 120 tekens zijn, nu 200"
