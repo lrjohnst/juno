@@ -1,10 +1,8 @@
 {
-    "tick": 0,
-    "status": "idle",
-    "last_outcome": null,
-    "consecutive_failures": 0,
-    "groen": 0,
-    "totaal": 0,
-    "bestanden": [],
-    "updated_at": null
+    "tick": 1,
+    "status": "bezig",
+    "laatste_uitkomst": "ACCEPTED",
+    "mislukkingen_op_rij": 0,
+    "stand": "1/5 regels",
+    "bijgewerkt": "2026-10-18T17:47:30+00:00"
 }
