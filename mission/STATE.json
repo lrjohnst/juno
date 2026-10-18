@@ -1,8 +1,8 @@
 {
-    "tick": 2,
+    "tick": 3,
     "status": "bezig",
     "laatste_uitkomst": "REJECTED",
-    "mislukkingen_op_rij": 1,
+    "mislukkingen_op_rij": 2,
     "stand": "1/5 regels",
     "bijgewerkt": "2026-10-18T17:47:30+00:00"
 }

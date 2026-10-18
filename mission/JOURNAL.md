@@ -13,3 +13,9 @@ Stub: een regel toegevoegd.
 Afgekeurd. Reden(en): het antwoord was geen geldige JSON
 
 Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
+
+## Tick 3 — 2026-10-18 17:47 — REJECTED
+
+Afgekeurd. Reden(en): deze velden ontbreken of zijn leeg: regel
+
+Het werkstuk is teruggedraaid. Deze entry blijft staan, zodat de volgende tick niet dezelfde fout maakt.
