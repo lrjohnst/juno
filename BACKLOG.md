@@ -17,4 +17,4 @@
 
 | Item | Notities |
 |------|----------|
-| ~~Bootstrap~~ | ~~Vanille Laravel uit `laravel-template`, met `laravel-sso` en `laravel-ui-theme`, zonder het chat-package. Autonome login-app op `.lucasjohnston.nl`.~~ |
+| ~~Bootstrap + v4-tag~~ | ~~Vanille Laravel uit `laravel-template`, met `laravel-sso` en `laravel-ui-theme`, zonder het chat-package. Autonome login-app op `.lucasjohnston.nl`.~~ |
