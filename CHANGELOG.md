@@ -4,6 +4,30 @@ App-specifieke changelog. Server-niveau werk staat in `/home/claude/CHANGELOG.md
 
 ---
 
+## 2026-10-24 (VII) — Gebruikersinterface
+
+Volledige interface op het gewone theme (`theme.css` + `public/css/app.css`), achter SSO. Alleen gebruikers in
+`users` komen binnen (nu alleen Lucas). Tijden in Amsterdamse tijd, met UTC als tooltip.
+
+| Pagina | Wat |
+|---|---|
+| **Overzicht** (`/`) | Juno actief of gepauzeerd, open tick, HEAD, volgende tick, totalen en kosten van vandaag; pauzeren/hervatten (met reden), tick nu klaarzetten; laatste ticks, dispatches en pauzes. |
+| **Ticks** | Lijst met parent, status, aantallen (meer dan één kind = begin van een branch); per tick de levenscyclus, route terug, kinderen, dispatches, journal en documentversies; annuleren (Scheduled), opgeven (Claimed) en terugdraaien (Finished, met de reden waarom het nog niet kan). |
+| **Documenten** | Stand bij HEAD, aanmaken (naam wordt een bestand in `workspace/context`), `follows_rollback` aan/uit, nieuwe versie (hangt aan HEAD), geschiedenis met oude versies. |
+| **Journal** | Wat de kernel meekrijgt (het window, over alle branches) en alle entries per tick. |
+| **Dispatches** | Lijst met status, duur en kosten; per dispatch prompt, uitvoer, sessie-id en levenscyclus. |
+| **Instellingen** | De vier instellingen uit `settings`, met uitleg en de `.env`-waarde; weigert opgeven-na ≤ dispatch-time-out. |
+
+Controllers in `App\Http\Controllers\Ui`; `Tick` kreeg `children()` en `documentVersions()`. `home.blade.php` vervangen
+door `dashboard.blade.php`.
+
+**Getest:** alle pagina's 200 met echte data; zonder login 302 naar `/login`, POST zonder sessie 419. Acties:
+instellingen opslaan en de weigering, document aanmaken/versie/`follows_rollback`, ongeldige naam geweigerd,
+pauzeren, tick klaarzetten tijdens pauze geweigerd, rollback naar 34 (gaf een tick met parent 34), annuleren,
+hervatten. Testdata daarna weggehaald.
+
+---
+
 ## 2026-10-24 (VI) — Dispatches: Claude Code-opdrachten van de kernel
 
 - **Tabellen** `dispatches` (`tick_id` nullable voor later, `prompt`, `permission_mode`), `dispatch_events`

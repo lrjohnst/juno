@@ -13,9 +13,21 @@
     <header class="app-header">
         <h1>{{ config('app.name') }}</h1>
         <nav class="nav-primary">
-            <a href="{{ route('home') }}" @class(['nav-item', 'active' => request()->routeIs('home')])>Home</a>
+            @foreach ([
+                ['home', 'home', 'Overzicht'],
+                ['ticks.index', 'ticks.*', 'Ticks'],
+                ['documents.index', 'documents.*', 'Documenten'],
+                ['journal.index', 'journal.*', 'Journal'],
+                ['dispatches.index', 'dispatches.*', 'Dispatches'],
+                ['settings.index', 'settings.*', 'Instellingen'],
+            ] as [$route, $match, $label])
+                <a href="{{ route($route) }}" @class(['nav-item', 'active' => request()->routeIs($match)])>{{ $label }}</a>
+            @endforeach
         </nav>
         <div class="user-chip">
+            @if (App\Juno::isPaused())
+                <span class="pill pill-Paused">Gepauzeerd</span>
+            @endif
             {{ Auth::user()->name }}
             <form method="post" action="{{ route('auth.logout') }}">
                 @csrf

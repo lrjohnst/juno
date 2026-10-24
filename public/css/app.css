@@ -1,1 +1,43 @@
 /* Site-specific styles — overrides theme.css */
+
+/* Statuslabels: één kleur per betekenis */
+.pill-Scheduled, .pill-Started { background:color-mix(in srgb, var(--primary) 12%, white); color:var(--primary-dark); }
+.pill-Claimed, .pill-Paused { background:#fdf3dc; color:#8a5a00; }
+.pill-Finished, .pill-Resumed { background:#eafaf1; color:#1e7d4f; }
+.pill-Failed, .pill-TimedOut, .pill-Abandoned { background:#fdeceb; color:#b23a2a; }
+.pill-Canceled, .pill-none { background:#f0f0f0; color:#666; }
+
+.stats { display:grid; grid-template-columns:repeat(auto-fit, minmax(170px, 1fr)); gap:12px; margin-bottom:18px; }
+.stat { background:var(--card-bg); border:1px solid var(--border); border-radius:8px; padding:12px 14px; }
+.stat .label { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; color:var(--muted); }
+.stat .value { font-size:20px; font-weight:600; margin-top:4px; }
+.stat .sub { font-size:12px; color:var(--muted); margin-top:2px; }
+
+.page-head { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:14px; flex-wrap:wrap; }
+.page-head h2 { margin:0; font-size:18px; color:var(--primary-dark); }
+.actions { display:flex; gap:8px; flex-wrap:wrap; align-items:flex-end; }
+.actions form { display:flex; gap:8px; align-items:flex-end; flex-wrap:wrap; margin:0; }
+.actions input[type=text] { min-width:240px; }
+
+.timeline { list-style:none; margin:0; padding:0; }
+.timeline li { display:flex; gap:12px; padding:8px 0; border-bottom:1px solid var(--border); align-items:baseline; }
+.timeline li:last-child { border-bottom:none; }
+.timeline .when { width:150px; flex-shrink:0; }
+
+pre.content { background:#f7f9fb; border:1px solid var(--border); border-radius:6px; padding:12px 14px; white-space:pre-wrap;
+  word-break:break-word; font-family:'Cascadia Code', 'Fira Code', monospace; font-size:12px; max-height:520px; overflow:auto; margin:0; }
+textarea.content { font-family:'Cascadia Code', 'Fira Code', monospace; font-size:12px; min-height:320px; }
+
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+@media (max-width:760px) { .grid-2 { grid-template-columns:1fr; } }
+
+.journal-tick { margin-bottom:14px; }
+.journal-tick h3 { font-size:13px; margin:0 0 6px; color:var(--muted); font-weight:600; }
+.journal-tick ul { margin:0; padding-left:18px; }
+.journal-tick li { margin:3px 0; white-space:pre-wrap; }
+
+.pagination { display:flex; gap:6px; margin-top:12px; flex-wrap:wrap; }
+.pagination a, .pagination span { padding:5px 10px; border:1px solid var(--border); border-radius:6px; background:var(--card-bg); font-size:12px; text-decoration:none; }
+.pagination .current { background:var(--primary); color:#fff; border-color:var(--primary); }
+.empty { color:var(--muted); font-style:italic; }
+table.grid td.num, table.grid th.num { text-align:right; }
