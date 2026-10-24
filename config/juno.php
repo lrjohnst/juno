@@ -19,7 +19,7 @@ return [
 
     'tick_interval' => (int) env('JUNO_TICK_INTERVAL', 30),
 
-    'tick_abandon_after' => (int) env('JUNO_TICK_ABANDON_AFTER', 25),
+    'tick_abandon_after' => (int) env('JUNO_TICK_ABANDON_AFTER', 60),
 
     /*
     |--------------------------------------------------------------------------
@@ -32,6 +32,19 @@ return [
     */
 
     'journal_window' => (int) env('JUNO_JOURNAL_WINDOW', 10),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Dispatches
+    |--------------------------------------------------------------------------
+    |
+    | dispatch_timeout: na zoveel minuten stopt de kernel een Claude Code-opdracht.
+    | Moet ruim onder tick_abandon_after blijven, anders wordt de tick opgegeven
+    | terwijl Claude nog draait.
+    |
+    */
+
+    'dispatch_timeout' => (int) env('JUNO_DISPATCH_TIMEOUT', 15),
 
     /*
     |--------------------------------------------------------------------------

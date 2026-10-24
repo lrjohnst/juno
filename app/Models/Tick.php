@@ -35,6 +35,11 @@ class Tick extends Model
         return $this->hasOne(TickEvent::class)->ofMany(['happened_at' => 'max', 'id' => 'max']);
     }
 
+    public function dispatches(): HasMany
+    {
+        return $this->hasMany(Dispatch::class);
+    }
+
     public function journalEntries(): HasMany
     {
         return $this->hasMany(JournalEntry::class);

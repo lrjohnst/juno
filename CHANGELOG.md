@@ -4,6 +4,31 @@ App-specifieke changelog. Server-niveau werk staat in `/home/claude/CHANGELOG.md
 
 ---
 
+## 2026-10-24 (VI) — Dispatches: Claude Code-opdrachten van de kernel
+
+- **Tabellen** `dispatches` (`tick_id` nullable voor later, `prompt`, `permission_mode`), `dispatch_events`
+  (levenscyclus) en `dispatch_results` (één keer geschreven: `session_id`, `output`, `exit_code`, `cost_usd`,
+  `duration_ms`, `num_turns`). Geen statuskolom.
+- **Labels** (`DispatchEventLabel`): `Started` → `Finished` | `Failed` | `TimedOut` | `Abandoned`.
+- **Model `Dispatch`**: `getStatus()`, `setStatus()`, `isOpen()`, `result()`; `Dispatch::abandonStale()` geeft
+  opdrachten op die na `dispatch_timeout` + 5 minuten nog `Started` zijn (de kernel is dan waarschijnlijk
+  gecrasht); draait elke minuut in de scheduler. `DispatchResult` is onveranderlijk.
+- **API**: `POST /api/ticks/{tick}/dispatches` (→ `{id, timeout_seconds}`, meteen `Started`),
+  `POST /api/dispatches/{dispatch}/events` en `POST /api/dispatches/{dispatch}/result` (één keer; daarna 409).
+- **Instellingen**: `juno.dispatch_timeout` = 15 (nieuw, met rij in `settings`); `juno.tick_abandon_after`
+  van 25 naar **60** (config, `.env` en de rij in `settings`), zodat een tick niet wordt opgegeven terwijl
+  Claude nog draait.
+
+**Getest** (testtick, daarna opgeruimd): echte Claude zonder login → `Failed` ("Not logged in"); nep-Claude
+→ `Finished` met sessie en kosten, en draaide als juno in de workspace; nep-Claude die bleef hangen, met een
+achtergrondkind → `TimedOut` na 1 minuut, zonder weesprocessen; vastgelopen dispatch → `Abandoned`;
+dubbel resultaat en dubbel afmelden → 409, verkeerd label en verkeerde permissiemodus → 422.
+
+**Let op, gebeurd tijdens het testen:** de testtick was even de nieuwste tick, waardoor de echte tick van
+13:30 (23) hem als parent kreeg. Rechtgezet: tick 23 heeft parent 21, de testtick is weg.
+
+---
+
 ## 2026-10-24 (V) — Handmatig een tick draaien en de geschiedenis legen
 
 - **`POST /api/ticks`**: zet nu een tick klaar, los van het interval (voor `kernel/run-tick.php`). Zelfde

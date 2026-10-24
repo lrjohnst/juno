@@ -2,6 +2,7 @@
 
 use App\Enums\TickEventLabel;
 use App\Juno;
+use App\Models\Dispatch;
 use App\Models\DocumentVersion;
 use App\Models\JournalEntry;
 use App\Models\Tick;
@@ -18,6 +19,10 @@ Artisan::command('inspire', function () {
 // Eerst opruimen, dan klaarzetten: anders blokkeert een vastgelopen tick de volgende.
 Schedule::call(fn () => Tick::abandonStale())
     ->name('ticks:abandon-stale')
+    ->everyMinute();
+
+Schedule::call(fn () => Dispatch::abandonStale())
+    ->name('dispatches:abandon-stale')
     ->everyMinute();
 
 // Eén tick per tick_interval minuten, geteld vanaf de Unix-epoch. tick.php (cron van juno) haalt hem op.

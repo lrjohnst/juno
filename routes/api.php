@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DispatchController;
 use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\JournalController;
 use App\Http\Controllers\TickController;
@@ -12,6 +13,9 @@ Route::middleware(AuthenticateJunoToken::class)->group(function () {
     Route::post('/ticks/{tick}/events', [TickController::class, 'storeEvent']);
     Route::get('/ticks/{tick}/documents', [DocumentController::class, 'index']);
     Route::post('/ticks/{tick}/documents/{name}', [DocumentController::class, 'store']);
+    Route::post('/ticks/{tick}/dispatches', [DispatchController::class, 'store']);
+    Route::post('/dispatches/{dispatch}/events', [DispatchController::class, 'storeEvent']);
+    Route::post('/dispatches/{dispatch}/result', [DispatchController::class, 'storeResult']);
     Route::get('/journal', [JournalController::class, 'index']);
     Route::post('/ticks/{tick}/journal', [JournalController::class, 'store']);
 });
