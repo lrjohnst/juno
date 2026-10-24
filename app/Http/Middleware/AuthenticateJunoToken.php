@@ -14,7 +14,7 @@ class AuthenticateJunoToken
         $token = $request->bearerToken();
 
         if (! $hash || ! $token || ! hash_equals($hash, hash('sha256', $token))) {
-            abort(401);
+            abort(401, 'Ongeldig of ontbrekend token.');
         }
 
         return $next($request);

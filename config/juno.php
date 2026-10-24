@@ -8,7 +8,8 @@ return [
     |--------------------------------------------------------------------------
     |
     | tick_interval: aantal minuten tussen twee ticks; zo vaak zet de
-    | scheduler een tick klaar voor /home/juno/tick.php.
+    | scheduler een tick klaar voor de kernel
+    | (/home/juno/kernel/tick.php).
     | tick_abandon_after: na zoveel minuten zonder afsluiting krijgt een
     | geclaimde tick het event 'Abandoned'.
     |
@@ -22,11 +23,23 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Journal
+    |--------------------------------------------------------------------------
+    |
+    | journal_window: het journal dat de kernel meekrijgt bevat de entries van
+    | de chronologisch laatste zoveel ticks, over alle branches heen.
+    |
+    */
+
+    'journal_window' => (int) env('JUNO_JOURNAL_WINDOW', 10),
+
+    /*
+    |--------------------------------------------------------------------------
     | API-token
     |--------------------------------------------------------------------------
     |
     | SHA-256 van het token waarmee tick.php de API aanroept. Het token zelf
-    | staat alleen in /home/juno/.juno-token. Geheim, dus niet in settings.
+    | staat alleen in /home/juno/.kernel-token. Geheim, dus niet in settings.
     |
     */
 

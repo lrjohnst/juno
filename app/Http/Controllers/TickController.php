@@ -16,7 +16,9 @@ class TickController extends Controller
     {
         $tick = Tick::claimNext();
 
-        return $tick ? response()->json(['id' => $tick->id]) : response()->noContent();
+        return $tick
+            ? response()->json(['id' => $tick->id, 'parent_id' => $tick->parent_id])
+            : response()->noContent();
     }
 
     public function storeEvent(Request $request, Tick $tick): JsonResponse
@@ -28,7 +30,7 @@ class TickController extends Controller
         ]);
 
         try {
-            $event = $tick->set_status($data);
+            $event = $tick->setStatus($data);
         } catch (InvalidTickTransition $e) {
             return response()->json(['message' => $e->getMessage()], 409);
         }

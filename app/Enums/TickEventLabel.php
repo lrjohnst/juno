@@ -3,7 +3,8 @@
 namespace App\Enums;
 
 /**
- * Levenscyclus van een tick: Scheduled → Claimed → Finished | Failed | Abandoned.
+ * Levenscyclus van een tick: Scheduled → Claimed → Finished | Failed | Abandoned,
+ * of Scheduled → Canceled.
  */
 enum TickEventLabel: string
 {
@@ -12,6 +13,7 @@ enum TickEventLabel: string
     case Finished = 'Finished';
     case Failed = 'Failed';
     case Abandoned = 'Abandoned';
+    case Canceled = 'Canceled';
 
     /**
      * Labels waarmee een tick nog open staat.
@@ -37,7 +39,7 @@ enum TickEventLabel: string
     {
         return match ($this) {
             self::Scheduled => $previous === null,
-            self::Claimed => $previous === self::Scheduled,
+            self::Claimed, self::Canceled => $previous === self::Scheduled,
             self::Finished, self::Failed, self::Abandoned => $previous === self::Claimed,
         };
     }
