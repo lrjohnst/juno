@@ -4,6 +4,22 @@ App-specifieke changelog. Server-niveau werk staat in `/home/claude/CHANGELOG.md
 
 ---
 
+## 2026-10-24 (V) — Handmatig een tick draaien en de geschiedenis legen
+
+- **`POST /api/ticks`**: zet nu een tick klaar, los van het interval (voor `kernel/run-tick.php`). Zelfde
+  regels als de scheduler; gepauzeerd of een open tick → 409 met de reden.
+- **`juno:clear-ticks [--force]`**: leegt `ticks`, `tick_events`, `document_versions` en `journal_entries`
+  (ids beginnen weer bij 1). Documenten, settings en `juno_events` blijven. Vraagt om bevestiging en
+  weigert als er een tick open staat, tenzij `--force`.
+- Besluiten van Lucas verwerkt in `BACKLOG.md`; de e-mailhelper staat op de backlog.
+
+**Getest:** `run-tick.php` → tick 63 (parent 62) `Scheduled → Claimed → Finished`; tijdens pauze en met een
+open tick 409 met de juiste reden. `juno:clear-ticks` weigerde bij een open tick en verwijderde niets zonder
+bevestiging; het echte legen getest op een tijdelijke SQLite-database (daarna: 0 ticks, documenten en
+settings bleven, nieuwe tick kreeg id 1). Testticks 63–64 en de juno-events weggehaald.
+
+---
+
 ## 2026-10-24 (IV) — Review stap 1-4 (dispatch 4 van 4)
 
 ### Doorgedraaid, met echte acties

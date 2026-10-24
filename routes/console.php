@@ -2,10 +2,14 @@
 
 use App\Enums\TickEventLabel;
 use App\Juno;
+use App\Models\DocumentVersion;
+use App\Models\JournalEntry;
 use App\Models\Tick;
+use App\Models\TickEvent;
 use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Schedule;
+use Illuminate\Support\Facades\Schema;
 
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
@@ -51,3 +55,31 @@ Artisan::command('juno:rollback {tick} {description}', function (string $tick, s
     $new = Tick::rollbackTo($tick, $description);
     $this->info("Tick {$new->id} staat klaar met tick {$tick->id} als parent; hij start na juno:resume.");
 })->purpose('Draai terug naar een tick die Finished is');
+
+// Leegt de hele tick-geschiedenis: ticks, tick_events en alles wat aan een tick hangt (documentversies en
+// journal-entries). Documenten zelf, settings en juno_events blijven. De ids beginnen daarna weer bij 1.
+Artisan::command('juno:clear-ticks {--force : Niet vragen, en ook doorgaan als er een tick open staat}', function () {
+    $open = Tick::whereStatus(...TickEventLabel::open())->pluck('id');
+
+    if ($open->isNotEmpty() && ! $this->option('force')) {
+        $this->error('Er staat een tick open ('.$open->implode(', ').'). Laat die eerst aflopen, of gebruik --force.');
+
+        return 1;
+    }
+
+    $counts = sprintf('%d ticks, %d tick-events, %d documentversies, %d journal-entries',
+        Tick::count(), TickEvent::count(), DocumentVersion::count(), JournalEntry::count());
+
+    if (! $this->option('force') && ! $this->confirm("Dit verwijdert {$counts}. Doorgaan?")) {
+        return 1;
+    }
+
+    Schema::withoutForeignKeyConstraints(function () {
+        JournalEntry::truncate();
+        DocumentVersion::truncate();
+        TickEvent::truncate();
+        Tick::truncate();
+    });
+
+    $this->info("Verwijderd: {$counts}.");
+})->purpose('Leeg de tick-geschiedenis (ticks, events, documentversies, journal)');
