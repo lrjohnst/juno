@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name')->unique();
-            $table->boolean('follows_rollback');
+            $table->boolean('follows_rollback')->default(true);
         });
     }
 
