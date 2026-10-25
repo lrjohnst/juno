@@ -21,6 +21,11 @@ Volledige interface op het gewone theme (`theme.css` + `public/css/app.css`), ac
 Controllers in `App\Http\Controllers\Ui`; `Tick` kreeg `children()` en `documentVersions()`. `home.blade.php` vervangen
 door `dashboard.blade.php`.
 
+**Fout tijdens het bouwen:** `routes/web.php` stond er een minuut eerder dan de controllers waarnaar hij
+verwijst. Van 19:24:31 tot 19:25:02 UTC gaf daardoor elk verzoek een 500 ("Invalid route action"), ook de
+claim-ronde van de kernel en één scheduler-ronde. Er stond geen tick klaar, dus zonder gevolgen. Les:
+eerst de controllers, dan de routes.
+
 **Getest:** alle pagina's 200 met echte data; zonder login 302 naar `/login`, POST zonder sessie 419. Acties:
 instellingen opslaan en de weigering, document aanmaken/versie/`follows_rollback`, ongeldige naam geweigerd,
 pauzeren, tick klaarzetten tijdens pauze geweigerd, rollback naar 34 (gaf een tick met parent 34), annuleren,
