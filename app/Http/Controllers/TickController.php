@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Enums\TickEventLabel;
+use App\Enums\TickRole;
 use App\Exceptions\InvalidTickTransition;
 use App\Juno;
 use App\Models\Tick;
@@ -17,9 +18,10 @@ class TickController extends Controller
      * Zet nu een tick klaar, los van het interval van de scheduler (voor handmatig testen vanuit de
      * kernel). Dezelfde regels als de scheduler: niet als Juno gepauzeerd is of er een tick open staat.
      */
-    public function store(): JsonResponse
+    public function store(Request $request): JsonResponse
     {
-        $tick = Tick::schedule();
+        $role = $request->validate(['role' => ['nullable', Rule::enum(TickRole::class)]])['role'] ?? null;
+        $tick = Tick::schedule($role ? TickRole::from($role) : null);
 
         if (! $tick) {
             return response()->json([
@@ -27,7 +29,7 @@ class TickController extends Controller
             ], 409);
         }
 
-        return response()->json(['id' => $tick->id, 'parent_id' => $tick->parent_id], 201);
+        return response()->json(['id' => $tick->id, 'parent_id' => $tick->parent_id, 'role' => $tick->role], 201);
     }
 
     public function claim(): JsonResponse|Response
@@ -35,7 +37,7 @@ class TickController extends Controller
         $tick = Tick::claimNext();
 
         return $tick
-            ? response()->json(['id' => $tick->id, 'parent_id' => $tick->parent_id])
+            ? response()->json(['id' => $tick->id, 'parent_id' => $tick->parent_id, 'role' => $tick->role])
             : response()->noContent();
     }
 

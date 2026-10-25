@@ -31,6 +31,7 @@ class DashboardController extends Controller
         return view('dashboard', [
             'paused' => $paused,
             'head' => Tick::head()?->load('latestEvent'),
+            'nextRole' => Tick::nextRole(Tick::head()),
             'openTick' => $openTick,
             'nextTick' => $nextTick,
             'ticks' => Tick::with('latestEvent')->withCount(['dispatches', 'journalEntries'])->latest('id')->limit(10)->get(),

@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => 'Instellingen'])
 
 @section('content')
-    <div class="page-head"><h2>Instellingen</h2></div>
+    <div class="page-head"><h2>Instellingen</h2><a href="{{ route('tokens.index') }}">API-tokens ›</a></div>
 
     <form method="post" action="{{ route('settings.update') }}" class="card-panel">@csrf
         <table class="grid">

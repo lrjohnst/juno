@@ -18,8 +18,9 @@
                 ['ticks.index', 'ticks.*', 'Ticks'],
                 ['documents.index', 'documents.*', 'Documenten'],
                 ['journal.index', 'journal.*', 'Journal'],
+                ['library.index', 'library.*', 'Library'],
                 ['dispatches.index', 'dispatches.*', 'Dispatches'],
-                ['settings.index', 'settings.*', 'Instellingen'],
+                ['settings.index', ['settings.*', 'tokens.*'], 'Instellingen'],
             ] as [$route, $match, $label])
                 <a href="{{ route($route) }}" @class(['nav-item', 'active' => request()->routeIs($match)])>{{ $label }}</a>
             @endforeach

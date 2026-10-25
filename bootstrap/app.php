@@ -16,6 +16,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->encryptCookies(except: ['sso_token']);
         $middleware->alias([
             'sso.auth' => \LucasJohnston\Sso\Http\Middleware\SsoAuthenticate::class,
+            'juno.ability' => \App\Http\Middleware\RequireAbility::class,
         ]);
         $middleware->redirectGuestsTo(fn () => route('auth.login'));
         $middleware->redirectUsersTo(fn () => route('home'));

@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="page-head">
-        <h2>Tick #{{ $tick->id }} <x-status :event="$status" /></h2>
+        <h2>Tick #{{ $tick->id }} <x-role :role="$tick->role" /> <x-status :event="$status" /></h2>
         <a href="{{ route('ticks.index') }}">‹ Alle ticks</a>
     </div>
 

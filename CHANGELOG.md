@@ -4,6 +4,36 @@ App-specifieke changelog. Server-niveau werk staat in `/home/claude/CHANGELOG.md
 
 ---
 
+## 2026-10-25 — Tokens met rechten, rollen per tick, library, mail
+
+**Tokens** (`api_tokens`, `api_token_abilities`, `api_token_events`): elk token heeft eigen rechten (`kernel`,
+`library.read`, `library.write`) en een levenscyclus `Issued` → `Revoked`. Middleware `juno.ability:<recht>`
+vervangt `AuthenticateJunoToken` (401 bij een ongeldig of ingetrokken token, 403 zonder het recht). Het
+kernel-token is overgenomen uit `JUNO_API_TOKEN_HASH` (blijft in `.env`, alleen voor een verse database).
+Token `juno` (library lezen en schrijven) staat in `/home/juno/workspace/.juno-token` (`root:juno`, 440).
+**Fout gevonden vóór de omzetting:** de migratie gaf het kernel-token eerst geen rechten (omschrijvingen in
+plaats van namen); hersteld voordat de routes omgingen, dus de kernel heeft niets gemerkt.
+
+**Rollen per tick** (`ticks.role`, enum `TickRole`): Abstraction → Experimentation → Doing → Reflection → …
+De rol van een nieuwe tick is de volgende na die van de parent, ook als de parent mislukte; na een rollback
+volgt hij vanzelf het doel. Handmatig klaarzetten (API en interface) kan met een rol. Claim geeft de rol mee.
+**Fout gevonden in de test:** `$role` ontbrak in de `use` van de transactie-closure in `Tick::schedule()`,
+waardoor een gekozen rol werd genegeerd. Hersteld en opnieuw getest.
+
+**Library** (`sources`, `source_notes`, `source_note_versions`): bronnen bewerkbaar, DOI/ISBN/URL genormaliseerd
+en uniek; aantekeningen per TF-onderwerp met versies. API onder `/api/library` (zie `tools/README.md` in de
+workspace). Het tick-id vult de server in (`Tick::current()`). Interface: pagina Library (zoeken, filter op
+onderwerp, bron met aantekeningen en eerdere versies, verwijderen) en Instellingen → API-tokens.
+
+**Mail**: `POST /api/mail` (recht `kernel`) met `{subject, html}`; vaste ontvanger `lrjohnston@protonmail.com`.
+
+**Getest:** kernel claimt met zijn token via de nieuwe middleware; fout token 401; Juno-token leest de library
+(200) en mag niet claimen (403); de hele library-API (dubbel via DOI- en URL-varianten, versies, onderwerp
+hernoemen, verwijderen met cascade); rollen in de cyclus en met een gekozen rol; mislukte tick met mail;
+alle pagina's 200; token uitgeven, rechten wijzigen (403 → toegelaten), intrekken (401). Testdata opgeruimd.
+
+---
+
 ## 2026-10-24 (VII) — Gebruikersinterface
 
 Volledige interface op het gewone theme (`theme.css` + `public/css/app.css`), achter SSO. Alleen gebruikers in

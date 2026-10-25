@@ -6,7 +6,6 @@
 
 | Item | Notities |
 |------|----------|
-| E-mailhelper voor de kernel | T.z.t. Een helper die de kernel aanroept met een HTML-body en een onderwerp. Verstuurt via de relay van srv6 vanuit `juno@lucasjohnston.nl`, altijd naar `lrjohnston@protonmail.com` (hardcoded, niet instelbaar). Bedoeld voor een mislukte tick. |
 | Let op: 1 MB per request | Nginx heeft geen `client_max_body_size`, dus een document groter dan ~1 MB komt niet door (413). Nu geen probleem; bij grote documenten de vhost aanpassen. |
 
 ## Afgerond
@@ -19,4 +18,5 @@
 | ~~Stap 2: parent, pauze, rollback~~ | ~~24-10: `parent_id`, `Canceled`, `setStatus()`, `juno_events` + `Juno`, `rollbackTo()`, artisan-commando's.~~ |
 | ~~Stap 3: Documents~~ | ~~24-10: `documents` + `document_versions`, API en helpers.~~ |
 | ~~Besluiten 24-10 (Lucas)~~ | ~~Voortbouwen op een mislukte tick: ja (head blijft de laatste tick). `claimTick()` hoeft geen `parent_id` terug te geven. Oude ticks krijgen geen parent (de DB wordt gereset). De eerste versie van een document zet Lucas zelf in de DB. Ticks zonder entries tellen mee in het journal-window. Automatische tests en taal/logniveau: nog niet.~~ |
+| ~~E-mailhelper~~ | ~~25-10: `POST /api/mail` + `EmailNotification` in de kernel; mail bij een mislukte tick.~~ |
 | ~~Stap 4: Journal~~ | ~~24-10: `journal_entries`, `window()`, API en helpers.~~ |

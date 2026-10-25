@@ -46,16 +46,4 @@ return [
 
     'dispatch_timeout' => (int) env('JUNO_DISPATCH_TIMEOUT', 15),
 
-    /*
-    |--------------------------------------------------------------------------
-    | API-token
-    |--------------------------------------------------------------------------
-    |
-    | SHA-256 van het token waarmee tick.php de API aanroept. Het token zelf
-    | staat alleen in /home/juno/.kernel-token. Geheim, dus niet in settings.
-    |
-    */
-
-    'api_token_hash' => env('JUNO_API_TOKEN_HASH'),
-
 ];

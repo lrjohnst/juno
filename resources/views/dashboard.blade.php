@@ -15,7 +15,7 @@
         <div class="stat">
             <div class="label">Volgende tick</div>
             <div class="value">@if ($nextTick) <x-time :at="$nextTick" format="H:i" /> @else <span class="muted">—</span> @endif</div>
-            <div class="sub">@if ($paused) gepauzeerd @elseif ($openTick) eerst moet #{{ $openTick->id }} aflopen @else elke {{ config('juno.tick_interval') }} min @endif</div>
+            <div class="sub">{{ $nextRole->value }} · @if ($paused) gepauzeerd @elseif ($openTick) eerst moet #{{ $openTick->id }} aflopen @else elke {{ config('juno.tick_interval') }} min @endif</div>
         </div>
         <div class="stat">
             <div class="label">Totaal</div>
@@ -37,9 +37,7 @@
                     <input type="text" name="description" placeholder="Reden van pauzeren" required>
                     <button type="submit">Pauzeren</button>
                 </form>
-                <form method="post" action="{{ route('ticks.store') }}">@csrf
-                    <button type="submit" @disabled($openTick) title="Zet nu een tick klaar, los van het interval">Tick nu klaarzetten</button>
-                </form>
+                @include('ticks._schedule', ['disabled' => (bool) $openTick])
             @endif
         </div>
         <p class="muted" style="margin:10px 0 0">Rollback: pauzeren → open tick laten aflopen, annuleren of opgeven → op de pagina van een Finished tick terugdraaien → hervatten.</p>

@@ -3,23 +3,30 @@
 namespace App\Http\Controllers\Ui;
 
 use App\Enums\TickEventLabel;
+use App\Enums\TickRole;
 use App\Exceptions\InvalidTickTransition;
 use App\Http\Controllers\Controller;
 use App\Juno;
 use App\Models\Tick;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 use Illuminate\View\View;
 
 class TickController extends Controller
 {
-    public function index(): View
+    public function index(Request $request): View
     {
+        $role = TickRole::tryFrom((string) $request->query('role'));
+
         return view('ticks.index', [
+            'role' => $role,
             'ticks' => Tick::with('latestEvent')
+                ->when($role, fn ($query) => $query->where('role', $role))
                 ->withCount(['dispatches', 'journalEntries', 'documentVersions', 'children'])
                 ->latest('id')
-                ->paginate(30),
+                ->paginate(30)
+                ->withQueryString(),
         ]);
     }
 
@@ -51,15 +58,16 @@ class TickController extends Controller
     /**
      * Zet nu een tick klaar, los van het interval (zelfde regels als de scheduler).
      */
-    public function store(): RedirectResponse
+    public function store(Request $request): RedirectResponse
     {
-        $tick = Tick::schedule();
+        $role = $request->validate(['role' => ['nullable', Rule::enum(TickRole::class)]])['role'] ?? null;
+        $tick = Tick::schedule($role ? TickRole::from($role) : null);
 
         if (! $tick) {
             return back()->with('error', Juno::isPaused() ? 'Juno is gepauzeerd.' : 'Er staat al een tick open.');
         }
 
-        return redirect()->route('ticks.show', $tick)->with('success', "Tick {$tick->id} staat klaar; de kernel pakt hem binnen een minuut op.");
+        return redirect()->route('ticks.show', $tick)->with('success', "Tick {$tick->id} ({$tick->role->value}) staat klaar; de kernel pakt hem binnen een minuut op.");
     }
 
     public function cancel(Request $request, Tick $tick): RedirectResponse

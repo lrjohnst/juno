@@ -3,8 +3,16 @@
 @section('content')
     <div class="page-head">
         <h2>Ticks</h2>
-        <form method="post" action="{{ route('ticks.store') }}">@csrf <button type="submit">Tick nu klaarzetten</button></form>
+        @include('ticks._schedule')
     </div>
+    <form method="get" class="filters">
+        <select name="role" onchange="this.form.submit()">
+            <option value="">Alle rollen</option>
+            @foreach (App\Enums\TickRole::cases() as $option)
+                <option value="{{ $option->value }}" @selected($role === $option)>{{ $option->value }}</option>
+            @endforeach
+        </select>
+    </form>
     @include('ticks._table', ['ticks' => $ticks, 'full' => true])
     <x-pagination :paginator="$ticks" />
 @endsection

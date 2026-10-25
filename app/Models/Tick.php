@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Enums\TickEventLabel;
+use App\Enums\TickRole;
 use App\Exceptions\InvalidTickTransition;
 use App\Juno;
 use Illuminate\Database\Eloquent\Builder;
@@ -23,7 +24,23 @@ use Illuminate\Support\Facades\DB;
  */
 class Tick extends Model
 {
-    protected $fillable = ['parent_id'];
+    protected $fillable = ['parent_id', 'role'];
+
+    protected function casts(): array
+    {
+        return [
+            'role' => TickRole::class,
+        ];
+    }
+
+    /**
+     * De rol van een nieuwe tick: de volgende in de cyclus na die van de parent, ook als de parent is
+     * mislukt (Lucas krijgt dan een mail). Zonder parent, of een parent zonder rol: Abstraction.
+     */
+    public static function nextRole(?self $parent): TickRole
+    {
+        return $parent?->role?->next() ?? TickRole::Abstraction;
+    }
 
     public function events(): HasMany
     {
@@ -133,6 +150,15 @@ class Tick extends Model
     }
 
     /**
+     * De tick die nu loopt (Claimed), of null. Schrijfacties van de agent hangen hieraan; zo hoeft de
+     * agent zelf geen tick-id mee te geven.
+     */
+    public static function current(): ?self
+    {
+        return static::whereStatus(TickEventLabel::Claimed)->latest('id')->first();
+    }
+
+    /**
      * De tick waarop de volgende tick voortbouwt: de laatste tick.
      */
     public static function head(): ?self
@@ -142,20 +168,22 @@ class Tick extends Model
 
     /**
      * Zet een nieuwe tick klaar met head() als parent, maar alleen als Juno niet gepauzeerd is
-     * en er geen tick open staat.
+     * en er geen tick open staat. Zonder $role: de volgende rol in de cyclus (nextRole).
      */
-    public static function schedule(): ?self
+    public static function schedule(?TickRole $role = null): ?self
     {
         if (Juno::isPaused()) {
             return null;
         }
 
-        return DB::transaction(function () {
+        return DB::transaction(function () use ($role) {
             if (static::whereStatus(...TickEventLabel::open())->lockForUpdate()->exists()) {
                 return null;
             }
 
-            return static::createScheduled(static::head(), 'Klaargezet door de scheduler.');
+            $head = static::head();
+
+            return static::createScheduled($head, $role ?? static::nextRole($head), 'Klaargezet door de scheduler.');
         });
     }
 
@@ -210,7 +238,7 @@ class Tick extends Model
                 throw new InvalidTickTransition("Rollback kan alleen naar een tick die Finished is; tick {$target->id} is dat niet.");
             }
 
-            return static::createScheduled($target, "Rollback naar tick {$target->id}: {$description}");
+            return static::createScheduled($target, static::nextRole($target), "Rollback naar tick {$target->id}: {$description}");
         });
     }
 
@@ -237,9 +265,9 @@ class Tick extends Model
         return $abandoned;
     }
 
-    private static function createScheduled(?self $parent, string $description): self
+    private static function createScheduled(?self $parent, TickRole $role, string $description): self
     {
-        $tick = static::create(['parent_id' => $parent?->id]);
+        $tick = static::create(['parent_id' => $parent?->id, 'role' => $role]);
         $tick->setStatus([
             'label' => TickEventLabel::Scheduled,
             'description' => $description,
