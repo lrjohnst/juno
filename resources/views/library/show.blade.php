@@ -24,7 +24,7 @@
         <h2 class="section">Aantekeningen</h2>
         @forelse ($notes as $note)
             <details class="note" @if ($openNote === $note->id || $notes->count() === 1) open @endif>
-                <summary><span class="mono">{{ $note->topic }}</span> · {{ $note->kind->value }} · {{ $note->versions->count() }} {{ $note->versions->count() === 1 ? 'versie' : 'versies' }}
+                <summary>{{ $note->kind->value }} · {{ $note->versions->count() }} {{ $note->versions->count() === 1 ? 'versie' : 'versies' }}
                     <span class="muted">· laatst <x-time :at="$note->latestVersion?->created_at" format="d-m H:i" />@if ($note->latestVersion?->tick_id) (tick #{{ $note->latestVersion->tick_id }})@endif</span></summary>
                 <pre class="content" style="margin-top:8px">{{ $note->latestVersion?->content }}</pre>
                 @if ($note->versions->count() > 1)

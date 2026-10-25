@@ -13,25 +13,23 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rule;
 
 /**
- * Aantekeningen bij bronnen, per TF-onderwerp. De inhoud heeft versies; een nieuwe versie hangt aan de tick
- * die loopt (door de server ingevuld).
+ * Aantekeningen bij bronnen. De inhoud heeft versies; een nieuwe versie hangt aan de tick die loopt (door de
+ * server ingevuld).
  */
 class NoteController extends Controller
 {
     /**
-     * ?topic=, ?kind=, ?source= ; elke aantekening met de laatste versie van de inhoud.
+     * ?kind=, ?source= ; elke aantekening met de laatste versie van de inhoud.
      */
     public function index(Request $request): JsonResponse
     {
         $data = $request->validate([
-            'topic' => ['nullable', 'string', 'max:120'],
             'kind' => ['nullable', Rule::enum(SourceNoteKind::class)],
             'source' => ['nullable', 'integer'],
             'per_page' => ['nullable', 'integer', 'min:1', 'max:500'],
         ]);
 
         $notes = SourceNote::with(['latestVersion', 'source:id,title,authors,year'])->withCount('versions')
-            ->when($data['topic'] ?? null, fn ($q, $topic) => $q->where('topic', $topic))
             ->when($data['kind'] ?? null, fn ($q, $kind) => $q->where('kind', $kind))
             ->when($data['source'] ?? null, fn ($q, $source) => $q->where('source_id', $source))
             ->orderBy('id')
@@ -46,13 +44,12 @@ class NoteController extends Controller
     public function store(Request $request, Source $source): JsonResponse
     {
         $data = $request->validate([
-            'topic' => ['required', 'string', 'max:120'],
             'kind' => ['required', Rule::enum(SourceNoteKind::class)],
             'content' => ['required', 'string'],
         ]);
 
         $note = DB::transaction(function () use ($source, $data) {
-            $note = $source->notes()->create(['topic' => $data['topic'], 'kind' => $data['kind']]);
+            $note = $source->notes()->create(['kind' => $data['kind']]);
             $note->setContent($data['content'], Tick::current());
 
             return $note;
@@ -71,13 +68,12 @@ class NoteController extends Controller
     }
 
     /**
-     * Onderwerp of soort wijzigen, bijv. als een TF-onderwerp wordt gesplitst of samengevoegd.
+     * De soort wijzigen (Summary, Note, Quote).
      */
     public function update(Request $request, SourceNote $note): JsonResponse
     {
         $note->update($request->validate([
-            'topic' => ['sometimes', 'string', 'max:120'],
-            'kind' => ['sometimes', Rule::enum(SourceNoteKind::class)],
+            'kind' => ['required', Rule::enum(SourceNoteKind::class)],
         ]));
 
         return response()->json(['note' => self::present($note->load('latestVersion')->loadCount('versions'))]);
@@ -106,7 +102,6 @@ class NoteController extends Controller
         return [
             'id' => $note->id,
             'source_id' => $note->source_id,
-            'topic' => $note->topic,
             'kind' => $note->kind,
             'content' => $note->latestVersion?->content,
             'version_id' => $note->latestVersion?->id,

@@ -5,14 +5,8 @@
 
     <form method="get" class="filters">
         <input type="text" name="q" value="{{ $q }}" placeholder="Zoek in titel, auteurs, beschrijving">
-        <select name="topic">
-            <option value="">Alle onderwerpen</option>
-            @foreach ($topics as $name => $count)
-                <option value="{{ $name }}" @selected($topic === $name)>{{ $name }} ({{ $count }})</option>
-            @endforeach
-        </select>
         <button type="submit">Zoeken</button>
-        @if ($q || $topic) <a href="{{ route('library.index') }}" class="btn">Wissen</a> @endif
+        @if ($q) <a href="{{ route('library.index') }}" class="btn">Wissen</a> @endif
     </form>
 
     <table class="grid">

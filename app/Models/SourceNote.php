@@ -9,12 +9,13 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
 /**
- * Een samenvatting, aantekening of citaat bij een bron, voor één TF-onderwerp (bijv. tf_market_efficiency).
- * De inhoud staat in versies; een wijziging is altijd een nieuwe versie.
+ * Een samenvatting, aantekening of citaat bij een bron. De inhoud staat in versies; een wijziging is altijd
+ * een nieuwe versie. Bij welk onderwerp een bron hoort, staat niet hier maar in het theoretisch raamwerk zelf,
+ * als bronvermelding ([bron 12]): de tekst verwijst naar de index, niet andersom.
  */
 class SourceNote extends Model
 {
-    protected $fillable = ['topic', 'kind'];
+    protected $fillable = ['kind'];
 
     protected function casts(): array
     {

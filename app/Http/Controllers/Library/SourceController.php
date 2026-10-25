@@ -17,14 +17,13 @@ class SourceController extends Controller
 {
     /**
      * ?fields=id,title,authors,year (alleen die velden), ?q= (zoekt in titel, auteurs, beschrijving),
-     * ?topic= (bronnen met een aantekening bij dat onderwerp), ?per_page= (standaard 100, hoogstens 500).
+     * ?per_page= (standaard 100, hoogstens 500).
      */
     public function index(Request $request): JsonResponse
     {
         $data = $request->validate([
             'fields' => ['nullable', 'string'],
             'q' => ['nullable', 'string', 'max:200'],
-            'topic' => ['nullable', 'string', 'max:120'],
             'per_page' => ['nullable', 'integer', 'min:1', 'max:500'],
         ]);
         $fields = isset($data['fields']) ? array_values(array_intersect(explode(',', $data['fields']), Source::FIELDS)) : Source::FIELDS;
@@ -33,7 +32,6 @@ class SourceController extends Controller
         $sources = Source::query()
             ->when($data['q'] ?? null, fn ($query, $q) => $query->where(fn ($w) => $w
                 ->where('title', 'like', "%{$q}%")->orWhere('authors', 'like', "%{$q}%")->orWhere('description', 'like', "%{$q}%")))
-            ->when($data['topic'] ?? null, fn ($query, $topic) => $query->whereHas('notes', fn ($n) => $n->where('topic', $topic)))
             ->orderBy('id')
             ->paginate($data['per_page'] ?? 100);
 

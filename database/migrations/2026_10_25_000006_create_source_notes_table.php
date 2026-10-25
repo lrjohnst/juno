@@ -15,10 +15,7 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->foreignId('source_id')->constrained()->cascadeOnDelete();
-            $table->string('topic', 120);
             $table->string('kind');
-
-            $table->index(['topic', 'id']);
         });
     }
 

@@ -4,6 +4,19 @@ App-specifieke changelog. Server-niveau werk staat in `/home/claude/CHANGELOG.md
 
 ---
 
+## 2026-10-25 (II) — Library: geen onderwerp meer op aantekeningen
+
+`source_notes.topic` is weg (op voorstel, na Lucas' bezwaar dat het te streng voelde). Een samenvatting gaat
+over de bron, niet over een onderwerp; en een tekstlabel in de database loopt stil uit de pas met de
+`tf_`-bestanden zodra een onderwerp wordt gesplitst of hernoemd. De koppeling staat nu alleen in het
+raamwerk zelf, als bronvermelding `[bron 12]`: de tekst verwijst naar de index, niet andersom.
+
+Aangepast in de bestaande migratie; de drie library-tabellen opnieuw aangemaakt (ze waren leeg). API:
+`topic` weg uit aantekeningen en uit de filters van `/sources` en `/notes`. Interface: onderwerpfilter weg.
+`tools/README.md` in de workspace beschrijft de bronvermelding. Getest: API en pagina's.
+
+---
+
 ## 2026-10-25 — Tokens met rechten, rollen per tick, library, mail
 
 **Tokens** (`api_tokens`, `api_token_abilities`, `api_token_events`): elk token heeft eigen rechten (`kernel`,
