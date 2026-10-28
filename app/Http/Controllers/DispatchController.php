@@ -20,6 +20,7 @@ class DispatchController extends Controller
     public function store(Request $request, Tick $tick): JsonResponse
     {
         $data = $request->validate([
+            'agent_id' => ['nullable', 'integer', 'exists:agents,id'],
             'prompt' => ['required', 'string'],
             'permission_mode' => ['required', Rule::in(Dispatch::PERMISSION_MODES)],
         ]);

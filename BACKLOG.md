@@ -6,6 +6,8 @@
 
 | Item | Notities |
 |------|----------|
+| Interface: team en inbox | Agents (chat, ritme, documenten) en een inbox voor Lucas: berichten van en aan de agents lezen en versturen (`agent_emails` met `tick_id` null). |
+| Rolprompts | `role_experimentation.md`, `role_doing.md`, `role_reflection.md` zijn nog leeg. |
 | Let op: 1 MB per request | Nginx heeft geen `client_max_body_size`, dus een document groter dan ~1 MB komt niet door (413). Nu geen probleem; bij grote documenten de vhost aanpassen. |
 
 ## Afgerond

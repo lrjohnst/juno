@@ -19,6 +19,10 @@ class ApiToken extends Model
         'kernel' => 'Kernel: ticks, documenten, journal, dispatches, mail',
         'library.read' => 'Library lezen',
         'library.write' => 'Library schrijven',
+        'journal.read' => 'Journal lezen',
+        'journal.write' => 'Journal schrijven (bij de tick die loopt)',
+        'email.read' => 'Berichten van en aan de agent van de tick die loopt lezen',
+        'email.send' => 'Berichten versturen namens de agent van de tick die loopt',
     ];
 
     protected $fillable = ['name', 'token_hash'];

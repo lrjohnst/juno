@@ -17,9 +17,9 @@ return [
     |
     */
 
-    'tick_interval' => (int) env('JUNO_TICK_INTERVAL', 30),
+    'tick_interval' => (int) env('JUNO_TICK_INTERVAL', 120),
 
-    'tick_abandon_after' => (int) env('JUNO_TICK_ABANDON_AFTER', 60),
+    'tick_abandon_after' => (int) env('JUNO_TICK_ABANDON_AFTER', 90),
 
     /*
     |--------------------------------------------------------------------------
@@ -44,6 +44,6 @@ return [
     |
     */
 
-    'dispatch_timeout' => (int) env('JUNO_DISPATCH_TIMEOUT', 15),
+    'dispatch_timeout' => (int) env('JUNO_DISPATCH_TIMEOUT', 60),
 
 ];

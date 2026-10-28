@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Agent\EmailController as AgentEmailController;
+use App\Http\Controllers\Agent\JournalController as AgentJournalController;
+use App\Http\Controllers\AgentController;
 use App\Http\Controllers\DispatchController;
 use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\JournalController;
@@ -23,6 +26,16 @@ Route::middleware('juno.ability:kernel')->group(function () {
     Route::get('/journal', [JournalController::class, 'index']);
     Route::post('/ticks/{tick}/journal', [JournalController::class, 'store']);
     Route::post('/mail', [MailController::class, 'store']);
+    Route::get('/ticks/{tick}/agent', [AgentController::class, 'forTick']);
+    Route::post('/agents/{agent}/events', [AgentController::class, 'storeEvent']);
+});
+
+// Voor Juno zelf (token juno): namens de agent van de tick die loopt.
+Route::prefix('agent')->group(function () {
+    Route::get('/journal', [AgentJournalController::class, 'index'])->middleware('juno.ability:journal.read');
+    Route::post('/journal', [AgentJournalController::class, 'store'])->middleware('juno.ability:journal.write');
+    Route::get('/emails', [AgentEmailController::class, 'index'])->middleware('juno.ability:email.read');
+    Route::post('/emails', [AgentEmailController::class, 'store'])->middleware('juno.ability:email.send');
 });
 
 Route::prefix('library')->group(function () {

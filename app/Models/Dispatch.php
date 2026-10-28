@@ -19,11 +19,16 @@ class Dispatch extends Model
 {
     public const PERMISSION_MODES = ['bypassPermissions'];
 
-    protected $fillable = ['tick_id', 'prompt', 'permission_mode'];
+    protected $fillable = ['tick_id', 'agent_id', 'prompt', 'permission_mode'];
 
     public function tick(): BelongsTo
     {
         return $this->belongsTo(Tick::class);
+    }
+
+    public function agent(): BelongsTo
+    {
+        return $this->belongsTo(Agent::class);
     }
 
     public function events(): HasMany

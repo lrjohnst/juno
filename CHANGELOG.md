@@ -4,6 +4,28 @@ App-specifieke changelog. Server-niveau werk staat in `/home/claude/CHANGELOG.md
 
 ---
 
+## 2026-10-28 (II) — Het team: agents, berichten, agent-API
+
+- Nieuwe tabellen: `agents` (naam, `kind` Agent/Human, `role`, rolprompt als document, `summary`), `agent_events`
+  (`SessionReset`, `Compacted`, `Recapped`; geen status, de kernel rekent er het ritme mee uit), `agent_documents`
+  (wat de kernel per agent klaarzet) en `agent_emails` (zonder gelezen-status: nieuw is wat binnenkwam tussen de
+  Claimed van de vorige tick van de ontvanger en die van deze tick). `dispatches.agent_id`: de Claude Code-chat van
+  een agent is de `session_id` van zijn laatste geslaagde dispatch na de laatste `SessionReset`.
+- Het team (migratie `create_team`): Onderzoeker, Experimenteerder, Doener, Reflecteerder en Lucas (Human). Elke
+  agent krijgt `facilities.md`, `mission.md` en `general_backlog.md`; de Onderzoeker ook
+  `theoretical_framework_backlog.md`. Rolprompts `role_*.md` en `facilities.md` volgen een rollback niet; alleen
+  `role_abstraction.md` heeft al inhoud. `facilities.md` vervangt `workspace/tools/README.md`.
+- Kernel-API: `GET /api/ticks/{tick}/agent` (agent, rolprompt, documenten, team, sessie, ticknummer, start,
+  ticks sinds compact/recap, nieuwe berichten), `POST /api/agents/{agent}/events`; `POST .../dispatches` neemt
+  `agent_id`.
+- Agent-API (token `juno`, nieuwe rechten `journal.read`, `journal.write`, `email.read`, `email.send`):
+  `GET|POST /api/agent/journal`, `GET|POST /api/agent/emails`. Afzender en tick vult de server in (de agent van
+  de tick die loopt); zonder lopende tick 409. Hoogstens één bericht per ontvanger per tick (409).
+- Instellingen: `tick_interval` 120, `dispatch_timeout` 60, `tick_abandon_after` 90 (ruimte boven de time-out).
+- Getest in een teruggedraaide transactie (HEAD bleef 219): alle routes, 401/403/409/422, nieuwe berichten per tick.
+
+---
+
 ## 2026-10-28 — Mail bij een opgegeven tick
 
 Geeft de scheduler een tick op (`Abandoned`: de kernel meldde niet af binnen `tick_abandon_after`), dan krijgt
