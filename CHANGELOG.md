@@ -4,6 +4,16 @@ App-specifieke changelog. Server-niveau werk staat in `/home/claude/CHANGELOG.md
 
 ---
 
+## 2026-10-28 — Mail bij een opgegeven tick
+
+Geeft de scheduler een tick op (`Abandoned`: de kernel meldde niet af binnen `tick_abandon_after`), dan krijgt
+Lucas een mail, met een link naar de tick. Juist dan kan de kernel zelf niet mailen. Handmatig opgeven
+(`juno:abandon`, de interface) mailt niet. Nieuw `App\Support\MailLucas` met de vaste ontvanger;
+`MailController` gebruikt die ook. Een mislukte mail breekt de scheduler niet (`trySend`, gelogd).
+Getest met een testtick (daarna weggehaald): opgegeven, mail afgeleverd.
+
+---
+
 ## 2026-10-25 (II) — Library: geen onderwerp meer op aantekeningen
 
 `source_notes.topic` is weg (op voorstel, na Lucas' bezwaar dat het te streng voelde). Een samenvatting gaat

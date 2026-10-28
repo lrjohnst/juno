@@ -6,6 +6,7 @@ use App\Enums\TickEventLabel;
 use App\Enums\TickRole;
 use App\Exceptions\InvalidTickTransition;
 use App\Juno;
+use App\Support\MailLucas;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
@@ -243,7 +244,8 @@ class Tick extends Model
     }
 
     /**
-     * Geeft geclaimde ticks zonder afsluiting na tick_abandon_after minuten op.
+     * Geeft geclaimde ticks zonder afsluiting na tick_abandon_after minuten op, en mailt Lucas: de kernel
+     * heeft dan niet afgemeld (gecrasht of vastgelopen) en kan zelf geen mail meer sturen.
      */
     public static function abandonStale(): int
     {
@@ -260,6 +262,14 @@ class Tick extends Model
                 'description' => "Geen Finished of Failed binnen {$minutes} minuten na Claimed.",
             ]);
             $abandoned++;
+
+            $role = $tick->role?->value ?? 'zonder rol';
+            MailLucas::trySend(
+                "Juno: tick {$tick->id} ({$role}) opgegeven",
+                "<p>Tick <strong>{$tick->id}</strong> ({$role}) is opgegeven: de kernel meldde hem niet af binnen {$minutes} minuten na Claimed.</p>"
+                .'<p>Waarschijnlijk is de kernel gecrasht of vastgelopen; kijk in <code>/home/juno/kernel/tick.log</code>.</p>'
+                ."<p><a href=\"https://juno.lucasjohnston.nl/ticks/{$tick->id}\">Bekijk de tick</a></p>",
+            );
         }
 
         return $abandoned;
