@@ -44,6 +44,8 @@ table.grid td.num, table.grid th.num { text-align:right; }
 .pill-role { background:color-mix(in srgb, var(--accent) 16%, white); color:#5b3fb0; }
 .pill-Issued { background:#eafaf1; color:#1e7d4f; }
 .pill-Revoked { background:#f0f0f0; color:#666; }
+.pill-Compacted, .pill-Recapped { background:color-mix(in srgb, var(--primary) 12%, white); color:var(--primary-dark); }
+.pill-SessionReset { background:#fdf3dc; color:#8a5a00; }
 .filters { display:flex; gap:8px; flex-wrap:wrap; align-items:flex-end; margin-bottom:14px; }
 .filters input[type=text] { width:260px; }
 .filters select { width:auto; }

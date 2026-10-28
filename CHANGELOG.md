@@ -4,6 +4,19 @@ App-specifieke changelog. Server-niveau werk staat in `/home/claude/CHANGELOG.md
 
 ---
 
+## 2026-10-28 (III) — Interface: Team en Inbox
+
+- **Team** (`/team`): per teamlid de rol, rolprompt, aantal ticks, laatste tick, de chat (sessie die de volgende
+  tick voortzet) en het ritme (ticks sinds compact en recap). Per agent (`/team/{agent}`): samenvatting en de
+  documenten die de kernel klaarzet bewerken, "Nieuwe chat bij de volgende tick" (`SessionReset` met reden),
+  events, laatste dispatches en berichten.
+- **Inbox** (`/inbox`): berichten van en aan Lucas, of (`?view=all`) al het berichtenverkeer van het team; een
+  bericht aan een agent versturen (zonder tick; de agent krijgt het bij zijn volgende tick).
+- Getest via de HTTP-kernel in een teruggedraaide transactie: alle pagina's 200, versturen, nieuwe chat en
+  opslaan werken; een bericht aan Lucas zelf wordt geweigerd.
+
+---
+
 ## 2026-10-28 (II) — Het team: agents, berichten, agent-API
 
 - Nieuwe tabellen: `agents` (naam, `kind` Agent/Human, `role`, rolprompt als document, `summary`), `agent_events`

@@ -16,6 +16,8 @@
             @foreach ([
                 ['home', 'home', 'Overzicht'],
                 ['ticks.index', 'ticks.*', 'Ticks'],
+                ['team.index', 'team.*', 'Team'],
+                ['inbox.index', 'inbox.*', 'Inbox'],
                 ['documents.index', 'documents.*', 'Documenten'],
                 ['journal.index', 'journal.*', 'Journal'],
                 ['library.index', 'library.*', 'Library'],

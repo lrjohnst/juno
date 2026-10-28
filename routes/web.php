@@ -3,9 +3,11 @@
 use App\Http\Controllers\Ui\DashboardController;
 use App\Http\Controllers\Ui\DispatchController;
 use App\Http\Controllers\Ui\DocumentController;
+use App\Http\Controllers\Ui\InboxController;
 use App\Http\Controllers\Ui\JournalController;
 use App\Http\Controllers\Ui\LibraryController;
 use App\Http\Controllers\Ui\SettingController;
+use App\Http\Controllers\Ui\TeamController;
 use App\Http\Controllers\Ui\TickController;
 use App\Http\Controllers\Ui\TokenController;
 use Illuminate\Support\Facades\Route;
@@ -30,6 +32,14 @@ Route::middleware(SsoAuthenticate::class)->group(function () {
     Route::post('/documents/{document}/versions', [DocumentController::class, 'storeVersion'])->name('documents.versions.store');
 
     Route::get('/journal', [JournalController::class, 'index'])->name('journal.index');
+
+    Route::get('/team', [TeamController::class, 'index'])->name('team.index');
+    Route::get('/team/{agent}', [TeamController::class, 'show'])->name('team.show');
+    Route::patch('/team/{agent}', [TeamController::class, 'update'])->name('team.update');
+    Route::post('/team/{agent}/reset-session', [TeamController::class, 'resetSession'])->name('team.reset-session');
+
+    Route::get('/inbox', [InboxController::class, 'index'])->name('inbox.index');
+    Route::post('/inbox', [InboxController::class, 'store'])->name('inbox.store');
 
     Route::get('/library', [LibraryController::class, 'index'])->name('library.index');
     Route::get('/library/{source}', [LibraryController::class, 'show'])->name('library.show');

@@ -6,7 +6,6 @@
 
 | Item | Notities |
 |------|----------|
-| Interface: team en inbox | Agents (chat, ritme, documenten) en een inbox voor Lucas: berichten van en aan de agents lezen en versturen (`agent_emails` met `tick_id` null). |
 | Rolprompts | `role_experimentation.md`, `role_doing.md`, `role_reflection.md` zijn nog leeg. |
 | Let op: 1 MB per request | Nginx heeft geen `client_max_body_size`, dus een document groter dan ~1 MB komt niet door (413). Nu geen probleem; bij grote documenten de vhost aanpassen. |
 
@@ -14,6 +13,7 @@
 
 | Item | Notities |
 |------|----------|
+| ~~Interface: team en inbox~~ | ~~28-10: `/team`, `/team/{agent}`, `/inbox`.~~ |
 | ~~Bootstrap~~ | ~~Vanille Laravel uit `laravel-template`, met `laravel-sso` en `laravel-ui-theme`.~~ |
 | ~~Settings, ticks en tick-API~~ | ~~22-10: `settings`, `ticks` + `tick_events`, claim en events via de API.~~ |
 | ~~Stap 1: tick.log~~ | ~~23-10: `TickLog`, fouten van de API-helper, vangnet in `tick.php`.~~ |
